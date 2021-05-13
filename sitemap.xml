@@ -5,115 +5,117 @@
     <loc>http://blog.cafe-megabyte.de/tags/algorithms/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/</loc>
+    <lastmod>2020-06-06T09:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://blog.cafe-megabyte.de/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/categories/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2020-06-06-changes-in-java-string/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2020-06-06-changes-in-java-string/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/categories/notes/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/</loc>
-    <lastmod>2020-06-06T09:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2020-06-06T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2020-05-01-algorithms-graphs/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2020-05-01-algorithms-graphs/</loc>
     <lastmod>2020-05-01T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/programming-language/</loc>
     <lastmod>2020-04-29T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2020-04-29-subtyping/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2020-04-29-subtyping/</loc>
     <lastmod>2020-04-29T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/racket/</loc>
     <lastmod>2020-02-29T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2020-02-29-racket/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2020-02-29-racket/</loc>
     <lastmod>2020-02-29T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/sml/</loc>
     <lastmod>2019-12-30T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-12-30-standardml-notes/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-12-30-standardml-notes/</loc>
     <lastmod>2019-12-30T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/rpa/</loc>
     <lastmod>2019-11-23T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-11-23-uipath-orchestrator/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-11-23-uipath-orchestrator/</loc>
     <lastmod>2019-11-23T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-11-18-uipath-best-practice/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-11-18-uipath-best-practice/</loc>
     <lastmod>2019-11-18T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/javascript/</loc>
     <lastmod>2019-11-10T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-11-10-encodeuricomponent/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-11-10-encodeuricomponent/</loc>
     <lastmod>2019-11-10T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-10-27-uipath/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-10-27-uipath/</loc>
     <lastmod>2019-10-27T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-03-28-javascript-comparison/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-03-28-javascript-comparison/</loc>
     <lastmod>2019-03-28T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-03-22-js-tips/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-03-22-js-tips/</loc>
     <lastmod>2019-03-22T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-03-08-es6-bind-trick/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-03-08-es6-bind-trick/</loc>
     <lastmod>2019-03-08T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-03-08-object-assign-with-accessor-descriptor/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-03-08-object-assign-with-accessor-descriptor/</loc>
     <lastmod>2019-03-08T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/vue.js/</loc>
     <lastmod>2019-01-25T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-01-19-vue-navigation-guards/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-01-19-vue-navigation-guards/</loc>
     <lastmod>2019-01-25T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2019-01-18-es6/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2019-01-18-es6/</loc>
     <lastmod>2019-01-18T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2017-02-18-hash/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2017-02-18-hash/</loc>
     <lastmod>2017-02-18T19:19:01+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/php/</loc>
     <lastmod>2017-01-11T18:39:17+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2017-01-11-php-lambada/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2017-01-11-php-lambada/</loc>
     <lastmod>2017-01-11T18:39:17+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/ruby/</loc>
     <lastmod>2016-12-08T22:54:49+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2016-12-08-ruby-notes/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2016-12-08-ruby-notes/</loc>
     <lastmod>2016-12-08T22:54:49+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/linux/</loc>
     <lastmod>2016-11-29T21:08:52+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2016-11-29-iptables-usage/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2016-11-29-iptables-usage/</loc>
     <lastmod>2016-11-29T21:08:52+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2016-11-05-php-composer-autoload/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2016-11-05-php-composer-autoload/</loc>
     <lastmod>2016-11-05T02:42:06+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/categories/life/</loc>
     <lastmod>2016-10-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/posts/2016-10-22-z/</loc>
+    <loc>http://blog.cafe-megabyte.de/artikel/2016-10-22-z/</loc>
     <lastmod>2016-10-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/about/</loc>
+    <loc>http://blog.cafe-megabyte.de/links/</loc>
     <lastmod>2016-08-24T17:51:42+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/kontakt/</loc>
   </url>
 </urlset>
