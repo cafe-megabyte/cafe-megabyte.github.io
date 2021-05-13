@@ -3,20 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> sudo per Touch ID bedienen | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="CD/DVD" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/cd/dvd/" />
+  <meta property="og:title" content="sudo per Touch ID bedienen" />
+<meta property="og:description" content="sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
+Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-13T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-13T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CD/DVD"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="sudo per Touch ID bedienen"/>
+<meta name="twitter:description" content="sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
+Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so "/>
 
   
   
@@ -37,8 +41,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/cd/dvd/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -81,28 +83,23 @@
 
 
     
-<div id="archive">
-  <ul class="post-list">
-  
-    
-    
-    
-    <h2>2021</h2>
-    
-    <li class="post-item">
-      <div class="meta">
-        <time datetime="2021-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13.05.2021</time>
-      </div>
-      <span>    
-        <a class="" href="http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/"> ISO-Image eines unlesbaren CD-Formats erstellen </a>
-      </span>
-    </li>
-    
-  </ul>
-  
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-
-</div>
+  <div class="content" itemprop="articleBody">
+  
+    <h1 id="sudo-per-touch-id-bedienen">sudo per Touch ID bedienen</h1>
+<h2 id="grundsätzliches">Grundsätzliches</h2>
+<p>Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<ul>
+<li>Datei editieren: <code>sudo nano /etc/pam.d/sudo</code></li>
+<li>Folgende Zeile <strong>OBEN ALS 2. ZEILE</strong> einfügen:</li>
+</ul>
+<pre><code>auth       sufficient     pam_tid.so
+</code></pre>
+  
+  </div>
+</article>
 
 
     <footer id="footer">

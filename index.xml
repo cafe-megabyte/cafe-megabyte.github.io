@@ -14,8 +14,7 @@
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
-      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.
-Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben (Gerätenamen tauschen!):  bash sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft mit Strg-T den Status abfragen.  </description>
+      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben (Gerätenamen tauschen!):  bash sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft, mit Control-T den Status abfragen.</description>
     </item>
     
     <item>
@@ -28,6 +27,25 @@ Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplatte
     </item>
     
     <item>
+      <title>sudo per Touch ID bedienen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</guid>
+      <description>sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
+Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so </description>
+    </item>
+    
+    <item>
+      <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-a%CC%88nderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-a%CC%88nderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
+    </item>
+    
+    <item>
       <title>Links</title>
       <link>http://blog.cafe-megabyte.de/links/</link>
       <pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate>
@@ -37,12 +55,13 @@ Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplatte
     </item>
     
     <item>
-      <title>Kontakt</title>
-      <link>http://blog.cafe-megabyte.de/kontakt/</link>
+      <title>Impressum</title>
+      <link>http://blog.cafe-megabyte.de/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/kontakt/</guid>
-      <description>Kontakt  Web: cafe-megabyte.de Github: cafe-megabyte  </description>
+      <guid>http://blog.cafe-megabyte.de/impressum/</guid>
+      <description>Impressum Markus Sterk Bildgartenstraße 14 88048 Friedrichshafen E-Mail: blog@cafe-megabyte.de Datenschutz Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet. Es werden keine Cookies verwendet.
+Verweis auf Dritte Diese Website wird auf Github gehostet. Die Github Global Privacy Practices sind hier hinterlegt.</description>
     </item>
     
   </channel>

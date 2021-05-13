@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Big Sur on Café MegaByte Blog</title>
+    <link>http://blog.cafe-megabyte.de/tags/big-sur/</link>
+    <description>Recent content in Big Sur on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/big-sur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-a%CC%88nderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-a%CC%88nderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
+    </item>
+    
+  </channel>
+</rss>

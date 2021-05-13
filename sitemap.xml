@@ -8,7 +8,13 @@
     <loc>http://blog.cafe-megabyte.de/tags/backup/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/big-sur/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://blog.cafe-megabyte.de/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</loc>
@@ -17,13 +23,22 @@
     <loc>http://blog.cafe-megabyte.de/tags/mac/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/recovery-os/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/system/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/2021-05-13-a%CC%88nderungen-am-mac-system-vornehmen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/links/</loc>
@@ -33,6 +48,6 @@
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/cd/dvd/</loc>
   </url><url>
-    <loc>http://blog.cafe-megabyte.de/kontakt/</loc>
+    <loc>http://blog.cafe-megabyte.de/impressum/</loc>
   </url>
 </urlset>
