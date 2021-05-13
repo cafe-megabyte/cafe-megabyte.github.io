@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backup on Café MegaByte Blog</title>
+    <link>http://blog.cafe-megabyte.de/tags/backup/</link>
+    <description>Recent content in backup on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snapshot Mac-System erstellen und wiederherstellen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
+      <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches  Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man es &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, bevor man einen Versuch am System unternimmt, den ggf.</description>
+    </item>
+    
+  </channel>
+</rss>

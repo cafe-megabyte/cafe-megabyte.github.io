@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://blog.cafe-megabyte.de/artikel/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/backup/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/mac/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/system/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/links/</loc>
+    <lastmod>2016-08-24T17:51:42+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/categories/</loc>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/kontakt/</loc>
+  </url>
+</urlset>
