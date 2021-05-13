@@ -14,7 +14,7 @@
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
-      <description>ISO-Image einenes unlesbaren CD-Formats erstellen Grundsätzliches Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.
+      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.
 Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben:  bash sudo dd if=/dev/ZB_disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft mit Strg-T den Status abfragen.  </description>
     </item>
     
