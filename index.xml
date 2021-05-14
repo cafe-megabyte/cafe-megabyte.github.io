@@ -108,7 +108,7 @@ Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/impressum/</guid>
-      <description>Impressum Markus Sterk Bildgartenstraße 14 88048 Friedrichshafen E-Mail: blog@cafe-megabyte.de Datenschutz Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet. Es werden keine Cookies verwendet.
+      <description>Impressum Markus Sterk Bildgartenstraße 14 88048 Friedrichshafen Elektronische Post: blog [at] cafe-megabyte.de Datenschutz Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet. Es werden keine Cookies verwendet.
 Verweis auf Dritte Diese Website wird auf Github gehostet. Die Github Global Privacy Practices sind hier hinterlegt.</description>
     </item>
     
