@@ -7,7 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automount verhindern</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</guid>
+      <description>Automount verhindern UUID des Volumes ermitteln:
+diskutil info /Volumes/&amp;lt;VOLUME&amp;gt; /etc/fstab editieren:
+cd /etc sudo vifs Zeile einfügen (mit i):
+UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden.</description>
+    </item>
+    
+    <item>
+      <title>Codesignierung</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</guid>
+      <description>Codesignierung Signierung entfernen:
+codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
+xattr -cr PATH_TO_APP codesign -s - PATH_TO_APP  Entitlements anzeigen:
+codesign --display --entitlements - PATH_TO_APP </description>
+    </item>
+    
+    <item>
+      <title>Geladene Erweiterungen anzeigen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-14-geladene-erweiterungen-anzeigen/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-14-geladene-erweiterungen-anzeigen/</guid>
+      <description>Geladene Erweiterungen anzeigen Kernel Extenstions:
+kmutil inspect  Systemerweiterungen:
+systemextensionsctl list  </description>
+    </item>
+    
+    <item>
+      <title>Programm dauerhaft im Hell-Modus öffnen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/</guid>
+      <description>Programm dauerhaft im Hell-Modus öffnen Bundle-ID des Programms ermitteln:
+osascript -e &#39;id of app &amp;quot;App Name&amp;quot;&#39;  oder alternativ (wird unter Identifierangezeigt):
+codesign --display --verbose PATH_TO_APP  Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
+defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes  Sperrung löschen (BUNDLE_ID ersetzen):
+defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  </description>
+    </item>
+    
     <item>
       <title>ISO-Image eines unlesbaren CD-Formats erstellen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</link>

@@ -3,20 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> Programm dauerhaft im Hell-Modus öffnen | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/" />
+  <meta property="og:title" content="Programm dauerhaft im Hell-Modus öffnen" />
+<meta property="og:description" content="Programm dauerhaft im Hell-Modus öffnen Bundle-ID des Programms ermitteln:
+osascript -e &#39;id of app &quot;App Name&quot;&#39;  oder alternativ (wird unter Identifierangezeigt):
+codesign --display --verbose PATH_TO_APP  Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
+defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes  Sperrung löschen (BUNDLE_ID ersetzen):
+defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-14T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-14T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="Programm dauerhaft im Hell-Modus öffnen"/>
+<meta name="twitter:description" content="Programm dauerhaft im Hell-Modus öffnen Bundle-ID des Programms ermitteln:
+osascript -e &#39;id of app &quot;App Name&quot;&#39;  oder alternativ (wird unter Identifierangezeigt):
+codesign --display --verbose PATH_TO_APP  Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
+defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes  Sperrung löschen (BUNDLE_ID ersetzen):
+defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  "/>
 
   
   
@@ -37,8 +47,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -82,30 +90,24 @@
 
     
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="content" itemprop="articleBody">
-    
-    <div id="tag-cloud">
-      
-      <div class="tag-cloud-tags">
-        
-        
-        <a style="font-size: 3.8rem;" href="http://blog.cafe-megabyte.de/tags/backup/">Backup</a>
-        
-        <a style="font-size: 2.3rem;" href="http://blog.cafe-megabyte.de/tags/big-sur/">Big Sur</a>
-        
-        <a style="font-size: 2.3rem;" href="http://blog.cafe-megabyte.de/tags/cd/dvd/">CD/DVD</a>
-        
-        <a style="font-size: 3.8rem;" href="http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/">Geht beim Update verloren</a>
-        
-        <a style="font-size: 12.8rem;" href="http://blog.cafe-megabyte.de/tags/mac/">Mac</a>
-        
-        <a style="font-size: 3.8rem;" href="http://blog.cafe-megabyte.de/tags/recovery-os/">Recovery OS</a>
-        
-        <a style="font-size: 8.3rem;" href="http://blog.cafe-megabyte.de/tags/system/">System</a>
-        
-      </div>
-    </div>
-    
+  
+    <h1 id="programm-dauerhaft-im-hell-modus-öffnen">Programm dauerhaft im Hell-Modus öffnen</h1>
+<p>Bundle-ID des Programms ermitteln:</p>
+<pre><code>osascript -e 'id of app &quot;App Name&quot;'
+</code></pre>
+<p>oder alternativ (wird unter <code>Identifier</code>angezeigt):</p>
+<pre><code>codesign --display --verbose PATH_TO_APP
+</code></pre>
+<p>Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):</p>
+<pre><code>defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes
+</code></pre>
+<p>Sperrung löschen (BUNDLE_ID ersetzen):</p>
+<pre><code>defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance
+</code></pre>
+
+  
   </div>
 </article>
 
