@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxy-Icon verzögerungsfrei anzeigen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-15-proxy-icon-verzo%CC%88gerungsfrei-anzeigen/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-15-proxy-icon-verzo%CC%88gerungsfrei-anzeigen/</guid>
+      <description>Proxy-Icon verzögerungsfrei anzeigen Gemeint ist das kleine Icon in der Titelleiste von Fenstern, z.B. des Finders. Wird diese Option aktiviert, wird das Icon sofort dargestellt, sobald man den Mauszeiger über den Fenstertitel bewegt.
+Im Terminal eingeben:
+defaults write -g NSToolbarTitleViewRolloverDelay -float 0 </description>
+    </item>
+    
     <item>
       <title>Automount verhindern</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</link>
