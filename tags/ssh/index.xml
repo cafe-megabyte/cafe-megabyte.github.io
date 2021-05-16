@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on Café MegaByte Blog</title>
+    <link>http://blog.cafe-megabyte.de/tags/ssh/</link>
+    <description>Recent content in ssh on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH Grundeinstellungen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
+      <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
+Vorgehen Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten:
+sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  </description>
+    </item>
+    
+    <item>
+      <title>SSH-Tunnel (am Beispiel Screensharing)</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:
+ssh -f -N SERVER -L 8080:SERVER:5900 Optionen: -N kein Kommando, keine Shell -f im Hintergrund ausführen -L lokalen Tunnel öffnen SERVER eigentlich: &amp;quot;BENUTZER@SERVER&amp;quot;, abgekürzt wegen der Konfiguration 8080 lokaler Port 5900 Remote-Port Es läuft ab dann dauerhaft ein ssh-Prozeß, der den Tunnel offen hält.</description>
+    </item>
+    
+    <item>
+      <title>SSH-Zugangsschlüssel erzeugen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</guid>
+      <description>SSH-Zugangsschlüssel erzeugen Auf den Schreibtisch wechseln und Keys erzeugen:
+cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
+cat ~/Desktop/SSH_ZUGANG.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.pub  Die Datei SSH_ZUGANG ist der private Schlüssel und muß auf dem Computer hinterlegt werden, der die SSH-Verbindung aufbauen möchte.</description>
+    </item>
+    
+  </channel>
+</rss>
