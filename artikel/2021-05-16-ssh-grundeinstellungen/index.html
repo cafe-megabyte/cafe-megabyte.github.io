@@ -3,20 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> SSH Grundeinstellungen | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Mac" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/mac/" />
+  <meta property="og:title" content="SSH Grundeinstellungen" />
+<meta property="og:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
+Vorgehen Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten:
+sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-16T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-16T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mac"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="SSH Grundeinstellungen"/>
+<meta name="twitter:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
+Vorgehen Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten:
+sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  "/>
 
   
   
@@ -37,8 +47,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -81,66 +89,31 @@
 
 
     
-<div id="archive">
-  <ul class="post-list">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="content" itemprop="articleBody">
   
-    
-    
-    <li class="post-item">
-      <div class="meta">
-        <time datetime="2021-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13.05.2021</time>
-      </div>
-      <span>    
-        <a class="" href="http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/"> ISO-Image eines unlesbaren CD-Formats erstellen </a>
-      </span>
-    </li>
-    
-    
-    
-    <li class="post-item">
-      <div class="meta">
-        <time datetime="2021-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13.05.2021</time>
-      </div>
-      <span>    
-        <a class="" href="http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/"> Snapshot Mac-System erstellen und wiederherstellen </a>
-      </span>
-    </li>
-    
-    
-    
-    <li class="post-item">
-      <div class="meta">
-        <time datetime="2021-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13.05.2021</time>
-      </div>
-      <span>    
-        <a class="" href="http://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/"> sudo per Touch ID bedienen </a>
-      </span>
-    </li>
-    
-    
-    
-    <li class="post-item">
-      <div class="meta">
-        <time datetime="2021-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">13.05.2021</time>
-      </div>
-      <span>    
-        <a class="" href="http://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/"> Änderungen am Mac-System vornehmen (Big Sur) </a>
-      </span>
-    </li>
-    
-  </ul>
+    <h1 id="ssh-grundeinstellungen">SSH Grundeinstellungen</h1>
+<h2 id="ziel">Ziel</h2>
+<p>Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<p>Konfigdatei öffnen:</p>
+<pre><code>sudo nano /private/etc/ssh/sshd_config
+</code></pre>
+<p>PW-Anmeldung verbieten, nur Keys erlauben:</p>
+<pre><code>PermitRootLogin no
+PasswordAuthentication no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+</code></pre>
+<p>SSH durchstarten:</p>
+<pre><code>sudo launchctl stop com.openssh.sshd
+sudo launchctl start com.openssh.sshd
+</code></pre>
+
   
-
-    <div class="pagination">
-        
-            <a href="/tags/mac/"><i class="fas fa-angle-left"></i></a>
-        
-        <span class="page-number">Page 2 of 2</span>
-        
-    </div>
-
-
-</div>
+  </div>
+</article>
 
 
     <footer id="footer">
