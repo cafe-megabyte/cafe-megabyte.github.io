@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bootfähiges Installer-Image erstellen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfa%CC%88higes-installer-image-erstellen/</link>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfa%CC%88higes-installer-image-erstellen/</guid>
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</guid>
       <description>Bootfähiges Installer-Image erstellen Grundsätzliches Voraussetzung ist ein Installations-App aus dem Mac App Store. Ziel ist ein direkt bootfähiges Disk Image.
 Vorgehen Leeres Disk Image erstellen (10000m= 10 GB, ggf. die Größe nach oben hin anpassen):
 hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J  Neu erstelltes Disk Image mounten:
@@ -22,10 +22,10 @@ hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install
     
     <item>
       <title>Dateiänderungen protokollieren</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/</link>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateiaenderungen-protokollieren/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/</guid>
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateiaenderungen-protokollieren/</guid>
       <description>Dateiänderungen protokollieren Alle Änderungen:
 sudo fs_usage -w &amp;gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
 sudo fs_usage -w -f filesys PROZESSNAME &amp;gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
