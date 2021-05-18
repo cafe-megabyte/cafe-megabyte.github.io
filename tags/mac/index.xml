@@ -9,6 +9,16 @@
     <copyright>Café MegaByte</copyright>
     <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>APFS Container bzw. Partition verkleinern</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</guid>
+      <description>APFS Container bzw. Partition verkleinern Zuerst mit diskutil list den Korrekten Disk-Identifier herausfinden. Dieser muß sich unter ...(internal) befinden. Die hier gesuchte APFS-Partition mit den Volumes &amp;ldquo;Macintosh HD&amp;rdquo; und &amp;ldquo;Testdrive&amp;rdquo; ist /dev/disk0s2:
+/dev/disk0 (internal): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme 251.0 GB disk0 1: Apple_APFS_ISC ⁨⁩ 524.3 MB disk0s1 2: Apple_APFS ⁨Container disk3⁩ 245.1 GB disk0s2 3: Apple_APFS_Recovery ⁨⁩ 5.4 GB disk0s3 /dev/disk3 (synthesized): #: TYPE NAME SIZE IDENTIFIER 0: APFS Container Scheme - +245.</description>
+    </item>
+    
+    <item>
       <title>Bootfähiges Installer-Image erstellen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
