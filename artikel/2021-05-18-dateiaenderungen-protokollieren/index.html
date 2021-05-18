@@ -9,7 +9,8 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Dateiänderungen protokollieren" />
-<meta property="og:description" content="Dateiänderungen protokollieren Alle Änderungen:
+<meta property="og:description" content="Dateiänderungen protokollieren Grundsätzliches Die Protokolle werden sehr schnell sehr groß und sollten daher insbesondere zeitlich stark eingegrenzt werden.
+Vorgehen Alle Änderungen:
 sudo fs_usage -w &gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
 sudo fs_usage -w -f filesys PROZESSNAME &gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
 sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt " />
@@ -21,7 +22,8 @@ sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt " />
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Dateiänderungen protokollieren"/>
-<meta name="twitter:description" content="Dateiänderungen protokollieren Alle Änderungen:
+<meta name="twitter:description" content="Dateiänderungen protokollieren Grundsätzliches Die Protokolle werden sehr schnell sehr groß und sollten daher insbesondere zeitlich stark eingegrenzt werden.
+Vorgehen Alle Änderungen:
 sudo fs_usage -w &gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
 sudo fs_usage -w -f filesys PROZESSNAME &gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
 sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt "/>
@@ -92,6 +94,9 @@ sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt "/>
   <div class="content" itemprop="articleBody">
   
     <h1 id="dateiänderungen-protokollieren">Dateiänderungen protokollieren</h1>
+<h2 id="grundsätzliches">Grundsätzliches</h2>
+<p>Die Protokolle werden sehr schnell sehr groß und sollten daher insbesondere zeitlich stark eingegrenzt werden.</p>
+<h2 id="vorgehen">Vorgehen</h2>
 <p>Alle Änderungen:</p>
 <pre><code>sudo fs_usage -w &gt; ~/Desktop/log_all.txt
 </code></pre>

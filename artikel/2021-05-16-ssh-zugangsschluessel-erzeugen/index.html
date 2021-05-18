@@ -9,9 +9,9 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="SSH-Zugangsschlüssel erzeugen" />
-<meta property="og:description" content="SSH-Zugangsschlüssel erzeugen Auf den Schreibtisch wechseln und Keys erzeugen:
+<meta property="og:description" content="SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
 cd ~/Desktop/ ssh-keygen -N &quot;&quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
-cat ~/Desktop/SSH_ZUGANG.pub &gt;&gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.pub  Die Datei SSH_ZUGANG ist der private Schlüssel und muß auf dem Computer hinterlegt werden, der die SSH-Verbindung aufbauen möchte." />
+cat ~/Desktop/SSH_ZUGANG." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-05-16T00:00:00&#43;00:00" />
@@ -20,9 +20,9 @@ cat ~/Desktop/SSH_ZUGANG.pub &gt;&gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZU
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SSH-Zugangsschlüssel erzeugen"/>
-<meta name="twitter:description" content="SSH-Zugangsschlüssel erzeugen Auf den Schreibtisch wechseln und Keys erzeugen:
+<meta name="twitter:description" content="SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
 cd ~/Desktop/ ssh-keygen -N &quot;&quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
-cat ~/Desktop/SSH_ZUGANG.pub &gt;&gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.pub  Die Datei SSH_ZUGANG ist der private Schlüssel und muß auf dem Computer hinterlegt werden, der die SSH-Verbindung aufbauen möchte."/>
+cat ~/Desktop/SSH_ZUGANG."/>
 
   
   
@@ -90,6 +90,11 @@ cat ~/Desktop/SSH_ZUGANG.pub &gt;&gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZU
   <div class="content" itemprop="articleBody">
   
     <h1 id="ssh-zugangsschlüssel-erzeugen">SSH-Zugangsschlüssel erzeugen</h1>
+<h2 id="empfehlung">Empfehlung</h2>
+<ul>
+<li><a href="../2021-05-16-ssh-grundeinstellungen">SSH Grundeinstellungen</a></li>
+</ul>
+<h2 id="vorgehen">Vorgehen</h2>
 <p>Auf den Schreibtisch wechseln und Keys erzeugen:</p>
 <pre><code>cd ~/Desktop/
 ssh-keygen -N &quot;&quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG
@@ -108,7 +113,7 @@ mv ~/Desktop/SSH_ZUGANG ~/.ssh/
 <p>Um den Key dauerhaft zu verwenden, muß er voreingestellt werden:</p>
 <pre><code>open -e ~/.ssh/config
 </code></pre>
-<p>Es TextEdit mit den SSH-Konfigurationen geöffnet. Dort folgenden Inhalt einfügen (und wie oben angegeben ersetzen):</p>
+<p>Es wird TextEdit mit der SSH-Konfiguration geöffnet. Dort folgenden Inhalt einfügen (und wie oben angegeben ersetzen):</p>
 <pre><code>Host SERVER
     IdentityFile ~/.ssh/SSH_ZUGANG
     User BENUTZER

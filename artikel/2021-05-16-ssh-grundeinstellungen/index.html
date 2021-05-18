@@ -12,7 +12,7 @@
 <meta property="og:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Konfigdatei öffnen:
 sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):
 sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/" /><meta property="article:section" content="artikel" />
@@ -25,7 +25,7 @@ sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  " />
 <meta name="twitter:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Konfigdatei öffnen:
 sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):
 sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  "/>
 
   
@@ -106,7 +106,7 @@ PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 </code></pre>
-<p>SSH durchstarten:</p>
+<p>SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</p>
 <pre><code>sudo launchctl stop com.openssh.sshd
 sudo launchctl start com.openssh.sshd
 </code></pre>
