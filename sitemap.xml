@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfa%CC%88higes-installer-image-erstellen/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/</loc>
-    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/system/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/ssh/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
@@ -21,12 +33,6 @@
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</loc>
-    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://blog.cafe-megabyte.de/tags/system/</loc>
-    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-15-library-ordner-sichtbar-machen/</loc>

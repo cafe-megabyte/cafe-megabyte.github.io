@@ -9,7 +9,11 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="ISO-Image eines unlesbaren CD-Formats erstellen" />
-<meta property="og:description" content="ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben (Gerätenamen tauschen!):  bash sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft, mit Control-T den Status abfragen." />
+<meta property="og:description" content="ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
+Falls die CD gemountet wurde, wieder auswerfen:
+diskutil unmount &lt;VOM_SCHREIBTISCH_REINZIEHEN&gt;  Unix-Gerätename aus der Geräteliste entnehmen:
+diskutil list  führt z.B. zu diesem Output:
+/dev/disk3 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: CD_partition_scheme *760." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-05-13T00:00:00&#43;00:00" />
@@ -18,7 +22,11 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ISO-Image eines unlesbaren CD-Formats erstellen"/>
-<meta name="twitter:description" content="ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben (Gerätenamen tauschen!):  bash sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft, mit Control-T den Status abfragen."/>
+<meta name="twitter:description" content="ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
+Falls die CD gemountet wurde, wieder auswerfen:
+diskutil unmount &lt;VOM_SCHREIBTISCH_REINZIEHEN&gt;  Unix-Gerätename aus der Geräteliste entnehmen:
+diskutil list  führt z.B. zu diesem Output:
+/dev/disk3 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: CD_partition_scheme *760."/>
 
   
   
@@ -92,16 +100,23 @@
 <li>Es geht <strong>nicht</strong> um das Einlesen einer defekten CD.</li>
 </ul>
 <h2 id="vorgehen">Vorgehen</h2>
-<ul>
-<li>CD einlegen und warten, bis sich das Laufwerk beruhigt hat.</li>
-<li>Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. <code>disk5s1s2</code></li>
-<li>Im Terminal eingeben (Gerätenamen tauschen!):</li>
-</ul>
+<p>CD einlegen und warten, bis sich das Laufwerk beruhigt hat.</p>
+<p>Falls die CD gemountet wurde, wieder auswerfen:</p>
+<pre><code>diskutil unmount &lt;VOM_SCHREIBTISCH_REINZIEHEN&gt;
+</code></pre>
+<p>Unix-Gerätename aus der Geräteliste entnehmen:</p>
+<pre><code>diskutil list
+</code></pre>
+<p>führt z.B. zu diesem Output:</p>
+<pre><code>/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:        CD_partition_scheme                        *760.7 MB   disk3
+</code></pre>
+<p>Im Terminal eingeben (Gerätenamen tauschen!):</p>
 <pre><code>bash
-sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso
-</code></pre><ul>
-<li>Während der Kopiervorgang läuft, mit <code>Control-T</code> den Status abfragen.</li>
-</ul>
+sudo dd if= /dev/disk3 of=~/Desktop/CD.iso conv=notrunc,noerror
+</code></pre>
+<p>Während der Kopiervorgang läuft, mit SIGINFO (<code>Control-T</code>) den Status abfragen.</p>
 
   
   </div>

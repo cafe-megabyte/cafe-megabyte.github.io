@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bootfähiges Installer-Image erstellen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfa%CC%88higes-installer-image-erstellen/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfa%CC%88higes-installer-image-erstellen/</guid>
+      <description>Bootfähiges Installer-Image erstellen Grundsätzliches Voraussetzung ist ein Installations-App aus dem Mac App Store. Ziel ist ein direkt bootfähiges Disk Image.
+Vorgehen Leeres Disk Image erstellen (10000m= 10 GB, ggf. die Größe nach oben hin anpassen):
+hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J  Neu erstelltes Disk Image mounten:
+hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install_build  Nun createinstallmedia ausführen (liegt innerhalb des Installations-Apps aus dem Mac App Store, Pfad ggf.</description>
+    </item>
+    
+    <item>
+      <title>Dateiänderungen protokollieren</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/</guid>
+      <description>Dateiänderungen protokollieren Alle Änderungen:
+sudo fs_usage -w &amp;gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
+sudo fs_usage -w -f filesys PROZESSNAME &amp;gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
+sudo fs_usage -w -f filesys | grep &amp;quot;SUCHE&amp;quot; &amp;gt; ~/Desktop/log.txt </description>
+    </item>
+    
     <item>
       <title>SSH Grundeinstellungen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
@@ -127,7 +151,11 @@ defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  </description>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
-      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen  CD einlegen und warten, bis sich das Laufwerk beruhigt hat. Festplattendienstprogramm öffnen und den Gerätenamen der ausgegrauten CD ermitteln, z.B. disk5s1s2 Im Terminal eingeben (Gerätenamen tauschen!):  bash sudo dd if=/dev/disk5s1s2 of=~/Desktop/Disk.iso  Während der Kopiervorgang läuft, mit Control-T den Status abfragen.</description>
+      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
+Falls die CD gemountet wurde, wieder auswerfen:
+diskutil unmount &amp;lt;VOM_SCHREIBTISCH_REINZIEHEN&amp;gt;  Unix-Gerätename aus der Geräteliste entnehmen:
+diskutil list  führt z.B. zu diesem Output:
+/dev/disk3 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: CD_partition_scheme *760.</description>
     </item>
     
     <item>

@@ -3,20 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> Dateiänderungen protokollieren | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/" />
+  <meta property="og:title" content="Dateiänderungen protokollieren" />
+<meta property="og:description" content="Dateiänderungen protokollieren Alle Änderungen:
+sudo fs_usage -w &gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
+sudo fs_usage -w -f filesys PROZESSNAME &gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
+sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-18-dateia%CC%88nderungen-protokollieren/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-18T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-18T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="Dateiänderungen protokollieren"/>
+<meta name="twitter:description" content="Dateiänderungen protokollieren Alle Änderungen:
+sudo fs_usage -w &gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
+sudo fs_usage -w -f filesys PROZESSNAME &gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
+sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt "/>
 
   
   
@@ -37,8 +45,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -82,32 +88,20 @@
 
     
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="content" itemprop="articleBody">
-    
-    <div id="tag-cloud">
-      
-      <div class="tag-cloud-tags">
-        
-        
-        <a style="font-size: 2.466666666666667rem;" href="http://blog.cafe-megabyte.de/tags/backup/">Backup</a>
-        
-        <a style="font-size: 1.6333333333333333rem;" href="http://blog.cafe-megabyte.de/tags/big-sur/">Big Sur</a>
-        
-        <a style="font-size: 1.6333333333333333rem;" href="http://blog.cafe-megabyte.de/tags/cd/dvd/">CD/DVD</a>
-        
-        <a style="font-size: 2.466666666666667rem;" href="http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/">Geht beim Update verloren</a>
-        
-        <a style="font-size: 14.133333333333333rem;" href="http://blog.cafe-megabyte.de/tags/mac/">Mac</a>
-        
-        <a style="font-size: 2.466666666666667rem;" href="http://blog.cafe-megabyte.de/tags/recovery-os/">Recovery OS</a>
-        
-        <a style="font-size: 3.3rem;" href="http://blog.cafe-megabyte.de/tags/ssh/">ssh</a>
-        
-        <a style="font-size: 9.966666666666669rem;" href="http://blog.cafe-megabyte.de/tags/system/">System</a>
-        
-      </div>
-    </div>
-    
+  
+    <h1 id="dateiänderungen-protokollieren">Dateiänderungen protokollieren</h1>
+<p>Alle Änderungen:</p>
+<pre><code>sudo fs_usage -w &gt; ~/Desktop/log_all.txt
+</code></pre>
+<p>Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):</p>
+<pre><code>sudo fs_usage -w -f filesys PROZESSNAME &gt; ~/Desktop/log.txt
+</code></pre>
+<p>Protokoll per Suchfunktion einschränken:</p>
+<pre><code>sudo fs_usage -w -f filesys | grep &quot;SUCHE&quot; &gt; ~/Desktop/log.txt</code></pre>
+
+  
   </div>
 </article>
 
