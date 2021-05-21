@@ -3,20 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> Änderungen an Disk Image erzwingen | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/" />
+  <meta property="og:title" content="Änderungen an Disk Image erzwingen" />
+<meta property="og:description" content="Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
+hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
+hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;  Format des Disk Images bestimmen:
+hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
+hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-21T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-21T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="Änderungen an Disk Image erzwingen"/>
+<meta name="twitter:description" content="Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
+hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
+hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;  Format des Disk Images bestimmen:
+hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
+hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  "/>
 
   
   
@@ -37,8 +47,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -82,32 +90,24 @@
 
     
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="content" itemprop="articleBody">
-    
-    <div id="tag-cloud">
-      
-      <div class="tag-cloud-tags">
-        
-        
-        <a style="font-size: 2.3rem;" href="http://blog.cafe-megabyte.de/tags/backup/">Backup</a>
-        
-        <a style="font-size: 1.55rem;" href="http://blog.cafe-megabyte.de/tags/big-sur/">Big Sur</a>
-        
-        <a style="font-size: 1.55rem;" href="http://blog.cafe-megabyte.de/tags/cd/dvd/">CD/DVD</a>
-        
-        <a style="font-size: 2.3rem;" href="http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/">Geht beim Update verloren</a>
-        
-        <a style="font-size: 14.3rem;" href="http://blog.cafe-megabyte.de/tags/mac/">Mac</a>
-        
-        <a style="font-size: 2.3rem;" href="http://blog.cafe-megabyte.de/tags/recovery-os/">Recovery OS</a>
-        
-        <a style="font-size: 3.05rem;" href="http://blog.cafe-megabyte.de/tags/ssh/">ssh</a>
-        
-        <a style="font-size: 9.8rem;" href="http://blog.cafe-megabyte.de/tags/system/">System</a>
-        
-      </div>
-    </div>
-    
+  
+    <h1 id="änderungen-an-disk-image-erzwingen">Änderungen an Disk Image erzwingen</h1>
+<p>Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:</p>
+<pre><code>hdiutil attach PFAD_ZUM_IMAGE -shadow
+</code></pre>
+<p>Nach den vorgenommenen Änderungen Image auswerfen:</p>
+<pre><code>hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;
+</code></pre>
+<p>Format des Disk Images bestimmen:</p>
+<pre><code>hdiutil imageinfo PFAD_ZUM_IMAGE -format
+</code></pre>
+<p>Shadow-File in ein neues Read-Only-Image einmischen:</p>
+<pre><code>hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow
+</code></pre>
+
+  
   </div>
 </article>
 
