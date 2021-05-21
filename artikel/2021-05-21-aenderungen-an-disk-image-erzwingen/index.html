@@ -11,7 +11,7 @@
   <meta property="og:title" content="Änderungen an Disk Image erzwingen" />
 <meta property="og:description" content="Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
 hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
-hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;  Format des Disk Images bestimmen:
+hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
 hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
 hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  " />
 <meta property="og:type" content="article" />
@@ -24,7 +24,7 @@ hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  " />
 <meta name="twitter:title" content="Änderungen an Disk Image erzwingen"/>
 <meta name="twitter:description" content="Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
 hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
-hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;  Format des Disk Images bestimmen:
+hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
 hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
 hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  "/>
 
@@ -98,7 +98,7 @@ hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  "/>
 <pre><code>hdiutil attach PFAD_ZUM_IMAGE -shadow
 </code></pre>
 <p>Nach den vorgenommenen Änderungen Image auswerfen:</p>
-<pre><code>hdiutil detach /Volumes/&lt;IMAGE_VOLUME&gt;
+<pre><code>hdiutil detach /Volumes/IMAGE_VOLUME
 </code></pre>
 <p>Format des Disk Images bestimmen:</p>
 <pre><code>hdiutil imageinfo PFAD_ZUM_IMAGE -format

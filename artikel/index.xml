@@ -16,7 +16,7 @@
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</guid>
       <description>Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
 hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
-hdiutil detach /Volumes/&amp;lt;IMAGE_VOLUME&amp;gt;  Format des Disk Images bestimmen:
+hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
 hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
 hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  </description>
     </item>
