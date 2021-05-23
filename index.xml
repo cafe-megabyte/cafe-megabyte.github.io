@@ -7,7 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lokale Time Machine Snapshots löschen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</guid>
+      <description>Lokale Time Machine Snapshots löschen Grundsätzliches Die lokalen Snapshots werden automatisch angelegt und gelöscht, wenn Time Machine konfiguriert ist. Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
+Manuelles Löschen von Snapshots Auflisten der Snapshopts des Startlaufwerks (ggf. / durch den Pfad zu einem anderen Volume ersetzen):
+tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf.</description>
+    </item>
+    
+    <item>
+      <title>Screensharing-Dienst neustarten</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</guid>
+      <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abihlfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist </description>
+    </item>
+    
     <item>
       <title>Änderungen an Disk Image erzwingen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</link>

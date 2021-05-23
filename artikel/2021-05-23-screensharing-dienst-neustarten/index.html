@@ -3,20 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> Screensharing-Dienst neustarten | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/" />
+  <meta property="og:title" content="Screensharing-Dienst neustarten" />
+<meta property="og:description" content="Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abihlfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-23T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-23T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="Screensharing-Dienst neustarten"/>
+<meta name="twitter:description" content="Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abihlfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist "/>
 
   
   
@@ -37,8 +45,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -82,32 +88,20 @@
 
     
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="content" itemprop="articleBody">
-    
-    <div id="tag-cloud">
-      
-      <div class="tag-cloud-tags">
-        
-        
-        <a style="font-size: 3.5272727272727273rem;" href="http://blog.cafe-megabyte.de/tags/backup/">Backup</a>
-        
-        <a style="font-size: 1.481818181818182rem;" href="http://blog.cafe-megabyte.de/tags/big-sur/">Big Sur</a>
-        
-        <a style="font-size: 1.481818181818182rem;" href="http://blog.cafe-megabyte.de/tags/cd/dvd/">CD/DVD</a>
-        
-        <a style="font-size: 2.163636363636364rem;" href="http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/">Geht beim Update verloren</a>
-        
-        <a style="font-size: 14.436363636363637rem;" href="http://blog.cafe-megabyte.de/tags/mac/">Mac</a>
-        
-        <a style="font-size: 2.163636363636364rem;" href="http://blog.cafe-megabyte.de/tags/recovery-os/">Recovery OS</a>
-        
-        <a style="font-size: 2.8454545454545457rem;" href="http://blog.cafe-megabyte.de/tags/ssh/">ssh</a>
-        
-        <a style="font-size: 8.981818181818182rem;" href="http://blog.cafe-megabyte.de/tags/system/">System</a>
-        
-      </div>
-    </div>
-    
+  
+    <h1 id="screensharing-dienst-neustarten">Screensharing-Dienst neustarten</h1>
+<h2 id="grundsätzliches">Grundsätzliches</h2>
+<p>Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abihlfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<p>Screensharing-Dienst stoppen (via SSH):</p>
+<pre><code>sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist
+</code></pre>
+<p>Screensharing-Dienst wieder starten (via SSH):</p>
+<pre><code>sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist</code></pre>
+
+  
   </div>
 </article>
 

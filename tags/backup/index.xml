@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lokale Time Machine Snapshots löschen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</guid>
+      <description>Lokale Time Machine Snapshots löschen Grundsätzliches Die lokalen Snapshots werden automatisch angelegt und gelöscht, wenn Time Machine konfiguriert ist. Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
+Manuelles Löschen von Snapshots Auflisten der Snapshopts des Startlaufwerks (ggf. / durch den Pfad zu einem anderen Volume ersetzen):
+tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf.</description>
+    </item>
+    
     <item>
       <title>ISO-Image eines unlesbaren CD-Formats erstellen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</link>
@@ -28,6 +39,15 @@ diskutil list  führt z.B. zu diesem Output:
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
       <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches  Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
+    </item>
+    
+    <item>
+      <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
     </item>
     
   </channel>
