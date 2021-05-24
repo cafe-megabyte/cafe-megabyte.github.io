@@ -111,7 +111,8 @@ mv ~/Desktop/SSH_ZUGANG ~/.ssh/
 <pre><code>ssh -i ~/.ssh/SSH_ZUGANG BENUTZER@SERVER
 </code></pre>
 <p>Um den Key dauerhaft zu verwenden, muß er voreingestellt werden:</p>
-<pre><code>open -e ~/.ssh/config
+<pre><code>touch ~/.ssh/config
+open -t ~/.ssh/config
 </code></pre>
 <p>Es wird TextEdit mit der SSH-Konfiguration geöffnet. Dort folgenden Inhalt einfügen (und wie oben angegeben ersetzen):</p>
 <pre><code>Host SERVER

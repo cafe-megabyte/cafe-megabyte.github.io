@@ -7,7 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datei im Finder anzeigen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</guid>
+      <description>Datei im Finder anzeigen Vom Terminal aus:
+open -R &amp;lt;DATEI&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Drucker Standardeinstellungen ändern</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-24-drucker-standardeinstellungen-aendern/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-24-drucker-standardeinstellungen-aendern/</guid>
+      <description>Drucker Standardeinstellungen ändern Web-Interface aktivieren:
+cupsctl WebInterface=yes  URL öffnen:
+http://localhost:631/printers  Über das Menü &amp;ldquo;Administration &amp;gt; Set Default Settings&amp;rdquo; können die Vorgaben geändert werden.
+Anschließend das Web-Interface wieder deaktivieren:
+cupsctl WebInterface=no  </description>
+    </item>
+    
+    <item>
+      <title>Programm mehrfach starten</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</guid>
+      <description>Programm mehrfach starten Im Terminal:
+open -n PFAD_ZUM_APP </description>
+    </item>
+    
     <item>
       <title>Lokale Time Machine Snapshots löschen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</link>
