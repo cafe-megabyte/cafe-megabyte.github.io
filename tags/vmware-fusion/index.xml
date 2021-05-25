@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware Fusion on Café MegaByte Blog</title>
+    <link>http://blog.cafe-megabyte.de/tags/vmware-fusion/</link>
+    <description>Recent content in VMware Fusion on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware Fusion Festplattengröße reduzieren</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
+      <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
+Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
+Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -k FESTPLATTENDATEI.vmdk  </description>
+    </item>
+    
+    <item>
+      <title>VMware Fusion im Recovery Mode booten</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
+      <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
+Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
+macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
+Zurück zum normalen System VM ausschalten.
+Diese eingefügte Zeile wieder aus der Konfiguration löschen.
+Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
+VM starten.</description>
+    </item>
+    
+  </channel>
+</rss>

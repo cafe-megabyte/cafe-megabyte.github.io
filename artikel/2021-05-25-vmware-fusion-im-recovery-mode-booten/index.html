@@ -3,20 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Café MegaByte Blog</title>
+  <title> VMware Fusion im Recovery Mode booten | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/tags/" />
+  <meta property="og:title" content="VMware Fusion im Recovery Mode booten" />
+<meta property="og:description" content="VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
+Konfigdatei editieren (Option &#43; rechte Maus auf die VM), dort eine Zeile einfügen:
+macosguest.forceRecoveryModeInstall = &quot;TRUE&quot;  VM starten.
+Zurück zum normalen System VM ausschalten.
+Diese eingefügte Zeile wieder aus der Konfiguration löschen.
+Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
+VM starten." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-24T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-24T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…"/>
+<meta name="twitter:title" content="VMware Fusion im Recovery Mode booten"/>
+<meta name="twitter:description" content="VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
+Konfigdatei editieren (Option &#43; rechte Maus auf die VM), dort eine Zeile einfügen:
+macosguest.forceRecoveryModeInstall = &quot;TRUE&quot;  VM starten.
+Zurück zum normalen System VM ausschalten.
+Diese eingefügte Zeile wieder aus der Konfiguration löschen.
+Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
+VM starten."/>
 
   
   
@@ -37,8 +51,6 @@
 <link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
-  
-    <link href="http://blog.cafe-megabyte.de/tags/index.xml" rel="alternate" type="application/rss+xml" title="Café MegaByte Blog" />
   
   
   
@@ -82,36 +94,23 @@
 
     
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
   <div class="content" itemprop="articleBody">
-    
-    <div id="tag-cloud">
-      
-      <div class="tag-cloud-tags">
-        
-        
-        <a style="font-size: 2.942857142857143rem;" href="http://blog.cafe-megabyte.de/tags/backup/">Backup</a>
-        
-        <a style="font-size: 1.3357142857142859rem;" href="http://blog.cafe-megabyte.de/tags/big-sur/">Big Sur</a>
-        
-        <a style="font-size: 1.3357142857142859rem;" href="http://blog.cafe-megabyte.de/tags/cd/dvd/">CD/DVD</a>
-        
-        <a style="font-size: 1.8714285714285714rem;" href="http://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/">Geht beim Update verloren</a>
-        
-        <a style="font-size: 14.72857142857143rem;" href="http://blog.cafe-megabyte.de/tags/mac/">Mac</a>
-        
-        <a style="font-size: 1.3357142857142859rem;" href="http://blog.cafe-megabyte.de/tags/monitor/">Monitor</a>
-        
-        <a style="font-size: 1.8714285714285714rem;" href="http://blog.cafe-megabyte.de/tags/recovery-os/">Recovery OS</a>
-        
-        <a style="font-size: 2.407142857142857rem;" href="http://blog.cafe-megabyte.de/tags/ssh/">ssh</a>
-        
-        <a style="font-size: 7.228571428571428rem;" href="http://blog.cafe-megabyte.de/tags/system/">System</a>
-        
-        <a style="font-size: 1.8714285714285714rem;" href="http://blog.cafe-megabyte.de/tags/vmware-fusion/">VMware Fusion</a>
-        
-      </div>
-    </div>
-    
+  
+    <h1 id="vmware-fusion-im-recovery-mode-booten">VMware Fusion im Recovery Mode booten</h1>
+<h2 id="recovery-mode-erzwingen">Recovery Mode erzwingen</h2>
+<p>VM ausschalten.</p>
+<p>Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:</p>
+<pre><code>macosguest.forceRecoveryModeInstall = &quot;TRUE&quot;
+</code></pre>
+<p>VM starten.</p>
+<h2 id="zurück-zum-normalen-system">Zurück zum normalen System</h2>
+<p>VM ausschalten.</p>
+<p>Diese eingefügte Zeile wieder aus der Konfiguration löschen.</p>
+<p>Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung <code>.nvram</code> löschen.</p>
+<p>VM starten.</p>
+
+  
   </div>
 </article>
 
