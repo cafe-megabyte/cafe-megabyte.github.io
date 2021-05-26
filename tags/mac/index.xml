@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aliaspfeil entfernen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</guid>
+      <description>Aliaspfeil entfernen Grundsätzliches Das Entfernen des optisch häßlichen Alias-Pfeils im Finder funktioniert seit es Mac OS X gibt. Es geht bis heute unter Big Sur auf einem Mac mit Apple Silicon. Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
+Vorgehen Wenn das System änderbar ist, die Icon-Datei umbenennen:
+sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon.icns \ /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon_OFFLINE.icns  </description>
+    </item>
+    
+    <item>
+      <title>Installer-Log seit dem letzten Haupt-Release</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-26-installer-log-seit-dem-letzten-haupt-release/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-26-installer-log-seit-dem-letzten-haupt-release/</guid>
+      <description>Installer-Log seit dem letzten Haupt-Release Anzeigen:
+cat /var/log/install.log </description>
+    </item>
+    
+    <item>
+      <title>Versteckter Cache-Ordner</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-26-versteckter-cache-ordner/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-26-versteckter-cache-ordner/</guid>
+      <description>Versteckter Cache-Ordner &amp;hellip;mit Caches diverser Programme. Darunter z.B.:
+ QuickLook Thumbnail Cache Safari Safe Browsing DB Dock Icon Chache &amp;hellip;  Im Finder öffnen:
+open $TMPDIR../C/ </description>
+    </item>
+    
     <item>
       <title>HiDPI-Darstellung aktivieren</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</link>
