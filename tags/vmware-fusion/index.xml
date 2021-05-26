@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware Fusion Festplattengröße reduzieren</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
@@ -25,7 +25,7 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
     <item>
       <title>VMware Fusion im Recovery Mode booten</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
       <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.

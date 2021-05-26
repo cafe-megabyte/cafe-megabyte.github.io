@@ -7,7 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HiDPI-Darstellung aktivieren</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</guid>
+      <description>HiDPI-Darstellung aktivieren Grundsätzliches Der HiDPI-Modus ist die &amp;ldquo;Retina-Version&amp;rdquo; der graphischen Benutzerschnittstelle des Macs.
+Vorgehen Im Terminal:
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
+Ggf. muß Alt beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
+Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen Auflösungen. Soweit mir bekannt ist, muß für einen vollen Zugriff auf alle möglichen Auflösungen ein Drittanbieterprogramm verwendet werden, welches die entsprechenden APIs von Apple implementiert, z.</description>
+    </item>
+    
+    <item>
+      <title>VMware Fusion Festplattengröße reduzieren</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
+      <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
+Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
+Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -k FESTPLATTENDATEI.vmdk  </description>
+    </item>
+    
+    <item>
+      <title>VMware Fusion im Recovery Mode booten</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
+      <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
+Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
+macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
+Zurück zum normalen System VM ausschalten.
+Diese eingefügte Zeile wieder aus der Konfiguration löschen.
+Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
+VM starten.</description>
+    </item>
+    
     <item>
       <title>Datei im Finder anzeigen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</link>
@@ -32,19 +74,6 @@ cupsctl WebInterface=no  </description>
     </item>
     
     <item>
-      <title>HiDPI-Darstellung aktivieren</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</guid>
-      <description>HiDPI-Darstellung aktivieren Grundsätzliches Der HiDPI-Modus ist die &amp;ldquo;Retina-Version&amp;rdquo; der graphischen Benutzerschnittstelle des Macs.
-Vorgehen Im Terminal:
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
-Ggf. muß Alt beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
-Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen Auflösungen. Soweit mir bekannt ist, muß für einen vollen Zugriff auf alle möglichen Auflösungen ein Drittanbieterprogramm verwendet werden, welches die entsprechenden APIs von Apple implementiert, z.</description>
-    </item>
-    
-    <item>
       <title>Programm mehrfach starten</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
@@ -52,35 +81,6 @@ Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen A
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</guid>
       <description>Programm mehrfach starten Im Terminal:
 open -n PFAD_ZUM_APP </description>
-    </item>
-    
-    <item>
-      <title>VMware Fusion Festplattengröße reduzieren</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
-      <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
-Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
-Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -k FESTPLATTENDATEI.vmdk  </description>
-    </item>
-    
-    <item>
-      <title>VMware Fusion im Recovery Mode booten</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
-      <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
-Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
-macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
-Zurück zum normalen System VM ausschalten.
-Diese eingefügte Zeile wieder aus der Konfiguration löschen.
-Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
-VM starten.</description>
     </item>
     
     <item>
