@@ -7,7 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Wed, 26 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluetooth Debug-Menü</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</guid>
+      <description>Bluetooth Debug-Menü BlueTooth-Icon in der Menüleiste mit gedrücktem Alt-Shift anklicken.
+Weiterhin kann der &amp;ldquo;Bluetooth Explorer&amp;rdquo; bei Apple geladen werden. Dieser ist Teil der Additional Tools for Xcode und ermöglicht z.B. die Wahl des Bluetooth-Moduls, wenn mehrere verfügbar sind (z.B. per USB-Stick) oder das Erwzingen des aptX Audio Codecs.</description>
+    </item>
+    
+    <item>
+      <title>EFI Firmware Paßwort zurücksetzen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</guid>
+      <description>EFI Firmware Paßwort zurücksetzen Beide Schritte müssen durchgeführt werden:
+  RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
+  Mac mit Command-Option-P-R starten.
+  </description>
+    </item>
+    
+    <item>
+      <title>Mac wacht alle 2 Stunden auf</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</guid>
+      <description>Mac wacht alle 2 Stunden auf Grundsätzliches Der Grund für das Aufwachen ist der mDNSResponder, der auf bestimmte Pakete wartet. Bei Macs mit SSD mag das egal sein, aber wenn der Mac noch eine Festplatte hat, möchte man das vermeiden.
+Voraussetzung Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
+Vorgehen Prüfen (bis 10.11):
+syslog | grep &amp;quot;Wake reason&amp;quot;  Prüfen (ab 10.</description>
+    </item>
+    
     <item>
       <title>Aliaspfeil entfernen</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</link>
