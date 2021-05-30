@@ -7,7 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apps nicht automatisch beenden</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</guid>
+      <description>Apps nicht automatisch beenden Grundsätzliches Mac OS beendet viele Programme nachdem das letzte Fenster geschlossen wurde.
+Vorgehen Automatisches Beenden abschalten:
+defaults write -g NSDisableAutomaticTermination -bool yes  Standardverhalten wiederherstellen:
+defaults delete NSDisableAutomaticTermination </description>
+    </item>
+    
+    <item>
+      <title>Gestartetes Programm nicht im Dock anzeigen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-30-gestartetes-programm-nicht-im-dock-anzeigen/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-30-gestartetes-programm-nicht-im-dock-anzeigen/</guid>
+      <description>Gestartetes Programm nicht im Dock anzeigen Die Einstellung muß in der Datei Info.plist des zu versteckenden Programms vorgenommen werden.
+Dort muß folgender Key eingefügt werden:
+&amp;lt;key&amp;gt;LSBackgroundOnly&amp;lt;/key&amp;gt; &amp;lt;string&amp;gt;1&amp;lt;/string&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>ZIP mit Paßwort erstellen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-30-zip-mit-passwort-erstellen/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-30-zip-mit-passwort-erstellen/</guid>
+      <description>ZIP mit Paßwort erstellen Grundsätzliches Die ZIP-Verschlüsselung ist nicht besonders gut und kann leicht geknackt werden. Dennoch verhindert ein solches ZIP bspw. das automatische Scannen von E-Mail Anhängen und erlaubt das Versenden von Dateien, die sonst nicht vesendbar wären.
+Vorgehen Ordner ZIPpen:
+zip -er ~/Desktop/Archiv.zip ORDNER  Einzelne Datei ZIPpen:
+zip -e ~/Desktop/Archiv.zip DATEI </description>
+    </item>
+    
     <item>
       <title>Bluetooth Debug-Menü</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</link>
