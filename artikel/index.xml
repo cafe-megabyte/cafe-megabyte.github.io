@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AppleScript ausführen / System neustarten</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</guid>
+      <description>AppleScript ausführen / System neustarten So kann ein AppleScript-Kommando ausgeführt werden:
+osascript -e &#39;APPLESCRIPT&#39;  Z.B.:
+osascript -e &#39;beep&#39;  Es ist auch die &amp;ldquo;freundlichste&amp;rdquo; Art, den Finder zu beenden, sich auszuloggen oder das System neu zu starten.
+Finder beenden:
+osascript -e &#39;tell app &amp;quot;Finder&amp;quot; to quit&#39;  Ausschalten ohne Nachfragen:
+osascript -e &#39;tell app &amp;quot;System Events&amp;quot; to shut down&#39;  Ausschalten mit Nachfragen:
+osascript -e &#39;tell app &amp;quot;loginwindow&amp;quot; to «event aevtrsdn»&#39;  Neustart ohne Nachfragen:</description>
+    </item>
+    
     <item>
       <title>Apps nicht automatisch beenden</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</link>
