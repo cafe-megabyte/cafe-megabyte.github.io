@@ -11,8 +11,10 @@
   <meta property="og:title" content="Automount verhindern" />
 <meta property="og:description" content="Automount verhindern UUID des Volumes ermitteln:
 diskutil info /Volumes/&lt;VOLUME&gt; /etc/fstab editieren:
-cd /etc sudo vifs Zeile einfügen (mit i):
-UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden." />
+cd /etc sudo vifs Zeile einfügen (mit i in den Editiermodus wechseln):
+UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden.
+Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gemachten Änderungen schreiben und beenden:
+:wq " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-05-14T00:00:00&#43;00:00" />
@@ -23,8 +25,10 @@ UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je
 <meta name="twitter:title" content="Automount verhindern"/>
 <meta name="twitter:description" content="Automount verhindern UUID des Volumes ermitteln:
 diskutil info /Volumes/&lt;VOLUME&gt; /etc/fstab editieren:
-cd /etc sudo vifs Zeile einfügen (mit i):
-UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden."/>
+cd /etc sudo vifs Zeile einfügen (mit i in den Editiermodus wechseln):
+UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden.
+Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gemachten Änderungen schreiben und beenden:
+:wq "/>
 
   
   
@@ -97,9 +101,11 @@ UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je
 </code></pre><p>/etc/fstab editieren:</p>
 <pre><code>cd /etc
 sudo vifs
-</code></pre><p>Zeile einfügen (mit <code>i</code>):</p>
+</code></pre><p>Zeile einfügen (mit <code>i</code> in den Editiermodus wechseln):</p>
 <pre><code>UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto
 </code></pre><p>Statt <code>apfs</code> muß je nach Format ggf. <code>hfs</code> verwendet werden.</p>
+<p>Mit <code>ESC</code> zurück in den Kommandomodus wechseln und mit folgendem Kommando die gemachten Änderungen schreiben und beenden:</p>
+<pre><code>:wq</code></pre>
 
   
   </div>
