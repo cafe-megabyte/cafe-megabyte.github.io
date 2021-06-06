@@ -9,9 +9,10 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Lokale Time Machine Snapshots löschen" />
-<meta property="og:description" content="Lokale Time Machine Snapshots löschen Grundsätzliches Die lokalen Snapshots werden automatisch angelegt und gelöscht, wenn Time Machine konfiguriert ist. Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
-Manuelles Löschen von Snapshots Auflisten der Snapshopts des Startlaufwerks (ggf. / durch den Pfad zu einem anderen Volume ersetzen):
-tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf." />
+<meta property="og:description" content="Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
+Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
+Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
+Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Löschen der Snapshots an, um zu sehen, wieviel Speicher wirklich frei ist." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-05-23T00:00:00&#43;00:00" />
@@ -20,9 +21,10 @@ tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Lokale Time Machine Snapshots löschen"/>
-<meta name="twitter:description" content="Lokale Time Machine Snapshots löschen Grundsätzliches Die lokalen Snapshots werden automatisch angelegt und gelöscht, wenn Time Machine konfiguriert ist. Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
-Manuelles Löschen von Snapshots Auflisten der Snapshopts des Startlaufwerks (ggf. / durch den Pfad zu einem anderen Volume ersetzen):
-tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf."/>
+<meta name="twitter:description" content="Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
+Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
+Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
+Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Löschen der Snapshots an, um zu sehen, wieviel Speicher wirklich frei ist."/>
 
   
   
@@ -91,8 +93,13 @@ tmutil listlocalsnapshotdates /  Löschen der Snapshopts des Startlaufwerks (ggf
   
     <h1 id="lokale-time-machine-snapshots-löschen">Lokale Time Machine Snapshots löschen</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Die lokalen Snapshots werden automatisch angelegt und gelöscht, wenn Time Machine konfiguriert ist. Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: <a href="../2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen">Snapshot Mac-System erstellen und wiederherstellen</a></p>
-<h2 id="manuelles-löschen-von-snapshots">Manuelles Löschen von Snapshots</h2>
+<p>Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.</p>
+<p>Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: <a href="../2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen">Snapshot Mac-System erstellen und wiederherstellen</a></p>
+<p>Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.</p>
+<p>Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Löschen der Snapshots an, um zu sehen, wieviel Speicher wirklich frei ist.</p>
+<p>Snapshots werden pro Volume erstellt und können pro Volume bereinigt werden. Hier beziehe ich mich auf das Startvolume.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<p><strong>Vor dem Löschen der Snapshots, sollte geprüft werden, daß Time Machine im Moment kein Backup erstellt.</strong></p>
 <p>Auflisten der Snapshopts des Startlaufwerks (ggf. <code>/</code> durch den Pfad zu einem anderen Volume ersetzen):</p>
 <pre><code>tmutil listlocalsnapshotdates /
 </code></pre>

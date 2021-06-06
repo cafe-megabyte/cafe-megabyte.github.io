@@ -103,6 +103,18 @@ open $TMPDIR../C/ </description>
     </item>
     
     <item>
+      <title>Lokale Time Machine Snapshots löschen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</guid>
+      <description>Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
+Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
+Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
+Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Löschen der Snapshots an, um zu sehen, wieviel Speicher wirklich frei ist.</description>
+    </item>
+    
+    <item>
       <title>APFS Container bzw. Partition verkleinern</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
