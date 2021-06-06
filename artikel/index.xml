@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programm-Dauerlauf erzwingen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-06-06-programm-dauerlauf-erzwingen/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-06-06-programm-dauerlauf-erzwingen/</guid>
+      <description>Programm-Dauerlauf erzwingen Grundsätzliches Um ein Programm nach dem Anmelden automatisch zu starten, genügt es, das Programm zu den &amp;ldquo;Anmeldeobjekten&amp;rdquo; in den Systemeinstellungen unter &amp;ldquo;Benutzer &amp;amp; Gruppen&amp;rdquo; hinzuzufügen.
+Anmeldeobjekte können jedoch unterdrückt werden (Taste Shift beim Anmelden gedrückt halten), das Programm kann beendet werden, oder es stürt einfach ab. Dies kann für bestimmte Anwendungen unerwünscht sein, insbesondere wenn dadurch Dienste bereitgestellt werden, die dauerhaft verfügbar sein sollen.
+Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solcher Dauerlauf erzwungen werden.</description>
+    </item>
+    
     <item>
       <title>AppleScript ausführen / System neustarten</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</link>
