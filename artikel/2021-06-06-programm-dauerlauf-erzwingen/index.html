@@ -112,7 +112,7 @@ Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solc
 		&lt;array&gt;
 			&lt;string&gt;/usr/bin/open&lt;/string&gt;
 			&lt;string&gt;-W&lt;/string&gt;
-			&lt;string&gt;/Applications/Front and Center.app&lt;/string&gt;
+			&lt;string&gt;/System/Applications/TextEdit.app&lt;/string&gt;
 		&lt;/array&gt;
 	&lt;/dict&gt;
 &lt;/plist&gt;
@@ -126,6 +126,7 @@ Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solc
 <p>Sie kann auch sofort aktiviert werden:</p>
 <pre><code>launchctl load PLIST_DATEI
 </code></pre>
+<p>TextEdit sollte unmittelbar nach Ausführen dieses Befehls starten. Wird es beendet, startet es nach wenigen Sekunden erneut.</p>
 <p>Bei Problemen kann die Einstellung auch sofort deaktiviert werden:</p>
 <pre><code>launchctl unload PLIST_DATEI
 </code></pre>
