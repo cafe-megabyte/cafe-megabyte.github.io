@@ -104,10 +104,10 @@ open $TMPDIR../C/ </description>
     
     <item>
       <title>Lokale Time Machine Snapshots löschen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</link>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-lo%CC%88schen/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-l%C3%B6schen/</guid>
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-lo%CC%88schen/</guid>
       <description>Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
 Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
 Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
@@ -169,7 +169,7 @@ sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  </de
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
-      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
 ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
