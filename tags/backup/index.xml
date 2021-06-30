@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lokale Time Machine Snapshots löschen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-lo%CC%88schen/</link>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-loeschen/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-lo%CC%88schen/</guid>
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-loeschen/</guid>
       <description>Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
 Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
 Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
