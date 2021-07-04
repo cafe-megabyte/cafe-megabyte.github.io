@@ -17,7 +17,7 @@
       <description>HiDPI-Darstellung aktivieren Grundsätzliches Der HiDPI-Modus ist die &amp;ldquo;Retina-Version&amp;rdquo; der graphischen Benutzerschnittstelle des Macs.
 Vorgehen Im Terminal:
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
-Ggf. muß Alt beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
+Ggf. muß Option beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
 Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen Auflösungen. Soweit mir bekannt ist, muß für einen vollen Zugriff auf alle möglichen Auflösungen ein Drittanbieterprogramm verwendet werden, welches die entsprechenden APIs von Apple implementiert, z.</description>
     </item>
     

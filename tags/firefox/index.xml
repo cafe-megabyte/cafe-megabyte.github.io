@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firefox on Café MegaByte Blog</title>
+    <link>http://blog.cafe-megabyte.de/tags/firefox/</link>
+    <description>Recent content in Firefox on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firefox Grundeinstellungen</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</guid>
+      <description>Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Sämtliche Vorschläge im Adressfeld deaktivieren In about:config kann die Suchmaschine deaktiviert werden per keyword.enabled ==&amp;gt; false  Datenschutz &amp;amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    Add-Ons  uBlock Origin gegen Reklame und Tracking I don&amp;rsquo;t care about Cookies gegen Cookie-Banner VideoDownloadHelper zum herunterladen von Videos und Medien  </description>
+    </item>
+    
+  </channel>
+</rss>
