@@ -17,7 +17,7 @@
       <description>Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eine Erweiterungen,&amp;hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
-Vorgehen Profil about:profiles öffnen und ein neues Profil &amp;ldquo;Threema&amp;rdquo; anlegen.</description>
+Vorgehen Profilseite about:profiles öffnen und ein neues Profil &amp;ldquo;Threema&amp;rdquo; anlegen.</description>
     </item>
     
     <item>

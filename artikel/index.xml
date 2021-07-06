@@ -9,6 +9,17 @@
     <copyright>Café MegaByte</copyright>
     <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Firefox Bedienelemente ausblenden</title>
+      <link>http://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</guid>
+      <description>Firefox Bedienelemente ausblenden Grundsätzliches Die Benutzeroberfläche von Firfox ist selbst webbasiert und kann daher mit dem Browser gedebuggt werden, um technische Namen von Elementen der Benutzeroberfläche in Erfahrung zu bringen. Diese Elemente können dann per CSS gezielt ausgeblendet werden.
+Voraussetzung Damit die Firefox-Oberfläche ein CSS berücksichtigt, muß auf about:config dieser Parameter gesetzt werden:
+toolkit.legacyUserProfileCustomizations.stylesheets ==&amp;gt; true  Debugging aktivieren Um den Namen des auszublendenen Elements in Erfahrung zu bringen, müssen die &amp;ldquo;Werkzeuge für Web-Entwickler&amp;rdquo; geöffnet werden und dort wiederum die Einstellungen.</description>
+    </item>
+    
+    <item>
       <title>Threema-App auf Firefox-Basis</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
@@ -17,7 +28,7 @@
       <description>Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eine Erweiterungen,&amp;hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
-Vorgehen Profil about:profiles öffnen und ein neues Profil &amp;ldquo;Threema&amp;rdquo; anlegen.</description>
+Vorgehen Profilseite about:profiles öffnen und ein neues Profil &amp;ldquo;Threema&amp;rdquo; anlegen.</description>
     </item>
     
     <item>
