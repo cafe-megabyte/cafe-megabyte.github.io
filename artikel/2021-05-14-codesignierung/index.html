@@ -11,7 +11,7 @@
   <meta property="og:title" content="Codesignierung" />
 <meta property="og:description" content="Codesignierung Signierung entfernen:
 codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
-xattr -cr PATH_TO_APP codesign -s - PATH_TO_APP  Entitlements anzeigen:
+xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP  Entitlements anzeigen:
 codesign --display --entitlements - PATH_TO_APP " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/" /><meta property="article:section" content="artikel" />
@@ -23,7 +23,7 @@ codesign --display --entitlements - PATH_TO_APP " />
 <meta name="twitter:title" content="Codesignierung"/>
 <meta name="twitter:description" content="Codesignierung Signierung entfernen:
 codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
-xattr -cr PATH_TO_APP codesign -s - PATH_TO_APP  Entitlements anzeigen:
+xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP  Entitlements anzeigen:
 codesign --display --entitlements - PATH_TO_APP "/>
 
   
@@ -97,7 +97,7 @@ codesign --display --entitlements - PATH_TO_APP "/>
 </code></pre>
 <p>Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):</p>
 <pre><code>xattr -cr PATH_TO_APP
-codesign -s - PATH_TO_APP
+codesign -f -s - PATH_TO_APP
 </code></pre>
 <p>Entitlements anzeigen:</p>
 <pre><code>codesign --display --entitlements - PATH_TO_APP</code></pre>

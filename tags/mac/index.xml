@@ -394,7 +394,7 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
       <guid>http://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</guid>
       <description>Codesignierung Signierung entfernen:
 codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
-xattr -cr PATH_TO_APP codesign -s - PATH_TO_APP  Entitlements anzeigen:
+xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP  Entitlements anzeigen:
 codesign --display --entitlements - PATH_TO_APP </description>
     </item>
     
