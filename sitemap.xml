@@ -122,6 +122,9 @@
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/disk-image/</loc>
+    <lastmod>2021-05-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -186,8 +189,6 @@
     <lastmod>2016-08-24T17:51:42+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/categories/</loc>
-  </url><url>
-    <loc>http://blog.cafe-megabyte.de/tags/cd/dvd/</loc>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/impressum/</loc>
   </url>

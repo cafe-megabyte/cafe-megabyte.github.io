@@ -114,7 +114,7 @@ diskutil list  führt z.B. zu diesem Output:
 </code></pre>
 <p>Im Terminal eingeben (Gerätenamen tauschen!):</p>
 <pre><code>bash
-sudo dd if= /dev/disk3 of=~/Desktop/CD.iso conv=notrunc,noerror
+sudo dd if=/dev/disk3 of=~/Desktop/CD.iso conv=notrunc,noerror
 </code></pre>
 <p>Während der Kopiervorgang läuft, mit SIGINFO (<code>Control-T</code>) den Status abfragen.</p>
 
