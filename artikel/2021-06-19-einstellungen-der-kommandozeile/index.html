@@ -147,6 +147,12 @@ gatekeeper()
 xattr -d -r com.apple.quarantine &quot;$@&quot;
 }
 
+echo 'Monitor ausschalten       dis'
+dis()
+{
+pmset displaysleepnow
+}
+
 echo 'Dock neustarten           killdock'
 killdock()
 {
