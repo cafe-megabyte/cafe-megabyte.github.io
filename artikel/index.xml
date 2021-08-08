@@ -14,7 +14,7 @@
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>http://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</guid>
-      <description>Firefox Bedienelemente ausblenden Grundsätzliches Die Benutzeroberfläche von Firfox ist selbst webbasiert und kann daher mit dem Browser gedebuggt werden, um technische Namen von Elementen der Benutzeroberfläche in Erfahrung zu bringen. Diese Elemente können dann per CSS gezielt ausgeblendet werden.
+      <description>Firefox Bedienelemente ausblenden Grundsätzliches Die Benutzeroberfläche von Firefox ist selbst webbasiert und kann daher mit dem Browser gedebuggt werden, um technische Namen von Elementen der Benutzeroberfläche in Erfahrung zu bringen. Diese Elemente können dann per CSS gezielt ausgeblendet werden.
 Voraussetzung Damit die Firefox-Oberfläche ein CSS berücksichtigt, muß auf about:config dieser Parameter gesetzt werden:
 toolkit.legacyUserProfileCustomizations.stylesheets ==&amp;gt; true  Debugging aktivieren Um den Namen des auszublendenen Elements in Erfahrung zu bringen, müssen die &amp;ldquo;Werkzeuge für Web-Entwickler&amp;rdquo; geöffnet werden und dort wiederum die Einstellungen.</description>
     </item>
