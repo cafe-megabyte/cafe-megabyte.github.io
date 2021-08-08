@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+    <loc>http://blog.cafe-megabyte.de/tags/applescript/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/applescript/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/mac/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/applescript/menu/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://blog.cafe-megabyte.de/artikel/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/tags/firefox/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</loc>
-    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</loc>

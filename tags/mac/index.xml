@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Codesignierung hinzufügen / ersetzen</title>
+      <link>http://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</guid>
+      <description>Codesignierung hinzufügen / ersetzen Grundsätzliches  Im Finder das App-Icon wählen, dann das AppleScript aus dem Menü auswählen. Ist keine Codesignierung vorhanden, wird eine hinzugefügt. Ist eine vorhanden, wird gefragt, ob diese ersetzt werden soll.  AppleScript Dateiname: Codesign.scpt
+(* Codesign Copyright © 2021 Café MegaByte *)tell application &amp;quot;Finder&amp;quot;activate-- Zählenset l_selection to selectionset l_count to count l_selection-- Keine Datei gewählt?	if l_count = 0 thenset l_selection to choose fileend if-- Nur eine Datei erlaubenif l_count &amp;gt; 1 thendisplay dialog &amp;quot;Nur ein Programm wählen&amp;quot; buttons {&amp;quot;Ok&amp;quot;} default button 1returnend ifset l_file to item 1 of l_selectionset l_name to name of l_file-- AppleScript-Pfad in Unix-Pfad umwandelnset l_path_posix to POSIX path of (l_file as string)-- Sicherheitsabfragedisplay dialog &amp;quot;Soll die Codesignatur von &amp;quot; &amp;amp; l_name &amp;amp; &amp;quot; ersetzt werden?</description>
+    </item>
+    
+    <item>
+      <title>AppleScript-Menü</title>
+      <link>http://blog.cafe-megabyte.de/applescript/menu/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.cafe-megabyte.de/applescript/menu/</guid>
+      <description>AppleScript-Menü Das AppleScript-Menü wird für alle Scripte hier benötigt.
+Einblenden  Skripteditor starten In den Einstellungen unter &amp;ldquo;Allgemein&amp;rdquo; kann das Menü aktiviert werden.  </description>
+    </item>
+    
     <item>
       <title>Threema-App auf Firefox-Basis</title>
       <link>http://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</link>
