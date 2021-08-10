@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Café MegaByte Blog</title>
-    <link>http://blog.cafe-megabyte.de/categories/</link>
+    <link>https://blog.cafe-megabyte.de/categories/</link>
     <description>Recent content in Categories on Café MegaByte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <copyright>Café MegaByte</copyright><atom:link href="http://blog.cafe-megabyte.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Café MegaByte</copyright><atom:link href="https://blog.cafe-megabyte.de/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

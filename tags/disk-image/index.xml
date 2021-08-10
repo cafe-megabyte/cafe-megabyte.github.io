@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disk Image on Café MegaByte Blog</title>
-    <link>http://blog.cafe-megabyte.de/tags/disk-image/</link>
+    <link>https://blog.cafe-megabyte.de/tags/disk-image/</link>
     <description>Recent content in Disk Image on Café MegaByte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/disk-image/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/disk-image/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Änderungen an Disk Image erzwingen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</guid>
       <description>Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
 hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
 hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
@@ -23,10 +23,10 @@ hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  </descript
     
     <item>
       <title>Bootfähiges Installer-Image erstellen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</guid>
       <description>Bootfähiges Installer-Image erstellen Grundsätzliches Voraussetzung ist ein Installations-App aus dem Mac App Store. Ziel ist ein direkt bootfähiges Disk Image.
 Vorgehen Leeres Disk Image erstellen (10000m= 10 GB, ggf. die Größe nach oben hin anpassen):
 hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J  Neu erstelltes Disk Image mounten:
@@ -35,10 +35,10 @@ hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install
     
     <item>
       <title>ISO-Image eines unlesbaren CD-Formats erstellen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
       <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
 Falls die CD gemountet wurde, wieder auswerfen:
 diskutil unmount &amp;lt;VOM_SCHREIBTISCH_REINZIEHEN&amp;gt;  Unix-Gerätename aus der Geräteliste entnehmen:

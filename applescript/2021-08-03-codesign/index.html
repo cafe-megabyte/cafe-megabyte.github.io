@@ -12,7 +12,7 @@
 <meta property="og:description" content="Codesignierung hinzufügen / ersetzen Grundsätzliches  Im Finder das App-Icon wählen, dann das AppleScript aus dem Menü auswählen. Ist keine Codesignierung vorhanden, wird eine hinzugefügt. Ist eine vorhanden, wird gefragt, ob diese ersetzt werden soll.  AppleScript Dateiname: Codesign.scpt
 (* Codesign Copyright © 2021 Café MegaByte *)tell application &quot;Finder&quot;activate-- Zählenset l_selection to selectionset l_count to count l_selection-- Keine Datei gewählt?	if l_count = 0 thenset l_selection to choose fileend if-- Nur eine Datei erlaubenif l_count &gt; 1 thendisplay dialog &quot;Nur ein Programm wählen&quot; buttons {&quot;Ok&quot;} default button 1returnend ifset l_file to item 1 of l_selectionset l_name to name of l_file-- AppleScript-Pfad in Unix-Pfad umwandelnset l_path_posix to POSIX path of (l_file as string)-- Sicherheitsabfragedisplay dialog &quot;Soll die Codesignatur von &quot; &amp; l_name &amp; &quot; ersetzt werden?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/" /><meta property="article:section" content="applescript" />
+<meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/" /><meta property="article:section" content="applescript" />
 <meta property="article:published_time" content="2021-08-03T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2021-08-03T00:00:00&#43;00:00" />
 
@@ -27,7 +27,7 @@
     
   
   
-  <link rel="stylesheet" href="http://blog.cafe-megabyte.de/css/style-dark.css">
+  <link rel="stylesheet" href="https://blog.cafe-megabyte.de/css/style-dark.css">
   
   
   
@@ -38,7 +38,7 @@
   
 
   
-<link rel="icon" type="image/png" href="http://blog.cafe-megabyte.de/images/favicon.ico" />
+<link rel="icon" type="image/png" href="https://blog.cafe-megabyte.de/images/favicon.ico" />
 
   
   
@@ -50,9 +50,9 @@
   <div class="content index py4">
 
     <header id="header">
-  <a href="http://blog.cafe-megabyte.de/">
+  <a href="https://blog.cafe-megabyte.de/">
   
-    <div id="logo" style="background-image: url(http://blog.cafe-megabyte.de/images/logo.png)"></div>
+    <div id="logo" style="background-image: url(https://blog.cafe-megabyte.de/images/logo.png)"></div>
   
   <div id="title">
     <h1>Café MegaByte Blog</h1>

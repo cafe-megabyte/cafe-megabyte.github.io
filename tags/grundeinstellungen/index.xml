@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grundeinstellungen on Café MegaByte Blog</title>
-    <link>http://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
+    <link>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
     <description>Recent content in Grundeinstellungen on Café MegaByte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefox Grundeinstellungen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</guid>
       <description>Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Sämtliche Vorschläge im Adressfeld deaktivieren  Datenschutz &amp;amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    about:config  Suchmaschine deaktivieren: keyword.</description>
     </item>
     
     <item>
       <title>Einstellungen der Kommandozeile</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Zuerst die Datei anlegen und im Texteditor öffnen:
@@ -32,10 +32,10 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
     
     <item>
       <title>SSH Grundeinstellungen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Konfigdatei öffnen:
 sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
@@ -45,20 +45,20 @@ sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  </de
     
     <item>
       <title>SSH-Tunnel (am Beispiel Screensharing)</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
       <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
 ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
     <item>
       <title>SSH-Zugangsschlüssel erzeugen</title>
-      <link>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</guid>
       <description>SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
 cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
 cat ~/Desktop/SSH_ZUGANG.</description>
