@@ -9,7 +9,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Threema-App auf Firefox-Basis" />
-<meta property="og:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eine Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
+<meta property="og:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
 Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen." />
@@ -21,7 +21,7 @@ Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Threema-App auf Firefox-Basis"/>
-<meta name="twitter:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eine Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
+<meta name="twitter:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
 Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen."/>
@@ -93,7 +93,7 @@ Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&
   
     <h1 id="threema-app-auf-firefox-basis">Threema-App auf Firefox-Basis</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eine Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.</p>
+<p>Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.</p>
 <p>Für Threema wird ein separates Profil erstellt, welches <a href="https://web.threema.ch/">web.threema.ch</a> als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.</p>
 <p>Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.</p>
 <h2 id="vorgehen">Vorgehen</h2>
@@ -115,7 +115,7 @@ browser.tabs.drawInTitlebar                          ==&gt;  false
 <pre><code>touch userChrome.css
 open -e userChrome.css
 </code></pre>
-<p>Folgenden Text einfügen:</p>
+<p>Folgenden Text einfügen und speichern:</p>
 <pre><code>#main-window[tabsintitlebar=&quot;true&quot;]:not([extradragspace=&quot;true&quot;]) #TabsToolbar &gt; .toolbar-items {
   opacity: 0;
   pointer-events: none;
@@ -128,13 +128,13 @@ open -e userChrome.css
 #navigator-toolbox {
     visibility: collapse !important;
 }
-</code></pre><p>Firefox-Programm duplizieren und das Dublikat nach <code>Threema</code> umbenennen. Das Icon kann auch angepaßt werden.</p>
+</code></pre><p>Firefox-Programm duplizieren und das Duplikat nach <code>Threema</code> umbenennen. Das Icon kann auch angepaßt werden.</p>
 <p>Rechte Maus auf &ldquo;Threema&rdquo; &gt; Paketinhalt zeigen und die Datei <code>Info.plist</code> öffnen. Zwei Schlüssel ändern:</p>
 <pre><code>CFBundleIdentifier  ==&gt;  ch.threema.web
 CFBundleName        ==&gt;  Threema
 </code></pre>
 <p>Firefox starten und prüfen, daß er mit dem Standardprofil gestartet wird. Wenn dem nicht so sein sollte, kann über <code>about:profiles</code> das Standard-Profil geändert werden.</p>
-<p>Damit &ldquo;Threema&rdquo; mit seinem eigenen Profil startet, darf das App nicht aus dem Dock heraus gestartet werden, sondern nur per Kommandozeile bzw. AppleScript. Es bietet sich an, ein entsprechendes AppleScript-App als Anmeldeobjekt einzurichten. Das AppleScript selbst ist ein Einzeile:</p>
+<p>Damit &ldquo;Threema&rdquo; mit seinem eigenen Profil startet, darf das App nicht aus dem Dock heraus gestartet werden, sondern nur per Kommandozeile bzw. AppleScript. Es bietet sich an, ein entsprechendes AppleScript-App als Anmeldeobjekt einzurichten. Das AppleScript selbst ist ein Einzeiler:</p>
 <pre><code>do shell script &quot;open /Applications/Threema.app --args -P 'Threema'&quot;
 </code></pre>
 
