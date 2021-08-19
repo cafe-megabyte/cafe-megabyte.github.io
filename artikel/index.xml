@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prüfen und Ändern verlinkter Libraries</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-08-21-pruefen-und-aendern-verlinkter-libraries/</link>
+      <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-08-21-pruefen-und-aendern-verlinkter-libraries/</guid>
+      <description>Prüfen und Ändern verlinkter Libraries Grundsätzliches Jedes Executable verlinkt mehrere andere Libraries. Diese Verlinkungen können eingesehen und nachträglich geändert werden. Dies kann nützlich sein, um den Installationsort der verlinkten Libraries bestimmen zu können.
+Prüfen Auflisten der Verlinkungen:
+otool -L EXECUTABLE  Ändern einer Verlinkung:
+install_name_tool -change /pfad/zur/library.dylib @executable_path/Libs/library.dylib EXECUTABLE  Die Angabe @executable_path ist relativ zum Executable selbst.
+Codesignierung Die Änderung des Executables bricht die Codesignierung.</description>
+    </item>
+    
     <item>
       <title>Firefox Bedienelemente ausblenden</title>
       <link>https://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</link>
