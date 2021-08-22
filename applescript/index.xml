@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/applescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/applescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netzlaufwerke mounten</title>
+      <link>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</guid>
+      <description>Netzlaufwerke mounten Grundsätzlich Im Finder einmal die Freigabe manuell mounten, falls nicht ganz klar ist, wie Server und Freigabe (&amp;ldquo;Share&amp;rdquo;) genau heißen und entsprechend einsetzen:
+tell application &amp;quot;Finder&amp;quot; to mount volume &amp;quot;smb://SERVER/FREIGABE&amp;quot;  Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &amp;ldquo;Café&amp;rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &amp;ldquo;Café&amp;rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet.</description>
+    </item>
+    
     <item>
       <title>Codesignierung hinzufügen / ersetzen</title>
       <link>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</link>
