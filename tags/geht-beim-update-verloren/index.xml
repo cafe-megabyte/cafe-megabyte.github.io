@@ -45,6 +45,20 @@ sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  </de
     </item>
     
     <item>
+      <title>Automount verhindern</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</guid>
+      <description>Automount verhindern UUID des Volumes ermitteln:
+diskutil info /Volumes/&amp;lt;VOLUME&amp;gt; /etc/fstab editieren:
+cd /etc sudo vifs Zeile einfügen (mit i in den Editiermodus wechseln):
+UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto Statt apfs muß je nach Format ggf. hfs verwendet werden.
+Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gemachten Änderungen schreiben und beenden:
+:wq </description>
+    </item>
+    
+    <item>
       <title>sudo per Touch ID bedienen</title>
       <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
