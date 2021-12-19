@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geht beim Update verloren</title>
+      <link>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Mac</title>
       <link>https://blog.cafe-megabyte.de/tags/mac/</link>
-      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System</title>
+      <link>https://blog.cafe-megabyte.de/tags/system/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/system/</guid>
       <description></description>
     </item>
     
@@ -41,24 +59,6 @@
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>System</title>
-      <link>https://blog.cafe-megabyte.de/tags/system/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geht beim Update verloren</title>
-      <link>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</link>
-      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</guid>
       <description></description>
     </item>
     

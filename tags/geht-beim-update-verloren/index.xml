@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alle Updates installieren</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</guid>
+      <description>Alle Updates installieren Zuerst müssen alle Updates per Systemeinstellungen eingespielt werden. Dann:
+Alle noch verfügbaren Updates auflisten:
+softwareupdate -l --include-config-data  Alle hiervon empfohlenen Updates (&amp;ldquo;recommended YES&amp;rdquo;) einspielen:
+softwareupdate -i -r --include-config-data </description>
+    </item>
+    
     <item>
       <title>Mac wacht alle 2 Stunden auf</title>
       <link>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</link>

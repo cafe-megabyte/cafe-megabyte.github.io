@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+    <loc>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-10-28-ausgeblendete-apps-im-dock-transparent-darstellen/</loc>
-    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+    <loc>https://blog.cafe-megabyte.de/artikel/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/</loc>
-    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/2021-10-28-ausgeblendete-apps-im-dock-transparent-darstellen/</loc>
     <lastmod>2021-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/applescript/</loc>
@@ -59,9 +68,6 @@
     <loc>https://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,9 +81,6 @@
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/hardware/</loc>
