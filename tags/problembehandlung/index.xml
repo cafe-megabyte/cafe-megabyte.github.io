@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problembehandlung on Café MegaByte Blog</title>
+    <link>https://blog.cafe-megabyte.de/tags/problembehandlung/</link>
+    <description>Recent content in Problembehandlung on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/problembehandlung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Screensharing-Dienst neustarten</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</guid>
+      <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist </description>
+    </item>
+    
+  </channel>
+</rss>

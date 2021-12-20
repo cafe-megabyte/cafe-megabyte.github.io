@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screen Sharing on Café MegaByte Blog</title>
+    <link>https://blog.cafe-megabyte.de/tags/screen-sharing/</link>
+    <description>Recent content in Screen Sharing on Café MegaByte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Café MegaByte</copyright>
+    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/screen-sharing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einstellungen der Kommandozeile</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
+      <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
+Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
+Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
+    </item>
+    
+    <item>
+      <title>Screensharing-Dienst neustarten</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</guid>
+      <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist </description>
+    </item>
+    
+    <item>
+      <title>SSH-Tunnel (am Beispiel Screensharing)</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
+    </item>
+    
+  </channel>
+</rss>
