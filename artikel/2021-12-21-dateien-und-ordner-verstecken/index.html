@@ -11,8 +11,8 @@
   <meta property="og:title" content="Dateien und Ordner verstecken" />
 <meta property="og:description" content="Dateien und Ordner verstecken Der Finder zeigt eine Datei dann nicht mehr an, wenn entweder das Flag und/oder das entsprechende Dateiattribut gesetzt ist.
 Um eine unsichtbare Datei oder Ordner einzublenden, ist es daher ggf. nötig, beide Parameter zu setzen:
-chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen:
-chflags hidden DATEI_ORDNER  " />
+chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
+chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/2021-12-21-dateien-und-ordner-verstecken/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-12-21T00:00:00&#43;00:00" />
@@ -23,8 +23,8 @@ chflags hidden DATEI_ORDNER  " />
 <meta name="twitter:title" content="Dateien und Ordner verstecken"/>
 <meta name="twitter:description" content="Dateien und Ordner verstecken Der Finder zeigt eine Datei dann nicht mehr an, wenn entweder das Flag und/oder das entsprechende Dateiattribut gesetzt ist.
 Um eine unsichtbare Datei oder Ordner einzublenden, ist es daher ggf. nötig, beide Parameter zu setzen:
-chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen:
-chflags hidden DATEI_ORDNER  "/>
+chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
+chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  "/>
 
   
   
@@ -97,8 +97,9 @@ chflags hidden DATEI_ORDNER  "/>
 <pre><code>chflags nohidden DATEI_ORDNER
 setfile -a v DATEI_ORDNER
 </code></pre>
-<p>Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen:</p>
+<p>Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:</p>
 <pre><code>chflags hidden DATEI_ORDNER
+setfile -a V DATEI_ORDNER
 </code></pre>
 
   

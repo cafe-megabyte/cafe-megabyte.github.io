@@ -16,8 +16,8 @@
       <guid>https://blog.cafe-megabyte.de/artikel/2021-12-21-dateien-und-ordner-verstecken/</guid>
       <description>Dateien und Ordner verstecken Der Finder zeigt eine Datei dann nicht mehr an, wenn entweder das Flag und/oder das entsprechende Dateiattribut gesetzt ist.
 Um eine unsichtbare Datei oder Ordner einzublenden, ist es daher ggf. nötig, beide Parameter zu setzen:
-chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen:
-chflags hidden DATEI_ORDNER  </description>
+chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
+chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  </description>
     </item>
     
     <item>
