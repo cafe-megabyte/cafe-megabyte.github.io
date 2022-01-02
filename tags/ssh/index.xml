@@ -15,10 +15,10 @@
       
       <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
-Vorgehen Konfigdatei öffnen:
+Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
+echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
 sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):
-sudo launchctl stop com.openssh.sshd sudo launchctl start com.openssh.sshd  </description>
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
     </item>
     
     <item>
