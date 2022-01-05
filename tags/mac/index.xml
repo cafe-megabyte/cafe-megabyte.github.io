@@ -116,7 +116,8 @@ Vorgehen Profilseite about:profiles öffnen und ein neues Profil &amp;ldquo;Thre
       <guid>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
-Zuerst die Datei anlegen und im Texteditor öffnen:
+Die verfügbaren Optionen können hier eingesehen werden:
+man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
 touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 ################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
     </item>

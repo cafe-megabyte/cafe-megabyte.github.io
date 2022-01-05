@@ -11,7 +11,8 @@
   <meta property="og:title" content="Einstellungen der Kommandozeile" />
 <meta property="og:description" content="Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
-Zuerst die Datei anlegen und im Texteditor öffnen:
+Die verfügbaren Optionen können hier eingesehen werden:
+man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
 touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 ################################ Willkommen ################################ echo echo &quot; * --------------- *&quot; echo &quot; * Café MegaByte *&quot; echo &quot; * --------------- *&quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&quot;open -t ~/." />
 <meta property="og:type" content="article" />
@@ -24,7 +25,8 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 <meta name="twitter:title" content="Einstellungen der Kommandozeile"/>
 <meta name="twitter:description" content="Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
-Zuerst die Datei anlegen und im Texteditor öffnen:
+Die verfügbaren Optionen können hier eingesehen werden:
+man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
 touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 ################################ Willkommen ################################ echo echo &quot; * --------------- *&quot; echo &quot; * Café MegaByte *&quot; echo &quot; * --------------- *&quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&quot;open -t ~/."/>
 
@@ -96,6 +98,9 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
     <h1 id="einstellungen-der-kommandozeile">Einstellungen der Kommandozeile</h1>
 <p>Seit Mac OS X 10.15 Catalina ist nicht mehr <code>bash</code>, sondern <code>zsh</code> die Standard-Shell.</p>
 <p>Um <code>zsh</code> zu konfigurieren, kann eine Datei <code>~/.zshrc</code> angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.</p>
+<p>Die verfügbaren Optionen können hier eingesehen werden:</p>
+<pre><code>man zshoptions
+</code></pre>
 <p>Zuerst die Datei anlegen und im Texteditor öffnen:</p>
 <pre><code>touch ~/.zshrc
 open -t ~/.zshrc
@@ -113,6 +118,12 @@ echo '--------------------------------------------------------------------------
 ################################ Kurzbefehle ################################
 echo 'Z-Profil-Datei editieren  profile'
 alias profile=&quot;open -t ~/.zshrc&quot;
+
+echo 'History anzeigen          history'
+alias history=&quot;fc -l 1&quot;
+
+echo 'History neu einlesen      hi'
+alias hi=&quot;fc -RI&quot;
 
 echo 'Anständiges Listing       ll      = ls -lah'
 alias ll=&quot;ls -lah&quot;
@@ -208,6 +219,12 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # History-AutoComplete
 export INPUTRC=$HOME/.inputrc
+
+# History sofort nach Befehlseingabe aktualisieren
+setopt SHARE_HISTORY
+
+# Unnötige Leerzeichen entfernen
+setopt HIST_REDUCE_BLANKS
 
 # Größe der History
 export HISTSIZE=100
