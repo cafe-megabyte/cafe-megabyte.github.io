@@ -95,7 +95,7 @@ Bildschirmfreigabe im Vollbild starten
 
 Copyright © 2022 Markus Sterk
 Café MegaByte
-*)-- Ggf. Bildschirmfreigabe im Vollbild startentell application &quot;Screen Sharing&quot;	activate	delay 1		-- Läuft die Bildschirmfreigabe bereits?	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1		if isConnected is false then		GetURL &quot;IP_ADRESSE&quot;				-- Warten bis die Verbindung steht		repeat while isConnected = false			tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists		end repeat				-- Vollbild aktivieren		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to true	end ifend tell
+*)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- falls es nicht bereits offen warend tell-- Läuft die Bildschirmfreigabe bereits?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe im Vollbild startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeat		-- Vollbild aktivieren	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to trueend if
 </code></pre><h2 id="vorgehen">Vorgehen</h2>
 <ul>
 <li>Das AppleScript muß als ausführbares Programm gespeichert werden.</li>
@@ -106,6 +106,8 @@ Café MegaByte
 </ul>
 <h2 id="ergebnis">Ergebnis</h2>
 <p>Das Tastaturkürzel öffnet nun von jedem Programm aus die Bildschirmfreigabe im Vollbildmodus.</p>
+<h2 id="-cave-">! CAVE !</h2>
+<p>Wenn das Skript-App geändert wird (ein &ldquo;Sichern&rdquo; aus dem Skripteditor heraus genügt), verliert es seine Berechtigungen. Anschließend muß die <a href="../2021-08-03-codesign">Codesignatur nochmals ersetzt werden</a> und die Häkchen unter <code>Systemeinstellungen</code> bei <code>Sicherheit &amp; Datenschutz</code> im Tab <code>Datenschutz</code> sowohl unter <code>Bedienungshilfen</code> als auch unter <code>Automation</code> ggf. entfernt und neu gesetzt werden</p>
 
   
   </div>
