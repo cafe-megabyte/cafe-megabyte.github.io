@@ -140,6 +140,12 @@ open -e userChrome.css
 #identity-permission-box {
     visibility: collapse !important;
 }
+
+/* Ab Version 96 werden bei fast allen Themes ein häßlicher Rand um den aktiven Tab gemalt. Wird hiermit wieder entfernt. */
+.tabbrowser-tab:is([visuallyselected=&quot;true&quot;]) .tab-stack &gt; .tab-background
+{
+    border: none !important;
+}
 </code></pre>
   
   </div>
