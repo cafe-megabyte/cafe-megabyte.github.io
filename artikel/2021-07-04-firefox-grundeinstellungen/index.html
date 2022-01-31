@@ -131,7 +131,7 @@
 <li>Keine Warnung bei &ldquo;unsicheren&rdquo; Downloads per http: <code>dom.block_download_insecure  ==&gt;  false</code></li>
 </ul>
 <h2 id="autoconfig">Autoconfig</h2>
-<p>Durch einen Bug in Firefox wird beim Wechsel des Erscheinungsbild (hell &lt;&gt; dunkel) in den Systemeinstellungen, eine Einstellung geändert, sodaß sich Firefox-Fenster (z.B. Verlauf oder Lesezeichen) nicht mehr nach den Systemeinstellungen, sondern an dem aktuell eingestellten Theme orientieren. Um das zu verhindern, muß die enstprechende Einstellung für Änderungen gesperrt werden.</p>
+<p>Durch einen Bug in Firefox wird beim Wechsel des Erscheinungsbildes (hell &lt;&gt; dunkel) in den Systemeinstellungen, eine Einstellung geändert, sodaß sich Firefox-Fenster (z.B. Verlauf oder Lesezeichen) nicht mehr nach den Systemeinstellungen, sondern an dem aktuell eingestellten Theme orientieren. Um das zu verhindern, muß die enstprechende Einstellung gegen Änderungen gesperrt werden.</p>
 <p>Hierzu sind 2 Textdateien erforderlich, die in den Firefox-Programmordner kopiert werden müssen:</p>
 <p><code>autoconfig.js</code> muß abgelegt werden in <code>Firefox.app/Contents/Resources/defaults/pref/</code>:</p>
 <pre><code>pref(&quot;general.config.filename&quot;, &quot;firefox.cfg&quot;);
