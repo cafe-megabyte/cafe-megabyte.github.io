@@ -105,8 +105,10 @@ Café MegaByte
 </code></pre><h2 id="vorgehen">Vorgehen</h2>
 <ul>
 <li>Das AppleScript muß als ausführbares Programm gespeichert werden.</li>
+<li>Wenn am Skript etwas geändert werden soll, muß das Coding in eine neue Datei eingefügt werden und der beim Speichern als App initial vergebene Name darf nicht schon einmal verwendet worden sein.</li>
 <li><a href="../2021-08-03-codesign">Anschließend muß die Codesignatur des neu erstellten Skript-Apps ersetzt werden.</a> <strong>Dies ermöglicht es, dem Skript-App die erforderlichen Berechtigungen zu erteilen!</strong></li>
 <li>Das Skript-App doppelklicken und die angeforderten Berechtigungen erteilen. Das Skript-App muß fehlerfrei laufen.</li>
+<li>Das Skript-App kann jetzt umbenannt und man kann ein eigenes Icon einfügen.</li>
 </ul>
 <h2 id="optional-systemweites-tastaturkürzel">Optional: Systemweites Tastaturkürzel</h2>
 <ul>
@@ -116,7 +118,8 @@ Café MegaByte
 <h2 id="ergebnis">Ergebnis</h2>
 <p>Das Tastaturkürzel öffnet nun von jedem Programm aus die Bildschirmfreigabe im Vollbildmodus.</p>
 <h2 id="-cave-">! CAVE !</h2>
-<p>Wenn das Skript-App geändert wird (ein &ldquo;Sichern&rdquo; aus dem Skripteditor heraus genügt), verliert es seine Berechtigungen. Anschließend muß die <a href="../2021-08-03-codesign">Codesignatur nochmals ersetzt werden</a> und die Häkchen unter <code>Systemeinstellungen</code> bei <code>Sicherheit &amp; Datenschutz</code> im Tab <code>Datenschutz</code> sowohl unter <code>Bedienungshilfen</code> als auch unter <code>Automation</code> ggf. entfernt und neu gesetzt werden</p>
+<p>Wenn das Skript-App geändert wird (ein &ldquo;Öffnen&rdquo; im Skripteditor kann bereits genügen!), verliert es seine Berechtigungen. Anschließend muß die <a href="../2021-08-03-codesign">Codesignatur nochmals ersetzt werden</a> und die Häkchen unter <code>Systemeinstellungen</code> bei <code>Sicherheit &amp; Datenschutz</code> im Tab <code>Datenschutz</code> sowohl unter <code>Bedienungshilfen</code> als auch unter <code>Automation</code> ggf. entfernt und neu gesetzt werden.</p>
+<p>Wenn das Skript-App tatsächlich geändert wird, ist es nicht mehr berechtigt und o.g. Korrekturen helfen nicht. Nochmal: Das Coding muß in eine neue Datei eingefügt werden und der beim Speichern als App initial vergebene Name darf nicht schon einmal verwendet worden sein.</p>
 
   
   </div>
