@@ -9,7 +9,8 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Bildschirmfreigabe im Vollbild starten" />
-<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern. Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern." />
+<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
+Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/" /><meta property="article:section" content="applescript" />
 <meta property="article:published_time" content="2022-01-07T00:00:00&#43;00:00" />
@@ -18,7 +19,8 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bildschirmfreigabe im Vollbild starten"/>
-<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern. Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern."/>
+<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
+Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern."/>
 
   
   
@@ -87,16 +89,17 @@
   
     <h1 id="bildschirmfreigabe-im-vollbild-starten">Bildschirmfreigabe im Vollbild starten</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern. Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern.</p>
+<p>Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.</p>
+<p>Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern.</p>
 <h2 id="applescript">AppleScript</h2>
 <p>Es muß <code>IP_ADRESSE</code> durch die IP-Adresse bzw. den Hostnamen des Zielrechners ersetzt werden.</p>
 <pre><code>(*
 Bildschirmfreigabe im Vollbild starten
 
-Copyright © 2022 Markus Sterk
+Copyright © 2022
 Café MegaByte
-*)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- falls es nicht bereits offen warend tell-- Läuft die Bildschirmfreigabe bereits?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe im Vollbild startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeat		-- Ggf. &quot;Anmelden&quot; klicken	try		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click button &quot;Anmelden&quot; of window 1
-		delay 1	end try
+*)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- falls es nicht bereits offen warend tell-- Läuft die Bildschirmfreigabe bereits?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe im Vollbild startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeat		-- Ggf. &quot;Anmelden&quot; klicken		-- auf älteren Systemen hieß der Knopf &quot;Verbinden&quot;, ggf. anpassen	try		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click button &quot;Anmelden&quot; of window 1
+		delay 1		-- auf älteren Systemen ggf. 2 Sekunden warten	end try
 	-- Ggf. Skalierung einschalten	try		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click menu item &quot;Skalierung einschalten&quot; of menu 1 of menu bar item &quot;Darstellung&quot; of menu bar 1	end try
 	-- Vollbild aktivieren	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to trueend if
 </code></pre><h2 id="vorgehen">Vorgehen</h2>

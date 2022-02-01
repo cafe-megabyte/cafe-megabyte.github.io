@@ -14,7 +14,8 @@
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</guid>
-      <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern. Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &amp;ldquo;System Events&amp;rdquo; zu steuern.</description>
+      <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern.
+Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &amp;ldquo;System Events&amp;rdquo; zu steuern.</description>
     </item>
     
     <item>
