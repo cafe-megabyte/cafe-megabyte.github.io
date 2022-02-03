@@ -96,7 +96,7 @@ Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohn
 <pre><code>(*
 Bildschirmfreigabe im Vollbild starten
 
-Copyright © 2022 Markus Sterk
+Copyright © 2022
 Café MegaByte
 *)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- erforderlich, wenn das Programm gestartet werden mußteend tell-- Läuft bereits eine Bildschirmfreigabe im Vollbild?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeatend if-- Ggf. &quot;Anmelden&quot; klickentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click button &quot;Anmelden&quot; of window 1	delay 1 -- auf langsameren Geräten ggf. 2 Sekunden wartenend try-- Ggf. Skalierung einschaltentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click menu item &quot;Skalierung einschalten&quot; of menu 1 of menu bar item &quot;Darstellung&quot; of menu bar 1end try-- Vollbild aktivierentell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to true
 </code></pre><h2 id="vorgehen">Vorgehen</h2>
