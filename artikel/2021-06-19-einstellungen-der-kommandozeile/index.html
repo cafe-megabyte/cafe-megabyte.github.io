@@ -207,6 +207,13 @@ export CLICOLOR=1
 # Ordner in grün
 export LSCOLORS=cxxxxxxxxxxxxxxxxxxxxx
 
+# Leerzeile vor dem Prompt
+precmd() { echo }
+
+# Prompt mit vollem Pfad und Zeilenumbruch
+export PS1=&quot;%n@%m %F{green}%~%f
+$ &quot;
+
 # Prompt mit vollem Pfad
 export PS1='%n@%m %F{green}%~%f $ '
 
@@ -233,7 +240,6 @@ export HISTSIZE=100
 export SAVEHIST=100
 
 echo '--------------------------------------------------------------------------------'
-echo
 
 #-------------------------#
 # Café MegaByte           #
