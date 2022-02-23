@@ -9,8 +9,8 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Bildschirmfreigabe im Vollbild starten" />
-<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
-Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern." />
+<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
+Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/" /><meta property="article:section" content="applescript" />
 <meta property="article:published_time" content="2022-01-07T00:00:00&#43;00:00" />
@@ -19,8 +19,8 @@ Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohn
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bildschirmfreigabe im Vollbild starten"/>
-<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
-Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern."/>
+<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
+Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß."/>
 
   
   
@@ -89,8 +89,8 @@ Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohn
   
     <h1 id="bildschirmfreigabe-im-vollbild-starten">Bildschirmfreigabe im Vollbild starten</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Um die Bildschirmfreigabe per Tastenkürzel im Vollbild starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.</p>
-<p>Außerdem kann das Skript, wenn es als App gespeichert wird, ebenfalls nicht ohne weiteres berechtigt werden, &ldquo;System Events&rdquo; zu steuern.</p>
+<p>Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.</p>
+<p>Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</p>
 <h2 id="applescript">AppleScript</h2>
 <p>Es muß <code>IP_ADRESSE</code> durch die IP-Adresse bzw. den Hostnamen des Zielrechners ersetzt werden.</p>
 <pre><code>(*
@@ -105,7 +105,7 @@ Café MegaByte
 <li>Wenn am Skript etwas geändert werden soll, muß das Coding in eine neue Datei eingefügt werden und der beim Speichern als App initial vergebene Name darf nicht schon einmal verwendet worden sein.</li>
 <li><a href="../2021-08-03-codesign">Anschließend muß die Codesignatur des neu erstellten Skript-Apps ersetzt werden.</a> <strong>Dies ermöglicht es, dem Skript-App die erforderlichen Berechtigungen zu erteilen!</strong></li>
 <li>Das Skript-App doppelklicken und die angeforderten Berechtigungen erteilen. Das Skript-App muß fehlerfrei laufen.</li>
-<li>Das Skript-App kann jetzt umbenannt und man kann ein eigenes Icon einfügen.</li>
+<li>Das Skript-App kann jetzt beliebig umbenannt und ein eigenes Icon eingefügt werden.</li>
 </ul>
 <h2 id="optional-systemweites-tastaturkürzel">Optional: Systemweites Tastaturkürzel</h2>
 <ul>

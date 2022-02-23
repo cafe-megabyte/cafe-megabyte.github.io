@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bild von Mac-Account und eigenem Kontakt entkoppeln</title>
+      <link>https://blog.cafe-megabyte.de/artikel/2022-02-23-bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/2022-02-23-bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</guid>
+      <description>Bild von Mac-Account und eigenem Kontakt entkoppeln Wenn im Adressbuch bei einem Kontakt die Funktion &amp;ldquo;Zu meiner Kontaktkarte machen&amp;rdquo; gewählt wird, wird das Bild als Bild für den Mac-Account übernommen. Ab dann wirken sich Bildänderungen immer auf den Mac-Account und den Adressbucheintrag parallel aus.
+Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
+    </item>
+    
     <item>
       <title>Firefox Grundeinstellungen</title>
       <link>https://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</link>
