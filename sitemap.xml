@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2022-02-23-bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/firefox/</loc>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/</loc>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</loc>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</loc>
     <lastmod>2022-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2022-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/applescript/</loc>
@@ -26,16 +32,16 @@
     <loc>https://blog.cafe-megabyte.de/applescript/</loc>
     <lastmod>2022-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</loc>
+    <loc>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</loc>
     <lastmod>2022-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2022-01-02-erklaerung-der-unix-standardverzeichnisse/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/erklaerung-der-unix-standardverzeichnisse/</loc>
     <lastmod>2022-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-12-21-dateien-und-ordner-verstecken/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/dateien-und-ordner-verstecken/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
@@ -44,76 +50,70 @@
     <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-10-28-ausgeblendete-apps-im-dock-transparent-darstellen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/ausgeblendete-apps-im-dock-transparent-darstellen/</loc>
     <lastmod>2021-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</loc>
+    <loc>https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-08-21-pruefen-und-aendern-verlinkter-libraries/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/pruefen-und-aendern-verlinkter-libraries/</loc>
     <lastmod>2021-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</loc>
+    <loc>https://blog.cafe-megabyte.de/applescript/codesign/</loc>
     <lastmod>2021-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/applescript/menu/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/firefox/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/firefox-bedienelemente-ausblenden/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-07-06-firefox-bedienelemente-ausblenden/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/threema-app-auf-firefox-basis/</loc>
     <lastmod>2021-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</loc>
-    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-07-04-firefox-grundeinstellungen/</loc>
-    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/screen-sharing/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-06-06-programm-dauerlauf-erzwingen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/programm-dauerlauf-erzwingen/</loc>
     <lastmod>2021-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/applescript-ausfuehren-system-neustarten/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/apps-nicht-automatisch-beenden/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-30-gestartetes-programm-nicht-im-dock-anzeigen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/gestartetes-programm-nicht-im-dock-anzeigen/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-30-zip-mit-passwort-erstellen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/zip-mit-passwort-erstellen/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/bluetooth-debug-menue/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/efi-firmware-passwort-zuruecksetzen/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/hardware/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/mac-wacht-alle-2-stunden-auf/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-26-installer-log-seit-dem-letzten-haupt-release/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/installer-log-seit-dem-letzten-haupt-release/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-26-versteckter-cache-ordner/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/versteckter-cache-ordner/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/hidpi-darstellung-aktivieren/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/monitor/</loc>
@@ -122,97 +122,97 @@
     <loc>https://blog.cafe-megabyte.de/tags/vmware-fusion/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/datei-im-finder-anzeigen/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-24-drucker-standardeinstellungen-aendern/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/drucker-standardeinstellungen-aendern/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/programm-mehrfach-starten/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/backup/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-loeschen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/lokale-time-machine-snapshots-loeschen/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/problembehandlung/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/aenderungen-an-disk-image-erzwingen/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/disk-image/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/apfs-container-bzw.-partition-verkleinern/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/bootfaehiges-installer-image-erstellen/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-18-dateiaenderungen-protokollieren/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/dateiaenderungen-protokollieren/</loc>
     <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/ssh/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-15-library-ordner-sichtbar-machen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/library-ordner-sichtbar-machen/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-15-proxy-icon-verzoegerungsfrei-anzeigen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/proxy-icon-verzoegerungsfrei-anzeigen/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-15-unsichtbare-objekte-im-finder-ein-ausblenden/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/unsichtbare-objekte-im-finder-ein-ausblenden/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/automount-verhindern/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/codesignierung/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-14-geladene-erweiterungen-anzeigen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/geladene-erweiterungen-anzeigen/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/programm-dauerhaft-im-hell-modus-oeffnen/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/big-sur/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/iso-image-eines-unlesbaren-cd-formats-erstellen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/recovery-os/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</loc>
+    <loc>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/links/</loc>

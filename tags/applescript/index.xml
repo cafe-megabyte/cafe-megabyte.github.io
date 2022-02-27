@@ -10,30 +10,30 @@
     <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/applescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bildschirmfreigabe im Vollbild starten</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</guid>
       <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern.
 Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</description>
     </item>
     
     <item>
       <title>Netzlaufwerke mounten</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/</guid>
       <description>Netzlaufwerke mounten Grundsätzlich Im Finder einmal die Freigabe manuell mounten, falls nicht ganz klar ist, wie Server und Freigabe (&amp;ldquo;Share&amp;rdquo;) genau heißen und entsprechend einsetzen:
 tell application &amp;quot;Finder&amp;quot; to mount volume &amp;quot;smb://SERVER/FREIGABE&amp;quot;  Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &amp;ldquo;Café&amp;rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &amp;ldquo;Café&amp;rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet.</description>
     </item>
     
     <item>
       <title>Codesignierung hinzufügen / ersetzen</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/codesign/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/codesign/</guid>
       <description>Codesignierung hinzufügen / ersetzen Grundsätzliches  Im Finder das App-Icon wählen, dann das AppleScript aus dem Menü auswählen. Ist keine Codesignierung vorhanden, wird eine hinzugefügt. Ist eine vorhanden, wird gefragt, ob diese ersetzt werden soll.  AppleScript Dateiname: Codesign.scpt
 (* Codesign Copyright © 2021 Café MegaByte *)tell application &amp;quot;Finder&amp;quot;activate-- Zählenset l_selection to selectionset l_count to count l_selection-- Keine Datei gewählt?	if l_count = 0 thenset l_selection to choose fileend if-- Nur eine Datei erlaubenif l_count &amp;gt; 1 thendisplay dialog &amp;quot;Nur ein Programm wählen&amp;quot; buttons {&amp;quot;Ok&amp;quot;} default button 1returnend ifset l_file to item 1 of l_selectionset l_name to name of l_file-- AppleScript-Pfad in Unix-Pfad umwandelnset l_path_posix to POSIX path of (l_file as string)-- Sicherheitsabfragedisplay dialog &amp;quot;Soll die Codesignatur von &amp;quot; &amp;amp; l_name &amp;amp; &amp;quot; ersetzt werden?</description>
     </item>

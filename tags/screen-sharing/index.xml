@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/screen-sharing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Einstellungen der Kommandozeile</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</guid>
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
@@ -24,10 +24,10 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
     
     <item>
       <title>Screensharing-Dienst neustarten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</guid>
       <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
 Vorgehen Screensharing-Dienst stoppen (via SSH):
 sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
@@ -36,10 +36,10 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.pli
     
     <item>
       <title>SSH-Tunnel (am Beispiel Screensharing)</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
       <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
 ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>

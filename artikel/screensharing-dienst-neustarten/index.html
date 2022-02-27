@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de-de">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Screensharing-Dienst neustarten | Café MegaByte Blog</title>
+  <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Screensharing-Dienst neustarten" />
+<meta property="og:description" content="Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-05-23T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-05-23T00:00:00&#43;00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Screensharing-Dienst neustarten"/>
+<meta name="twitter:description" content="Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
+Vorgehen Screensharing-Dienst stoppen (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist "/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://blog.cafe-megabyte.de/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://blog.cafe-megabyte.de/images/favicon.ico" />
+
+  
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+    <header id="header">
+  <a href="https://blog.cafe-megabyte.de/">
+  
+    <div id="logo" style="background-image: url(https://blog.cafe-megabyte.de/images/logo.png)"></div>
+  
+  <div id="title">
+    <h1>Café MegaByte Blog</h1>
+  </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
+      </li>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/artikel">Artikel</a></li>
+      
+        <li><a href="/applescript">AppleScript</a></li>
+      
+        <li><a href="/tags">Schlagwörter</a></li>
+      
+        <li><a href="/links">Links</a></li>
+      
+        <li><a href="/impressum">Impressum</a></li>
+      
+    </ul>
+  </div>
+</header>
+
+
+
+    
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="content" itemprop="articleBody">
+  
+    <h1 id="screensharing-dienst-neustarten">Screensharing-Dienst neustarten</h1>
+<h2 id="grundsätzliches">Grundsätzliches</h2>
+<p>Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<p>Screensharing-Dienst stoppen (via SSH):</p>
+<pre><code>sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist
+</code></pre>
+<p>Screensharing-Dienst wieder starten (via SSH):</p>
+<pre><code>sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist</code></pre>
+
+  
+  </div>
+</article>
+
+
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2022  Café MegaByte 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/artikel">Artikel</a></li>
+         
+        <li><a href="/applescript">AppleScript</a></li>
+         
+        <li><a href="/tags">Schlagwörter</a></li>
+         
+        <li><a href="/links">Links</a></li>
+         
+        <li><a href="/impressum">Impressum</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+</html>

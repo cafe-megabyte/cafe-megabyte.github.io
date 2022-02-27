@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de-de">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Threema-App auf Firefox-Basis | Café MegaByte Blog</title>
+  <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Threema-App auf Firefox-Basis" />
+<meta property="og:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
+Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
+Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
+Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/threema-app-auf-firefox-basis/" /><meta property="article:section" content="artikel" />
+<meta property="article:published_time" content="2021-07-06T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-07-06T00:00:00&#43;00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Threema-App auf Firefox-Basis"/>
+<meta name="twitter:description" content="Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
+Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
+Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
+Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://blog.cafe-megabyte.de/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://blog.cafe-megabyte.de/images/favicon.ico" />
+
+  
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+    <header id="header">
+  <a href="https://blog.cafe-megabyte.de/">
+  
+    <div id="logo" style="background-image: url(https://blog.cafe-megabyte.de/images/logo.png)"></div>
+  
+  <div id="title">
+    <h1>Café MegaByte Blog</h1>
+  </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
+      </li>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/artikel">Artikel</a></li>
+      
+        <li><a href="/applescript">AppleScript</a></li>
+      
+        <li><a href="/tags">Schlagwörter</a></li>
+      
+        <li><a href="/links">Links</a></li>
+      
+        <li><a href="/impressum">Impressum</a></li>
+      
+    </ul>
+  </div>
+</header>
+
+
+
+    
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="content" itemprop="articleBody">
+  
+    <h1 id="threema-app-auf-firefox-basis">Threema-App auf Firefox-Basis</h1>
+<h2 id="grundsätzliches">Grundsätzliches</h2>
+<p>Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.</p>
+<p>Für Threema wird ein separates Profil erstellt, welches <a href="https://web.threema.ch/">web.threema.ch</a> als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.</p>
+<p>Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.</p>
+<h2 id="vorgehen">Vorgehen</h2>
+<p>Profilseite <code>about:profiles</code> öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen.</p>
+<p>Per Knopfdruck das Profil in einer separaten Firefox-Instanz öffnen.</p>
+<p>Einstellungen ändern:</p>
+<ul>
+<li>Startseite: <code>https://web.threema.ch/</code></li>
+</ul>
+<p>Erweiterte Einstellungen <code>about:config</code> öffnen und folgende Parameter pflegen:</p>
+<pre><code>toolkit.legacyUserProfileCustomizations.stylesheets  ==&gt;  true
+browser.tabs.drawInTitlebar                          ==&gt;  false
+</code></pre>
+<p>Im ursprünglichen Firefox das Threema-Profil im Finder anzeigen lassen.</p>
+<p>Alle Firefox-Instanzen beenden.</p>
+<p>Innerhalb des Threema-Profilordners einen Unterordner anlegen: <code>chrome</code></p>
+<p>Ein Terminal-Fenster öffnen, <code>cd </code> eingeben gefolgt von einem Leerzeichen, dann den <code>chrome</code>-Ordner aus dem Finder in das Terminal ziehen und mit <code>Return</code> bestätigen.</p>
+<p>Folgende Kommandos nacheinander eingeben, sodaß sich ein leeres TextEdit-Fenster öffnet:</p>
+<pre><code>touch userChrome.css
+open -e userChrome.css
+</code></pre>
+<p>Folgenden Text einfügen und speichern:</p>
+<pre><code>#main-window[tabsintitlebar=&quot;true&quot;]:not([extradragspace=&quot;true&quot;]) #TabsToolbar &gt; .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#main-window:not([tabsintitlebar=&quot;true&quot;]) #TabsToolbar {
+    visibility: collapse !important;
+}
+
+#navigator-toolbox {
+    visibility: collapse !important;
+}
+</code></pre><p>Firefox-Programm duplizieren und das Duplikat nach <code>Threema</code> umbenennen. Das Icon kann auch angepaßt werden.</p>
+<p>Rechte Maus auf &ldquo;Threema&rdquo; &gt; Paketinhalt zeigen und die Datei <code>Info.plist</code> öffnen. Zwei Schlüssel ändern:</p>
+<pre><code>CFBundleIdentifier  ==&gt;  ch.threema.web
+CFBundleName        ==&gt;  Threema
+</code></pre>
+<p>Firefox starten und prüfen, daß er mit dem Standardprofil gestartet wird. Wenn dem nicht so sein sollte, kann über <code>about:profiles</code> das Standard-Profil geändert werden.</p>
+<p>Damit &ldquo;Threema&rdquo; mit seinem eigenen Profil startet, darf das App nicht aus dem Dock heraus gestartet werden, sondern nur per Kommandozeile bzw. AppleScript. Es bietet sich an, ein entsprechendes AppleScript-App als Anmeldeobjekt einzurichten. Das AppleScript selbst ist ein Einzeiler:</p>
+<pre><code>do shell script &quot;open /Applications/Threema.app --args -P 'Threema'&quot;
+</code></pre>
+
+  
+  </div>
+</article>
+
+
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2022  Café MegaByte 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/artikel">Artikel</a></li>
+         
+        <li><a href="/applescript">AppleScript</a></li>
+         
+        <li><a href="/tags">Schlagwörter</a></li>
+         
+        <li><a href="/links">Links</a></li>
+         
+        <li><a href="/impressum">Impressum</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+</html>

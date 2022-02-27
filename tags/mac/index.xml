@@ -10,39 +10,39 @@
     <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bild von Mac-Account und eigenem Kontakt entkoppeln</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2022-02-23-bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</link>
       <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2022-02-23-bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</guid>
       <description>Bild von Mac-Account und eigenem Kontakt entkoppeln Wenn im Adressbuch bei einem Kontakt die Funktion &amp;ldquo;Zu meiner Kontaktkarte machen&amp;rdquo; gewählt wird, wird das Bild als Bild für den Mac-Account übernommen. Ab dann wirken sich Bildänderungen immer auf den Mac-Account und den Adressbucheintrag parallel aus.
 Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
     </item>
     
     <item>
       <title>Bildschirmfreigabe im Vollbild starten</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2022-01-07-bildschirmfreigabe-im-vollbild-starten/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</guid>
       <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern.
 Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</description>
     </item>
     
     <item>
       <title>Erklärung der UNIX-Standardverzeichnisse</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2022-01-02-erklaerung-der-unix-standardverzeichnisse/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/erklaerung-der-unix-standardverzeichnisse/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2022-01-02-erklaerung-der-unix-standardverzeichnisse/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/erklaerung-der-unix-standardverzeichnisse/</guid>
       <description>Erklärung der UNIX-Standardverzeichnisse man hier  </description>
     </item>
     
     <item>
       <title>Dateien und Ordner verstecken</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-12-21-dateien-und-ordner-verstecken/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/dateien-und-ordner-verstecken/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-12-21-dateien-und-ordner-verstecken/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/dateien-und-ordner-verstecken/</guid>
       <description>Dateien und Ordner verstecken Der Finder zeigt eine Datei dann nicht mehr an, wenn entweder das Flag und/oder das entsprechende Dateiattribut gesetzt ist.
 Um eine unsichtbare Datei oder Ordner einzublenden, ist es daher ggf. nötig, beide Parameter zu setzen:
 chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
@@ -51,10 +51,10 @@ chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  </description>
     
     <item>
       <title>Alle Updates installieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</guid>
       <description>Alle Updates installieren Zuerst müssen alle Updates per Systemeinstellungen eingespielt werden. Dann:
 Alle noch verfügbaren Updates auflisten:
 softwareupdate -l --include-config-data  Alle hiervon empfohlenen Updates (&amp;ldquo;recommended YES&amp;rdquo;) einspielen:
@@ -63,10 +63,10 @@ softwareupdate -i -r --include-config-data </description>
     
     <item>
       <title>Ausgeblendete Apps im Dock transparent darstellen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-10-28-ausgeblendete-apps-im-dock-transparent-darstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ausgeblendete-apps-im-dock-transparent-darstellen/</link>
       <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-10-28-ausgeblendete-apps-im-dock-transparent-darstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ausgeblendete-apps-im-dock-transparent-darstellen/</guid>
       <description>Dock: Ausgeblendete Apps im Dock transparent darstellen Normalerweise werden ausgeblendete Apps im Dock normal dargestellt.
 Transparent darstellen:
 defaults write com.apple.Dock showhidden -bool YES  Normal darstellen:
@@ -75,20 +75,20 @@ defaults write com.apple.Dock showhidden -bool NO  </description>
     
     <item>
       <title>Netzlaufwerke mounten</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2021-08-22-netzlaufwerke-mounten/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/</guid>
       <description>Netzlaufwerke mounten Grundsätzlich Im Finder einmal die Freigabe manuell mounten, falls nicht ganz klar ist, wie Server und Freigabe (&amp;ldquo;Share&amp;rdquo;) genau heißen und entsprechend einsetzen:
 tell application &amp;quot;Finder&amp;quot; to mount volume &amp;quot;smb://SERVER/FREIGABE&amp;quot;  Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &amp;ldquo;Café&amp;rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &amp;ldquo;Café&amp;rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet.</description>
     </item>
     
     <item>
       <title>Prüfen und Ändern verlinkter Libraries</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-08-21-pruefen-und-aendern-verlinkter-libraries/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/pruefen-und-aendern-verlinkter-libraries/</link>
       <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-08-21-pruefen-und-aendern-verlinkter-libraries/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/pruefen-und-aendern-verlinkter-libraries/</guid>
       <description>Prüfen und Ändern verlinkter Libraries Grundsätzliches Jedes Executable verlinkt mehrere andere Libraries. Diese Verlinkungen können eingesehen und nachträglich geändert werden. Dies kann nützlich sein, um den Installationsort der verlinkten Libraries bestimmen zu können.
 Prüfen Auflisten der Verlinkungen:
 otool -L EXECUTABLE  Ändern einer Verlinkung:
@@ -98,10 +98,10 @@ Codesignierung Die Änderung des Executables bricht die Codesignierung.</descrip
     
     <item>
       <title>Codesignierung hinzufügen / ersetzen</title>
-      <link>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</link>
+      <link>https://blog.cafe-megabyte.de/applescript/codesign/</link>
       <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/applescript/2021-08-03-codesign/</guid>
+      <guid>https://blog.cafe-megabyte.de/applescript/codesign/</guid>
       <description>Codesignierung hinzufügen / ersetzen Grundsätzliches  Im Finder das App-Icon wählen, dann das AppleScript aus dem Menü auswählen. Ist keine Codesignierung vorhanden, wird eine hinzugefügt. Ist eine vorhanden, wird gefragt, ob diese ersetzt werden soll.  AppleScript Dateiname: Codesign.scpt
 (* Codesign Copyright © 2021 Café MegaByte *)tell application &amp;quot;Finder&amp;quot;activate-- Zählenset l_selection to selectionset l_count to count l_selection-- Keine Datei gewählt?	if l_count = 0 thenset l_selection to choose fileend if-- Nur eine Datei erlaubenif l_count &amp;gt; 1 thendisplay dialog &amp;quot;Nur ein Programm wählen&amp;quot; buttons {&amp;quot;Ok&amp;quot;} default button 1returnend ifset l_file to item 1 of l_selectionset l_name to name of l_file-- AppleScript-Pfad in Unix-Pfad umwandelnset l_path_posix to POSIX path of (l_file as string)-- Sicherheitsabfragedisplay dialog &amp;quot;Soll die Codesignatur von &amp;quot; &amp;amp; l_name &amp;amp; &amp;quot; ersetzt werden?</description>
     </item>
@@ -118,10 +118,10 @@ Einblenden  Skripteditor starten In den Einstellungen unter &amp;ldquo;Allgemein
     
     <item>
       <title>Threema-App auf Firefox-Basis</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/threema-app-auf-firefox-basis/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-07-06-threema-app-auf-firefox-basis/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/threema-app-auf-firefox-basis/</guid>
       <description>Threema-App auf Firefox-Basis Grundsätzliches Firefox kann mehrere Profile haben. Jedes hat eigene Einstellungen, eigene Erweiterungen,&amp;hellip; Die verschiedenen Profile können auch gleichzeitig gestartet werden.
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
@@ -130,10 +130,10 @@ Vorgehen Profilseite about:profiles öffnen und ein neues Profil &amp;ldquo;Thre
     
     <item>
       <title>Einstellungen der Kommandozeile</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-19-einstellungen-der-kommandozeile/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</guid>
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
@@ -144,10 +144,10 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
     
     <item>
       <title>Programm-Dauerlauf erzwingen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-06-06-programm-dauerlauf-erzwingen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/programm-dauerlauf-erzwingen/</link>
       <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-06-programm-dauerlauf-erzwingen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/programm-dauerlauf-erzwingen/</guid>
       <description>Programm-Dauerlauf erzwingen Grundsätzliches Um ein Programm nach dem Anmelden automatisch zu starten, genügt es, das Programm zu den &amp;ldquo;Anmeldeobjekten&amp;rdquo; in den Systemeinstellungen unter &amp;ldquo;Benutzer &amp;amp; Gruppen&amp;rdquo; hinzuzufügen.
 Anmeldeobjekte können jedoch unterdrückt werden (Taste Shift beim Anmelden gedrückt halten), das Programm kann beendet werden, oder es stürt einfach ab. Dies kann für bestimmte Anwendungen unerwünscht sein, insbesondere wenn dadurch Dienste bereitgestellt werden, die dauerhaft verfügbar sein sollen.
 Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solcher Dauerlauf erzwungen werden.</description>
@@ -155,10 +155,10 @@ Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solc
     
     <item>
       <title>AppleScript ausführen / System neustarten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/applescript-ausfuehren-system-neustarten/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-06-01-applescript-ausfuehren-system-neustarten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/applescript-ausfuehren-system-neustarten/</guid>
       <description>AppleScript ausführen / System neustarten So kann ein AppleScript-Kommando ausgeführt werden:
 osascript -e &#39;APPLESCRIPT&#39;  Z.B.:
 osascript -e &#39;beep&#39;  Es ist auch die &amp;ldquo;freundlichste&amp;rdquo; Art, den Finder zu beenden, sich auszuloggen oder das System neu zu starten.
@@ -170,10 +170,10 @@ osascript -e &#39;tell app &amp;quot;loginwindow&amp;quot; to «event aevtrsdn»
     
     <item>
       <title>Apps nicht automatisch beenden</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/apps-nicht-automatisch-beenden/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-30-apps-nicht-automatisch-beenden/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/apps-nicht-automatisch-beenden/</guid>
       <description>Apps nicht automatisch beenden Grundsätzliches Mac OS beendet viele Programme nachdem das letzte Fenster geschlossen wurde.
 Vorgehen Automatisches Beenden abschalten:
 defaults write -g NSDisableAutomaticTermination -bool yes  Standardverhalten wiederherstellen:
@@ -182,10 +182,10 @@ defaults delete NSDisableAutomaticTermination </description>
     
     <item>
       <title>Gestartetes Programm nicht im Dock anzeigen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-30-gestartetes-programm-nicht-im-dock-anzeigen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/gestartetes-programm-nicht-im-dock-anzeigen/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-30-gestartetes-programm-nicht-im-dock-anzeigen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/gestartetes-programm-nicht-im-dock-anzeigen/</guid>
       <description>Gestartetes Programm nicht im Dock anzeigen Die Einstellung muß in der Datei Info.plist des zu versteckenden Programms vorgenommen werden.
 Dort muß folgender Key eingefügt werden:
 &amp;lt;key&amp;gt;LSBackgroundOnly&amp;lt;/key&amp;gt; &amp;lt;string&amp;gt;1&amp;lt;/string&amp;gt; </description>
@@ -193,10 +193,10 @@ Dort muß folgender Key eingefügt werden:
     
     <item>
       <title>ZIP mit Paßwort erstellen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-30-zip-mit-passwort-erstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/zip-mit-passwort-erstellen/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-30-zip-mit-passwort-erstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/zip-mit-passwort-erstellen/</guid>
       <description>ZIP mit Paßwort erstellen Grundsätzliches Die ZIP-Verschlüsselung ist nicht besonders gut und kann leicht geknackt werden. Dennoch verhindert ein solches ZIP bspw. das automatische Scannen von E-Mail Anhängen und erlaubt das Versenden von Dateien, die sonst nicht vesendbar wären.
 Vorgehen Ordner ZIPpen:
 zip -er ~/Desktop/Archiv.zip ORDNER  Einzelne Datei ZIPpen:
@@ -205,20 +205,20 @@ zip -e ~/Desktop/Archiv.zip DATEI </description>
     
     <item>
       <title>Bluetooth Debug-Menü</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/bluetooth-debug-menue/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-28-bluetooth-debug-menue/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/bluetooth-debug-menue/</guid>
       <description>Bluetooth Debug-Menü BlueTooth-Icon in der Menüleiste mit gedrücktem Alt-Shift anklicken.
 Weiterhin kann der &amp;ldquo;Bluetooth Explorer&amp;rdquo; bei Apple geladen werden. Dieser ist Teil der Additional Tools for Xcode und ermöglicht z.B. die Wahl des Bluetooth-Moduls, wenn mehrere verfügbar sind (z.B. per USB-Stick) oder das Erwzingen des aptX Audio Codecs.</description>
     </item>
     
     <item>
       <title>EFI Firmware Paßwort zurücksetzen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/efi-firmware-passwort-zuruecksetzen/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-28-efi-firmware-passwort-zuruecksetzen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/efi-firmware-passwort-zuruecksetzen/</guid>
       <description>EFI Firmware Paßwort zurücksetzen Beide Schritte müssen durchgeführt werden:
   RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
   Mac mit Command-Option-P-R starten.
@@ -227,10 +227,10 @@ Weiterhin kann der &amp;ldquo;Bluetooth Explorer&amp;rdquo; bei Apple geladen we
     
     <item>
       <title>Mac wacht alle 2 Stunden auf</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/mac-wacht-alle-2-stunden-auf/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/mac-wacht-alle-2-stunden-auf/</guid>
       <description>Mac wacht alle 2 Stunden auf Grundsätzliches Der Grund für das Aufwachen ist der mDNSResponder, der auf bestimmte Pakete wartet. Bei Macs mit SSD mag das egal sein, aber wenn der Mac noch eine Festplatte hat, möchte man das vermeiden.
 Voraussetzung Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Prüfen (bis 10.11):
@@ -239,10 +239,10 @@ syslog | grep &amp;quot;Wake reason&amp;quot;  Prüfen (ab 10.</description>
     
     <item>
       <title>Aliaspfeil entfernen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</guid>
       <description>Aliaspfeil entfernen Grundsätzliches Das Entfernen des optisch häßlichen Alias-Pfeils im Finder funktioniert seit es Mac OS X gibt. Es geht bis heute unter Big Sur auf einem Mac mit Apple Silicon. Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Wenn das System änderbar ist, die Icon-Datei umbenennen:
 sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon.icns \ /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon_OFFLINE.icns  </description>
@@ -250,20 +250,20 @@ sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBa
     
     <item>
       <title>Installer-Log seit dem letzten Haupt-Release</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-26-installer-log-seit-dem-letzten-haupt-release/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/installer-log-seit-dem-letzten-haupt-release/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-26-installer-log-seit-dem-letzten-haupt-release/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/installer-log-seit-dem-letzten-haupt-release/</guid>
       <description>Installer-Log seit dem letzten Haupt-Release Anzeigen:
 cat /var/log/install.log </description>
     </item>
     
     <item>
       <title>Versteckter Cache-Ordner</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-26-versteckter-cache-ordner/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/versteckter-cache-ordner/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-26-versteckter-cache-ordner/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/versteckter-cache-ordner/</guid>
       <description>Versteckter Cache-Ordner &amp;hellip;mit Caches diverser Programme. Darunter z.B.:
  QuickLook Thumbnail Cache Safari Safe Browsing DB Dock Icon Chache &amp;hellip;  Im Finder öffnen:
 open $TMPDIR../C/ </description>
@@ -271,10 +271,10 @@ open $TMPDIR../C/ </description>
     
     <item>
       <title>HiDPI-Darstellung aktivieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/hidpi-darstellung-aktivieren/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-25-hidpi-darstellung-aktivieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/hidpi-darstellung-aktivieren/</guid>
       <description>HiDPI-Darstellung aktivieren Grundsätzliches Der HiDPI-Modus ist die &amp;ldquo;Retina-Version&amp;rdquo; der graphischen Benutzerschnittstelle des Macs.
 Vorgehen Im Terminal:
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
@@ -284,10 +284,10 @@ Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen A
     
     <item>
       <title>VMware Fusion Festplattengröße reduzieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
 diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
@@ -298,10 +298,10 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
     
     <item>
       <title>VMware Fusion im Recovery Mode booten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</guid>
       <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
 Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
 macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
@@ -313,20 +313,20 @@ VM starten.</description>
     
     <item>
       <title>Datei im Finder anzeigen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/datei-im-finder-anzeigen/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-24-datei-im-finder-anzeigen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/datei-im-finder-anzeigen/</guid>
       <description>Datei im Finder anzeigen Vom Terminal aus:
 open -R &amp;lt;DATEI&amp;gt; </description>
     </item>
     
     <item>
       <title>Drucker Standardeinstellungen ändern</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-24-drucker-standardeinstellungen-aendern/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/drucker-standardeinstellungen-aendern/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-24-drucker-standardeinstellungen-aendern/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/drucker-standardeinstellungen-aendern/</guid>
       <description>Drucker Standardeinstellungen ändern Web-Interface aktivieren:
 cupsctl WebInterface=yes  URL öffnen:
 http://localhost:631/printers  Über das Menü &amp;ldquo;Administration &amp;gt; Set Default Settings&amp;rdquo; können die Vorgaben geändert werden.
@@ -336,20 +336,20 @@ cupsctl WebInterface=no  </description>
     
     <item>
       <title>Programm mehrfach starten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/programm-mehrfach-starten/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-24-programm-mehrfach-starten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/programm-mehrfach-starten/</guid>
       <description>Programm mehrfach starten Im Terminal:
 open -n PFAD_ZUM_APP </description>
     </item>
     
     <item>
       <title>Lokale Time Machine Snapshots löschen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-loeschen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/lokale-time-machine-snapshots-loeschen/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-23-lokale-time-machine-snapshots-loeschen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/lokale-time-machine-snapshots-loeschen/</guid>
       <description>Lokale Time Machine Snapshots löschen Grundsätzliches Wenn Time Machine aktiviert ist, wird für jedes Backup ein Snapshot erstellt. Das Systemn löscht diese zwar nach einiger Zeit wieder.
 Snaphots können auch dazu verwendet werden, um mit RecoveryOS das gesamte System im Handumdrehen auf einen älteren Stand zurückzusetzen, siehe hierzu: Snapshot Mac-System erstellen und wiederherstellen
 Allerdings belegen diese Speicherplatz – wo und wieviel ist dabei nicht so einfach zu erkennen.
@@ -358,10 +358,10 @@ Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Lösc
     
     <item>
       <title>Screensharing-Dienst neustarten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-23-screensharing-dienst-neustarten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</guid>
       <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
 Vorgehen Screensharing-Dienst stoppen (via SSH):
 sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
@@ -370,10 +370,10 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.pli
     
     <item>
       <title>Änderungen an Disk Image erzwingen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-an-disk-image-erzwingen/</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-21-aenderungen-an-disk-image-erzwingen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-an-disk-image-erzwingen/</guid>
       <description>Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
 hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
 hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
@@ -383,10 +383,10 @@ hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  </descript
     
     <item>
       <title>APFS Container bzw. Partition verkleinern</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/apfs-container-bzw.-partition-verkleinern/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-18-apfs-container-bzw.-partition-verkleinern/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/apfs-container-bzw.-partition-verkleinern/</guid>
       <description>APFS Container bzw. Partition verkleinern Grundsätzliches Wenn der interne Speicher von M1 Macs so partitioniert wird, wird RecoveryOS unbenutzbar!
 Vorgehen Zuerst mit diskutil list den Korrekten Disk-Identifier herausfinden. Dieser muß sich unter ...(internal) befinden. Die hier gesuchte APFS-Partition mit den Volumes &amp;ldquo;Macintosh HD&amp;rdquo; und &amp;ldquo;Testdrive&amp;rdquo; ist /dev/disk0s2:
 /dev/disk0 (internal): #: TYPE NAME SIZE IDENTIFIER 0: GUID_partition_scheme 251.0 GB disk0 1: Apple_APFS_ISC ⁨⁩ 524.3 MB disk0s1 2: Apple_APFS ⁨Container disk3⁩ 245.1 GB disk0s2 3: Apple_APFS_Recovery ⁨⁩ 5.</description>
@@ -394,10 +394,10 @@ Vorgehen Zuerst mit diskutil list den Korrekten Disk-Identifier herausfinden. Di
     
     <item>
       <title>Bootfähiges Installer-Image erstellen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/bootfaehiges-installer-image-erstellen/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-18-bootfaehiges-installer-image-erstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/bootfaehiges-installer-image-erstellen/</guid>
       <description>Bootfähiges Installer-Image erstellen Grundsätzliches Voraussetzung ist ein Installations-App aus dem Mac App Store. Ziel ist ein direkt bootfähiges Disk Image.
 Vorgehen Leeres Disk Image erstellen (10000m= 10 GB, ggf. die Größe nach oben hin anpassen):
 hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J  Neu erstelltes Disk Image mounten:
@@ -406,10 +406,10 @@ hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install
     
     <item>
       <title>Dateiänderungen protokollieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-18-dateiaenderungen-protokollieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/dateiaenderungen-protokollieren/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-18-dateiaenderungen-protokollieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/dateiaenderungen-protokollieren/</guid>
       <description>Dateiänderungen protokollieren Grundsätzliches Die Protokolle werden sehr schnell sehr groß und sollten daher insbesondere zeitlich stark eingegrenzt werden.
 Vorgehen Alle Änderungen:
 sudo fs_usage -w &amp;gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
@@ -419,10 +419,10 @@ sudo fs_usage -w -f filesys | grep &amp;quot;SUCHE&amp;quot; &amp;gt; ~/Desktop/
     
     <item>
       <title>SSH Grundeinstellungen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
 echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
@@ -432,20 +432,20 @@ PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeRe
     
     <item>
       <title>SSH-Tunnel (am Beispiel Screensharing)</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-tunnel/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
       <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
 ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
     <item>
       <title>SSH-Zugangsschlüssel erzeugen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-zugangsschluessel-erzeugen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</guid>
       <description>SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
 cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
 cat ~/Desktop/SSH_ZUGANG.</description>
@@ -453,20 +453,20 @@ cat ~/Desktop/SSH_ZUGANG.</description>
     
     <item>
       <title>Library-Ordner sichtbar machen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-15-library-ordner-sichtbar-machen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/library-ordner-sichtbar-machen/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-15-library-ordner-sichtbar-machen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/library-ordner-sichtbar-machen/</guid>
       <description>Library-Ordner sichtbar machen  Home-Ordner im Finder anzeigen lassen mit Command-Shift-H. Command-J drücken (blendet die Darstellungsoptionen ein). Im Popup der Darstellungsoptionen die Option &amp;ldquo;Ordner Library anzeigen&amp;rdquo; anhaken.  Alternativ kann auch das Terminal verwendet werden (funktioniert auch, setzt aber den Haken nicht):
 setfile -a v ~/Library chflags nohidden ~/Library </description>
     </item>
     
     <item>
       <title>Proxy-Icon verzögerungsfrei anzeigen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-15-proxy-icon-verzoegerungsfrei-anzeigen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/proxy-icon-verzoegerungsfrei-anzeigen/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-15-proxy-icon-verzoegerungsfrei-anzeigen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/proxy-icon-verzoegerungsfrei-anzeigen/</guid>
       <description>Proxy-Icon verzögerungsfrei anzeigen Gemeint ist das kleine Icon in der Titelleiste von Fenstern, z.B. des Finders. Wird diese Option aktiviert, wird das Icon sofort dargestellt, sobald man den Mauszeiger über den Fenstertitel bewegt.
 Im Terminal eingeben:
 defaults write -g NSToolbarTitleViewRolloverDelay -float 0 </description>
@@ -474,19 +474,19 @@ defaults write -g NSToolbarTitleViewRolloverDelay -float 0 </description>
     
     <item>
       <title>Unsichtbare Objekte im Finder ein-ausblenden</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-15-unsichtbare-objekte-im-finder-ein-ausblenden/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/unsichtbare-objekte-im-finder-ein-ausblenden/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-15-unsichtbare-objekte-im-finder-ein-ausblenden/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/unsichtbare-objekte-im-finder-ein-ausblenden/</guid>
       <description>Unsichtbare Objekte im Finder ein-ausblenden Command Shift .</description>
     </item>
     
     <item>
       <title>Automount verhindern</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/automount-verhindern/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/automount-verhindern/</guid>
       <description>Automount verhindern UUID des Volumes ermitteln:
 diskutil info /Volumes/&amp;lt;VOLUME&amp;gt; /etc/fstab editieren:
 cd /etc sudo vifs Zeile einfügen (mit i in den Editiermodus wechseln):
@@ -497,10 +497,10 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
     
     <item>
       <title>Codesignierung</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/codesignierung/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-codesignierung/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/codesignierung/</guid>
       <description>Codesignierung Signierung entfernen:
 codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
 xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP  Entitlements anzeigen:
@@ -509,10 +509,10 @@ codesign --display --entitlements - PATH_TO_APP </description>
     
     <item>
       <title>Geladene Erweiterungen anzeigen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-geladene-erweiterungen-anzeigen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/geladene-erweiterungen-anzeigen/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-geladene-erweiterungen-anzeigen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/geladene-erweiterungen-anzeigen/</guid>
       <description>Geladene Erweiterungen anzeigen Kernel Extenstions:
 kmutil inspect  Systemerweiterungen:
 systemextensionsctl list  </description>
@@ -520,10 +520,10 @@ systemextensionsctl list  </description>
     
     <item>
       <title>Programm dauerhaft im Hell-Modus öffnen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/programm-dauerhaft-im-hell-modus-oeffnen/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-programm-dauerhaft-im-hell-modus-oeffnen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/programm-dauerhaft-im-hell-modus-oeffnen/</guid>
       <description>Programm dauerhaft im Hell-Modus öffnen Bundle-ID des Programms ermitteln:
 osascript -e &#39;id of app &amp;quot;App Name&amp;quot;&#39;  oder alternativ (wird unter Identifierangezeigt):
 codesign --display --verbose PATH_TO_APP  Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
@@ -533,10 +533,10 @@ defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  </description>
     
     <item>
       <title>ISO-Image eines unlesbaren CD-Formats erstellen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/iso-image-eines-unlesbaren-cd-formats-erstellen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
       <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
 Falls die CD gemountet wurde, wieder auswerfen:
 diskutil unmount &amp;lt;VOM_SCHREIBTISCH_REINZIEHEN&amp;gt;  Unix-Gerätename aus der Geräteliste entnehmen:
@@ -546,29 +546,29 @@ diskutil list  führt z.B. zu diesem Output:
     
     <item>
       <title>Snapshot Mac-System erstellen und wiederherstellen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
       <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches  Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
     </item>
     
     <item>
       <title>sudo per Touch ID bedienen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</guid>
       <description>sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
 Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so </description>
     </item>
     
     <item>
       <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
       <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
     </item>
     

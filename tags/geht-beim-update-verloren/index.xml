@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alle Updates installieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</link>
       <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-12-19-alle-updates-installieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</guid>
       <description>Alle Updates installieren Zuerst müssen alle Updates per Systemeinstellungen eingespielt werden. Dann:
 Alle noch verfügbaren Updates auflisten:
 softwareupdate -l --include-config-data  Alle hiervon empfohlenen Updates (&amp;ldquo;recommended YES&amp;rdquo;) einspielen:
@@ -22,10 +22,10 @@ softwareupdate -i -r --include-config-data </description>
     
     <item>
       <title>Mac wacht alle 2 Stunden auf</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/mac-wacht-alle-2-stunden-auf/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-28-mac-wacht-alle-2-stunden-auf/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/mac-wacht-alle-2-stunden-auf/</guid>
       <description>Mac wacht alle 2 Stunden auf Grundsätzliches Der Grund für das Aufwachen ist der mDNSResponder, der auf bestimmte Pakete wartet. Bei Macs mit SSD mag das egal sein, aber wenn der Mac noch eine Festplatte hat, möchte man das vermeiden.
 Voraussetzung Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Prüfen (bis 10.11):
@@ -34,10 +34,10 @@ syslog | grep &amp;quot;Wake reason&amp;quot;  Prüfen (ab 10.</description>
     
     <item>
       <title>Aliaspfeil entfernen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-26-aliaspfeil-entfernen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</guid>
       <description>Aliaspfeil entfernen Grundsätzliches Das Entfernen des optisch häßlichen Alias-Pfeils im Finder funktioniert seit es Mac OS X gibt. Es geht bis heute unter Big Sur auf einem Mac mit Apple Silicon. Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Wenn das System änderbar ist, die Icon-Datei umbenennen:
 sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon.icns \ /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon_OFFLINE.icns  </description>
@@ -45,10 +45,10 @@ sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBa
     
     <item>
       <title>SSH Grundeinstellungen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-16-ssh-grundeinstellungen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
 echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
@@ -58,10 +58,10 @@ PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeRe
     
     <item>
       <title>Automount verhindern</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/automount-verhindern/</link>
       <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-14-automount-verhindern/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/automount-verhindern/</guid>
       <description>Automount verhindern UUID des Volumes ermitteln:
 diskutil info /Volumes/&amp;lt;VOLUME&amp;gt; /etc/fstab editieren:
 cd /etc sudo vifs Zeile einfügen (mit i in den Editiermodus wechseln):
@@ -72,20 +72,20 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
     
     <item>
       <title>sudo per Touch ID bedienen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-sudo-per-touch-id-bedienen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</guid>
       <description>sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
 Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so </description>
     </item>
     
     <item>
       <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-13-aenderungen-am-mac-system-vornehmen/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
       <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
     </item>
     

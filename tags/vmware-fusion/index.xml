@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware Fusion Festplattengröße reduzieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-festplattengroesse-reduzieren/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
 diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
@@ -24,10 +24,10 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
     
     <item>
       <title>VMware Fusion im Recovery Mode booten</title>
-      <link>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</link>
+      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.cafe-megabyte.de/artikel/2021-05-25-vmware-fusion-im-recovery-mode-booten/</guid>
+      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</guid>
       <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
 Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
 macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
