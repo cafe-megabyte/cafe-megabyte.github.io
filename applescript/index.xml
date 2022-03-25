@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/applescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/applescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bildschirmfreigabe im Vollbild starten</title>
       <link>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</guid>
       <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern.

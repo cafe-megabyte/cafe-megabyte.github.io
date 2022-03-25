@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
+    <loc>https://blog.cafe-megabyte.de/tags/applescript/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/applescript/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/</loc>
     <lastmod>2022-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/firefox/</loc>
@@ -17,23 +32,8 @@
     <loc>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</loc>
     <lastmod>2022-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/</loc>
-    <lastmod>2022-02-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</loc>
     <lastmod>2022-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/applescript/</loc>
-    <lastmod>2022-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/applescript/</loc>
-    <lastmod>2022-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</loc>
-    <lastmod>2022-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/erklaerung-der-unix-standardverzeichnisse/</loc>
     <lastmod>2022-01-02T00:00:00+00:00</lastmod>

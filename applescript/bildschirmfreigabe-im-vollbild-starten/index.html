@@ -13,8 +13,8 @@
 Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/" /><meta property="article:section" content="applescript" />
-<meta property="article:published_time" content="2022-01-07T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-01-07T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2022-03-25T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-03-25T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -101,10 +101,11 @@ Café MegaByte
 *)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- erforderlich, wenn das Programm gestartet werden mußteend tell-- Läuft bereits eine Bildschirmfreigabe im Vollbild?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeatend if-- Ggf. &quot;Anmelden&quot; klickentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click button &quot;Anmelden&quot; of window 1	delay 1 -- auf langsameren Geräten ggf. 2 Sekunden wartenend try-- Ggf. Skalierung einschaltentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click menu item &quot;Skalierung einschalten&quot; of menu 1 of menu bar item &quot;Darstellung&quot; of menu bar 1end try-- Vollbild aktivierentell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to true
 </code></pre><h2 id="vorgehen">Vorgehen</h2>
 <ul>
-<li>Das AppleScript muß als ausführbares Programm gespeichert werden.</li>
-<li>Wenn am Skript etwas geändert werden soll, muß das Coding in eine neue Datei eingefügt werden und der beim Speichern als App initial vergebene Name darf nicht schon einmal verwendet worden sein.</li>
+<li>Das AppleScript muß fehlerfrei vom Skripteditor aus ausführbar sein.</li>
+<li>Das Coding muß kopiert und in eine neue, leere Datei eingefügt werden.</li>
+<li>Das AppleScript muß nun als ausführbares Programm gespeichert werden. Der beim &ldquo;Speichern als App&rdquo; initial vergebene Name darf <strong>nicht schon einmal auf diesem System verwendet</strong> worden sein. Der Name ist beliebig wählbar. (Vermutlich wird hierdurch die interne App-ID einmalig festgelegt, mit welche das App später bei der Berechtigungsvergabe identifiziert wird. Bei Wiederholung der ID klappt es sonst mit der Berechtigung nicht.) Es bietet sich an, etwas beginnend mit &ldquo;AA_&hellip;&rdquo; zu verwenden, damit es bei der anschließenden Berechtigungsvergabe immer ganz oben steht.</li>
 <li><a href="../codesign">Anschließend muß die Codesignatur des neu erstellten Skript-Apps ersetzt werden.</a> <strong>Dies ermöglicht es, dem Skript-App die erforderlichen Berechtigungen zu erteilen!</strong></li>
-<li>Das Skript-App doppelklicken und die angeforderten Berechtigungen erteilen. Das Skript-App muß fehlerfrei laufen.</li>
+<li>Das Skript-App doppelklicken und die angeforderten Berechtigungen erteilen und ggf. wiederholen. Das Skript-App muß fehlerfrei laufen.</li>
 <li>Das Skript-App kann jetzt beliebig umbenannt und ein eigenes Icon eingefügt werden.</li>
 </ul>
 <h2 id="optional-systemweites-tastaturkürzel">Optional: Systemweites Tastaturkürzel</h2>
