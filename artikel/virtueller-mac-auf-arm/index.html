@@ -9,7 +9,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Virtueller Mac auf ARM" />
-<meta property="og:description" content="Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  " />
+<meta property="og:description" content="Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2022-04-21T00:00:00&#43;00:00" />
@@ -18,7 +18,7 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Virtueller Mac auf ARM"/>
-<meta name="twitter:description" content="Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  "/>
+<meta name="twitter:description" content="Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:"/>
 
   
   
@@ -99,6 +99,17 @@
 <li>Rosetta installieren: <code>softwareupdate --install-rosetta</code></li>
 <li>Developer Tools installieren: <code>xcode-select --install</code></li>
 <li>Ggf. <a href="../alle-updates-installieren/">alle Updates installieren</a>: <code>softwareupdate -i -r --include-config-data</code></li>
+</ul>
+<h2 id="recovery-os-booten">Recovery OS booten</h2>
+<p>Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:</p>
+<ul>
+<li>Eine zusätzliche virtuelle Festplatte zur VM hinzufügen.</li>
+<li>VM starten und die Platte formatieren.</li>
+<li>VM ausschalten und die Reihenfolge der Festplatten ändern: Die neue ganz nach oben.</li>
+<li>Die VM starten (bootet jedoch nicht) und wieder ausschalten.</li>
+<li>Die neue Festplatte wieder entfernen und VM starten.</li>
+<li>Der &ldquo;Assistent für die Startwiederherstellung&rdquo; erfordert nun eine Überprüfung des Startvolumes. <strong>Diese abbrechen</strong> und &ldquo;Startvolume&hellip;&rdquo; wählen.</li>
+<li>Wenn man das Programm &ldquo;Startvolume&rdquo; nun beendet, befindet man sich im Recovery Mode.</li>
 </ul>
 
   

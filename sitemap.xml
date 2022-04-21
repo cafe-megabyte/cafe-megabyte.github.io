@@ -5,6 +5,12 @@
     <loc>https://blog.cafe-megabyte.de/artikel/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/backup/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/big-sur/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.cafe-megabyte.de/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,10 +20,19 @@
     <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/recovery-os/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</loc>
+    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/applescript/</loc>
@@ -48,9 +63,6 @@
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</loc>
-    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/ausgeblendete-apps-im-dock-transparent-darstellen/</loc>
@@ -140,9 +152,6 @@
     <loc>https://blog.cafe-megabyte.de/artikel/programm-mehrfach-starten/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/backup/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/lokale-time-machine-snapshots-loeschen/</loc>
     <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -200,22 +209,13 @@
     <loc>https://blog.cafe-megabyte.de/artikel/programm-dauerhaft-im-hell-modus-oeffnen/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/big-sur/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/iso-image-eines-unlesbaren-cd-formats-erstellen/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/recovery-os/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</loc>
-    <lastmod>2021-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</loc>
     <lastmod>2021-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/links/</loc>

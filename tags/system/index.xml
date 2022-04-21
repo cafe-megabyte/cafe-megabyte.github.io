@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Änderungen am Mac-System vornehmen</title>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
+    </item>
+    
     <item>
       <title>Alle Updates installieren</title>
       <link>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</link>
@@ -249,15 +258,6 @@ systemextensionsctl list  </description>
       <guid>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</guid>
       <description>sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
 Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so </description>
-    </item>
-    
-    <item>
-      <title>Änderungen am Mac-System vornehmen (Big Sur)</title>
-      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
-      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
-      <description>Änderungen am Mac-System vornehmen (Big Sur) Grundsätzliches  Stand: Mac OS 11 Big Sur Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
     </item>
     
   </channel>
