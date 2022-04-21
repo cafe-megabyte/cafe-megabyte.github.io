@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtueller Mac auf ARM</title>
+      <link>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</guid>
+      <description>Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  </description>
+    </item>
+    
     <item>
       <title>Bildschirmfreigabe im Vollbild starten</title>
       <link>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</link>
