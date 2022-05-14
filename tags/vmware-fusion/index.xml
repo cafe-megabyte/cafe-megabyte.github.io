@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/vmware-fusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware Fusion Festplattengröße reduzieren</title>
       <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</link>
-      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.

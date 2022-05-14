@@ -3,32 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> VMware Fusion Festplattengröße reduzieren | Café MegaByte Blog</title>
+  <title> Slow-Motion Effekt fürs Ablegen im Dock aktivieren | Café MegaByte Blog</title>
   <meta name="description" content="Ein Mac Blog. Gesammelte Tipps, Tricks und (hoffentlich) nützliche Anleitungen…">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta property="og:title" content="VMware Fusion Festplattengröße reduzieren" />
-<meta property="og:description" content="VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
-Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  Alternativ (seit APFS) so:
-cat /dev/zero &gt; wipefile; rm wipefile  VM ausschalten.
-Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI." />
+  <meta property="og:title" content="Slow-Motion Effekt fürs Ablegen im Dock aktivieren" />
+<meta property="og:description" content="Slow-Motion Effekt fürs Ablegen im Dock aktivieren Grundsätzliches Für den Slow-Motion Effekt muß die Shift-Taste gedrückt sein, wenn man auf den gelben Ball zum Minimieren eines Fensters bzw. umgekehrt auf das minimierte Fenster klickt. Seit einigen Jahren ist die Funktion standardmäßig leider deaktiviert.
+Vorgehen Aktivieren:
+defaults write com.apple.dock slow-motion-allowed -bool TRUE  Standard wiederherstellen:
+defaults delete com.apple.dock slow-motion-allowed  Dock neustarten:
+killall Dock  Notfalltricks fürs Dock Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/" /><meta property="article:section" content="artikel" />
+<meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2022-05-14T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2022-05-14T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="VMware Fusion Festplattengröße reduzieren"/>
-<meta name="twitter:description" content="VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
-Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  Alternativ (seit APFS) so:
-cat /dev/zero &gt; wipefile; rm wipefile  VM ausschalten.
-Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI."/>
+<meta name="twitter:title" content="Slow-Motion Effekt fürs Ablegen im Dock aktivieren"/>
+<meta name="twitter:description" content="Slow-Motion Effekt fürs Ablegen im Dock aktivieren Grundsätzliches Für den Slow-Motion Effekt muß die Shift-Taste gedrückt sein, wenn man auf den gelben Ball zum Minimieren eines Fensters bzw. umgekehrt auf das minimierte Fenster klickt. Seit einigen Jahren ist die Funktion standardmäßig leider deaktiviert.
+Vorgehen Aktivieren:
+defaults write com.apple.dock slow-motion-allowed -bool TRUE  Standard wiederherstellen:
+defaults delete com.apple.dock slow-motion-allowed  Dock neustarten:
+killall Dock  Notfalltricks fürs Dock Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:"/>
 
   
   
@@ -95,23 +93,27 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
 
   <div class="content" itemprop="articleBody">
   
-    <h1 id="vmware-fusion-festplattengröße-reduzieren">VMware Fusion Festplattengröße reduzieren</h1>
+    <h1 id="slow-motion-effekt-furs-ablegen-im-dock-aktivieren">Slow-Motion Effekt fürs Ablegen im Dock aktivieren</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.</p>
+<p>Für den Slow-Motion Effekt muß die Shift-Taste gedrückt sein, wenn man auf den gelben Ball zum Minimieren eines Fensters bzw. umgekehrt auf das minimierte Fenster klickt. Seit einigen Jahren ist die Funktion standardmäßig leider deaktiviert.</p>
 <h2 id="vorgehen">Vorgehen</h2>
-<p>Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):</p>
-<pre><code>diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;
+<p>Aktivieren:</p>
+<pre><code>defaults write com.apple.dock slow-motion-allowed -bool TRUE
 </code></pre>
-<p>Alternativ (seit APFS) so:</p>
-<pre><code>cat /dev/zero &gt; wipefile; rm wipefile
+<p>Standard wiederherstellen:</p>
+<pre><code>defaults delete com.apple.dock slow-motion-allowed
 </code></pre>
-<p>VM ausschalten.</p>
-<p>Festplatte defragmentieren (<code>FESTPLATTENDATEI.vmdk</code> ersetzen):</p>
-<pre><code>&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk
+<p>Dock neustarten:</p>
+<pre><code>killall Dock
 </code></pre>
-<p>Festplatte verkleinern (<code>FESTPLATTENDATEI.vmdk</code> ersetzen):</p>
-<pre><code>&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -k FESTPLATTENDATEI.vmdk
+<h2 id="notfalltricks-fürs-dock">Notfalltricks fürs Dock</h2>
+<p>Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:</p>
+<pre><code>open /System/Library/CoreServices/Dock.app
 </code></pre>
+<p>Sollte das Dock trotzdem nicht starten, geht&rsquo;s vielleicht so:</p>
+<pre><code>/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock &amp;
+</code></pre>
+<p>Wenn das auch nicht hilft, ab- und wieder anmelden.</p>
 
   
   </div>

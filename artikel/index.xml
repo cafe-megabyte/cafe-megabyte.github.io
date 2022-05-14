@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slow-Motion Effekt fürs Ablegen im Dock aktivieren</title>
+      <link>https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/</guid>
+      <description>Slow-Motion Effekt fürs Ablegen im Dock aktivieren Grundsätzliches Für den Slow-Motion Effekt muß die Shift-Taste gedrückt sein, wenn man auf den gelben Ball zum Minimieren eines Fensters bzw. umgekehrt auf das minimierte Fenster klickt. Seit einigen Jahren ist die Funktion standardmäßig leider deaktiviert.
+Vorgehen Aktivieren:
+defaults write com.apple.dock slow-motion-allowed -bool TRUE  Standard wiederherstellen:
+defaults delete com.apple.dock slow-motion-allowed  Dock neustarten:
+killall Dock  Notfalltricks fürs Dock Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:</description>
+    </item>
+    
+    <item>
+      <title>VMware Fusion Festplattengröße reduzieren</title>
+      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
+      <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
+Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  Alternativ (seit APFS) so:
+cat /dev/zero &amp;gt; wipefile; rm wipefile  VM ausschalten.
+Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.</description>
+    </item>
+    
     <item>
       <title>Virtueller Mac auf ARM</title>
       <link>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</link>
@@ -278,20 +305,6 @@ Vorgehen Im Terminal:
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
 Ggf. muß Option beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
 Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen Auflösungen. Soweit mir bekannt ist, muß für einen vollen Zugriff auf alle möglichen Auflösungen ein Drittanbieterprogramm verwendet werden, welches die entsprechenden APIs von Apple implementiert, z.</description>
-    </item>
-    
-    <item>
-      <title>VMware Fusion Festplattengröße reduzieren</title>
-      <link>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</link>
-      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
-      <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
-Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  Alternativ (seit APFS) so:
-cat /dev/zero &amp;gt; wipefile; rm wipefile  VM ausschalten.
-Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.</description>
     </item>
     
     <item>

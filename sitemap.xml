@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/vmware-fusion/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</loc>
+    <lastmod>2022-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/backup/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
@@ -11,22 +29,13 @@
     <loc>https://blog.cafe-megabyte.de/tags/big-sur/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/recovery-os/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
-    <lastmod>2022-04-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2022-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</loc>
@@ -132,12 +141,6 @@
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/monitor/</loc>
-    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/vmware-fusion/</loc>
-    <lastmod>2021-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</loc>
     <lastmod>2021-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</loc>
