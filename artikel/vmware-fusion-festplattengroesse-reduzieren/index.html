@@ -11,10 +11,10 @@
   <meta property="og:title" content="VMware Fusion Festplattengröße reduzieren" />
 <meta property="og:description" content="VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  VM ausschalten.
+diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  Alternativ (seit APFS) so:
+cat /dev/zero &gt; wipefile; rm wipefile  VM ausschalten.
 Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -k FESTPLATTENDATEI.vmdk  " />
+&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/" /><meta property="article:section" content="artikel" />
 <meta property="article:published_time" content="2021-05-25T00:00:00&#43;00:00" />
@@ -25,10 +25,10 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
 <meta name="twitter:title" content="VMware Fusion Festplattengröße reduzieren"/>
 <meta name="twitter:description" content="VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  VM ausschalten.
+diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;  Alternativ (seit APFS) so:
+cat /dev/zero &gt; wipefile; rm wipefile  VM ausschalten.
 Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
-&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -k FESTPLATTENDATEI.vmdk  "/>
+&quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI."/>
 
   
   
@@ -101,6 +101,9 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
 <h2 id="vorgehen">Vorgehen</h2>
 <p>Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):</p>
 <pre><code>diskutil secureErase freespace 0 &quot;/Volumes/Macintosh HD&quot;
+</code></pre>
+<p>Alternativ (seit APFS) so:</p>
+<pre><code>cat /dev/zero &gt; wipefile; rm wipefile
 </code></pre>
 <p>VM ausschalten.</p>
 <p>Festplatte defragmentieren (<code>FESTPLATTENDATEI.vmdk</code> ersetzen):</p>

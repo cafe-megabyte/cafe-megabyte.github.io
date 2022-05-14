@@ -16,10 +16,10 @@
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  VM ausschalten.
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  Alternativ (seit APFS) so:
+cat /dev/zero &amp;gt; wipefile; rm wipefile  VM ausschalten.
 Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -k FESTPLATTENDATEI.vmdk  </description>
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.</description>
     </item>
     
     <item>
