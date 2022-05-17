@@ -9,15 +9,6 @@
     <copyright>Café MegaByte</copyright>
     <lastBuildDate>Thu, 21 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Virtueller Mac auf ARM</title>
-      <link>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</guid>
-      <description>Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:</description>
-    </item>
-    
-    <item>
       <title>Änderungen am Mac-System vornehmen</title>
       <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
