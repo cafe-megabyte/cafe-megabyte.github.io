@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grundeinstellungen</title>
+      <link>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Mac</title>
       <link>https://blog.cafe-megabyte.de/tags/mac/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Screen Sharing</title>
+      <link>https://blog.cafe-megabyte.de/tags/screen-sharing/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/screen-sharing/</guid>
       <description></description>
     </item>
     
@@ -86,24 +104,6 @@
       <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grundeinstellungen</title>
-      <link>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
-      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Screen Sharing</title>
-      <link>https://blog.cafe-megabyte.de/tags/screen-sharing/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/screen-sharing/</guid>
       <description></description>
     </item>
     

@@ -9,8 +9,9 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Bildschirmfreigabe im Vollbild starten" />
-<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
-Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß." />
+<meta property="og:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich.
+Es funktioniert nur für eine Screensharing-Session gleichzeitig.
+Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer und Kennwort abgefragt, aber nicht immer. Das Skript klickt in diesem Fall automatisch auf &ldquo;OK&rdquo; bzw. auf &ldquo;Anmelden&rdquo; (Buttontext je nach MacOS-Release anders, sprachlich natürlich auch anzupassen). Damit das funktionieren kann, müssen Benutzer und Kennwort im Schlüsselbund gespeichert werden." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/" /><meta property="article:section" content="applescript" />
 <meta property="article:published_time" content="2022-03-25T00:00:00&#43;00:00" />
@@ -19,8 +20,9 @@ Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bildschirmfreigabe im Vollbild starten"/>
-<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.
-Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß."/>
+<meta name="twitter:description" content="Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich.
+Es funktioniert nur für eine Screensharing-Session gleichzeitig.
+Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer und Kennwort abgefragt, aber nicht immer. Das Skript klickt in diesem Fall automatisch auf &ldquo;OK&rdquo; bzw. auf &ldquo;Anmelden&rdquo; (Buttontext je nach MacOS-Release anders, sprachlich natürlich auch anzupassen). Damit das funktionieren kann, müssen Benutzer und Kennwort im Schlüsselbund gespeichert werden."/>
 
   
   
@@ -89,7 +91,10 @@ Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist
   
     <h1 id="bildschirmfreigabe-im-vollbild-starten">Bildschirmfreigabe im Vollbild starten</h1>
 <h2 id="grundsätzliches">Grundsätzliches</h2>
-<p>Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.</p>
+<p>Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich.</p>
+<p>Es funktioniert nur für eine Screensharing-Session gleichzeitig.</p>
+<p>Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer und Kennwort abgefragt, aber nicht immer. Das Skript klickt in diesem Fall automatisch auf &ldquo;OK&rdquo; bzw. auf &ldquo;Anmelden&rdquo; (Buttontext je nach MacOS-Release anders, sprachlich natürlich auch anzupassen). Damit das funktionieren kann, müssen Benutzer und Kennwort im Schlüsselbund gespeichert werden. Leider klappt das auch nicht immer auf Anhieb. Einfach mehrfach wiederholen, irgendwann werden Benutzer und Paßwort korrekt vorausgefüllt.</p>
+<p>Das folgende Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &ldquo;System Events&rdquo; zu steuern.</p>
 <p>Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</p>
 <h2 id="applescript">AppleScript</h2>
 <p>Es muß <code>IP_ADRESSE</code> durch die IP-Adresse bzw. den Hostnamen des Zielrechners ersetzt werden.</p>

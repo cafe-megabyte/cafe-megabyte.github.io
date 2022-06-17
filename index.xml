@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einstellungen der Kommandozeile</title>
+      <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
+      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</guid>
+      <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
+Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
+Die verfügbaren Optionen können hier eingesehen werden:
+man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
+    </item>
+    
     <item>
       <title>Slow-Motion Effekt fürs Ablegen im Dock aktivieren</title>
       <link>https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/</link>
@@ -59,8 +73,9 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/</guid>
-      <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich. Das Script kann zwar direkt aus dem Skripteditor bzw. dem Skriptmenü gestartet werden. Aber es nicht möglich, dieses im Dienste-Menü zu hinterlegen, da das Dienste-Menü nicht dazu berechtigt werden kann, &amp;ldquo;System Events&amp;rdquo; zu steuern.
-Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</description>
+      <description>Bildschirmfreigabe im Vollbild starten Grundsätzliches Um die Bildschirmfreigabe im Vollbild per systemweitem Tastenkürzel starten zu können, sind einige Kniffe erforderlich.
+Es funktioniert nur für eine Screensharing-Session gleichzeitig.
+Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer und Kennwort abgefragt, aber nicht immer. Das Skript klickt in diesem Fall automatisch auf &amp;ldquo;OK&amp;rdquo; bzw. auf &amp;ldquo;Anmelden&amp;rdquo; (Buttontext je nach MacOS-Release anders, sprachlich natürlich auch anzupassen). Damit das funktionieren kann, müssen Benutzer und Kennwort im Schlüsselbund gespeichert werden.</description>
     </item>
     
     <item>
@@ -191,20 +206,6 @@ toolkit.legacyUserProfileCustomizations.stylesheets ==&amp;gt; true  Debugging a
 Für Threema wird ein separates Profil erstellt, welches web.threema.ch als Startseite hat und alle unnötigen Bedienelemente von Firefox versteckt.
 Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletzt eine Kopie von Firefox mit Namen und Icon von Threema angelegt.
 Vorgehen Profilseite about:profiles öffnen und ein neues Profil &amp;ldquo;Threema&amp;rdquo; anlegen.</description>
-    </item>
-    
-    <item>
-      <title>Einstellungen der Kommandozeile</title>
-      <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</guid>
-      <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
-Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
-Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
     </item>
     
     <item>
