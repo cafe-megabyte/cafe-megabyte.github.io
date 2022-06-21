@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Änderungen am Mac-System vornehmen</title>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
+csrutil disable csrutil authenticated-root disable
+  Mac neustarten (bootet ins normale System).</description>
+    </item>
+    
+    <item>
       <title>Einstellungen der Kommandozeile</title>
       <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
@@ -68,15 +79,6 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
       
       <guid>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</guid>
       <description>Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:</description>
-    </item>
-    
-    <item>
-      <title>Änderungen am Mac-System vornehmen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
-      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
-      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System).</description>
     </item>
     
     <item>

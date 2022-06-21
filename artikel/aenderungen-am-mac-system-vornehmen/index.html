@@ -9,16 +9,20 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Änderungen am Mac-System vornehmen" />
-<meta property="og:description" content="Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System)." />
+<meta property="og:description" content="Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
+csrutil disable csrutil authenticated-root disable
+  Mac neustarten (bootet ins normale System)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2022-04-21T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-04-21T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2022-06-21T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-06-21T00:00:00&#43;00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Änderungen am Mac-System vornehmen"/>
-<meta name="twitter:description" content="Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen  RecoveryOS booten, dort im Terminal eingeben:  csrutil disable csrutil authenticated-root disable  Mac neustarten (bootet ins normale System)."/>
+<meta name="twitter:description" content="Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
+csrutil disable csrutil authenticated-root disable
+  Mac neustarten (bootet ins normale System)."/>
 
   
   
@@ -95,33 +99,43 @@
 </ul>
 <h2 id="vorgehen">Vorgehen</h2>
 <ul>
-<li>RecoveryOS booten, dort im Terminal eingeben:</li>
-</ul>
-<pre><code>csrutil disable
-csrutil authenticated-root disable
-</code></pre><ul>
-<li>Mac neustarten (bootet ins normale System).</li>
-<li>Mit dem Terminal die ID des Systemvolumes ermitteln (z.B. <code>/dev/disk3s8</code>):</li>
-</ul>
-<pre><code>diskutil list
-</code></pre><ul>
-<li>Schreibbar mounten (<code>SCHREIBBAR</code> <strong>nicht</strong> ersetzen):</li>
-</ul>
-<pre><code>sudo mkdir /Volumes/SCHREIBBAR
+<li>
+<p>RecoveryOS booten, dort im Terminal eingeben:</p>
+<p>csrutil disable
+csrutil authenticated-root disable</p>
+</li>
+<li>
+<p>Mac neustarten (bootet ins normale System).</p>
+</li>
+<li>
+<p>Mit dem Terminal die ID des Systemvolumes ermitteln (z.B. <code>/dev/disk3s8</code>):</p>
+<p>diskutil list</p>
+</li>
+<li>
+<p>Schreibbar mounten (<code>SCHREIBBAR</code> <strong>nicht</strong> ersetzen):</p>
+<p>sudo mkdir /Volumes/SCHREIBBAR
 sudo mount -o nobrowse -t apfs /dev/disk3s8 /Volumes/SCHREIBBAR
-open /Volumes/SCHREIBBAR/
-</code></pre><ul>
-<li>Nun können Änderungen am System vorgenommen werden.</li>
-<li>Anschließend muß ein versiegelter Snapshot erstellt und zum Booten &ldquo;gesegnet&rdquo; werden:</li>
-</ul>
-<pre><code>sudo bless --mount /Volumes/SCHREIBBAR/System/Library/CoreServices --create-snapshot
-</code></pre><ul>
-<li>Mac neustarten. Der Mac bootet ab sofort vom eben erstellten Snapshot.</li>
-<li>Da der Snapshot nun mit einem lokalen Schlüssel signiert ist und nicht mehr mit dem von Apple, darf <code>authenticated-root</code> (s.o.) nicht mehr aktiviert werden! SIP hingegen kann wieder aktiviert werden.</li>
-<li>Hierzu RecoveryOS booten, dort im Terminal eingeben:</li>
+cd /Volumes/SCHREIBBAR/</p>
+</li>
+<li>
+<p>Nun können Änderungen am System vorgenommen werden, allerdings nur im Terminal mittel sudo.</p>
+</li>
+<li>
+<p>Anschließend muß ein versiegelter Snapshot erstellt und zum Booten &ldquo;gesegnet&rdquo; werden:</p>
+<p>sudo bless &ndash;mount /Volumes/SCHREIBBAR/System/Library/CoreServices &ndash;create-snapshot</p>
+</li>
+<li>
+<p>Mac neustarten. Der Mac bootet ab sofort vom eben erstellten Snapshot.</p>
+</li>
+<li>
+<p>Mac OS 11 Big Sur: Da der Snapshot nun mit einem lokalen Schlüssel signiert ist und nicht mehr mit dem von Apple, darf <code>authenticated-root</code> (s.o.) nicht mehr aktiviert werden! SIP hingegen kann wieder aktiviert werden. Hierzu RecoveryOS booten, dort im Terminal eingeben:</p>
+</li>
 </ul>
 <pre><code>csrutil enable
-</code></pre>
+</code></pre><ul>
+<li>Mac OS 12 Monterey: Wenn man im Recovery Mode auf &ldquo;Volle Sicherheit&rdquo; zurückstellt, wird automatisch von letzten Snapshot des Mac OS Installers bzw. Updaters gebootet. Deaktiviert man später wieder SIP und Authenticated-Root, wird automatisch wieder vom Snapshot des bless-Tools gebootet.</li>
+</ul>
+
   
   </div>
 </article>
