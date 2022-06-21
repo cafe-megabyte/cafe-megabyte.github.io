@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Fri, 17 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/artikel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kommandozeilentool der Firewall</title>
+      <link>https://blog.cafe-megabyte.de/artikel/kommandozeilentool-der-firewall/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/kommandozeilentool-der-firewall/</guid>
+      <description>Kommandozeilentool der Firewall Das Tool muß mit vollem Pfadnamen angesprochen werden, man-Page ist vorhanden:
+/usr/libexec/ApplicationFirewall/socketfilterfw  Anzeigen der aktuellen Konfiguration (bei Abweichungen zur Anzeige im Einstellungs-App, ist das hier typischerweise führend):
+/usr/libexec/ApplicationFirewall/socketfilterfw --listapps  So können auch Blockierungen entfernt werden, die im Einstellungs-App nicht angezeigt werden:
+/usr/libexec/ApplicationFirewall/socketfilterfw —unblockapp &amp;lt;PFAD_AUS_LISTAPPS&amp;gt;  </description>
+    </item>
+    
     <item>
       <title>Einstellungen der Kommandozeile</title>
       <link>https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/</link>
