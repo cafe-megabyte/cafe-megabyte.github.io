@@ -141,10 +141,11 @@ open -e userChrome.css
     visibility: collapse !important;
 }
 
-/* Ab Version 96 werden bei fast allen Themes ein häßlicher Rand um den aktiven Tab gemalt. Wird hiermit wieder entfernt. */
+/* Ab Version 96 werden bei fast allen Themes ein häßlicher Rand um den aktiven Tab gemalt. Ab Version 102 auch als Outline. Wird hiermit wieder entfernt. */
 .tabbrowser-tab:is([visuallyselected=&quot;true&quot;]) .tab-stack &gt; .tab-background
 {
     border: none !important;
+    outline: none !important;
 }
 </code></pre>
   
