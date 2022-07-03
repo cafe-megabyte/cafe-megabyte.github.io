@@ -16,7 +16,7 @@
       <guid>https://blog.cafe-megabyte.de/artikel/filefault-wiederherstellungsschluessel-pruefen/</guid>
       <description>FileFault Wiederherstellungsschlüssel prüfen Beim initialen Aufsetzen eines Macs mit einem Time Machine Backup eines anderen Macs, bei dem bei Erstellung des Backups die FileFault-Verschlüsselung aktiv war, wird der Wiederherstellungsschlüssels, ungefragt mit übernommen. Der alte und der neue Mac teilen sich denselben Wiederherstellungsschlüssel.
 Falls man das nicht möchte, muß die Verschlüsselung in den Systemeinstellungen einmal deaktiviert werden, und wenn das vollständig abgeschlossen ist, wieder erneut aktiviert werden.
-Wenn man nur prüfen möchte ob ein Wiederherstellungsschlüssel gültig ist:</description>
+Wenn man nur prüfen möchte, ob ein Wiederherstellungsschlüssel gültig ist:</description>
     </item>
     
     <item>
