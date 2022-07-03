@@ -3,15 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.cafe-megabyte.de/artikel/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/artikel/filefault-wiederherstellungsschluessel-pruefen/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.cafe-megabyte.de/tags/</loc>
+    <lastmod>2022-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/backup/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/big-sur/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/geht-beim-update-verloren/</loc>
@@ -20,16 +29,10 @@
     <loc>https://blog.cafe-megabyte.de/artikel/kommandozeilentool-der-firewall/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/mac/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/recovery-os/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/tags/system/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.cafe-megabyte.de/tags/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</loc>
