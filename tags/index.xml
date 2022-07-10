@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firefox</title>
+      <link>https://blog.cafe-megabyte.de/tags/firefox/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grundeinstellungen</title>
+      <link>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
+      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Mac</title>
       <link>https://blog.cafe-megabyte.de/tags/mac/</link>
@@ -63,15 +81,6 @@
     </item>
     
     <item>
-      <title>Grundeinstellungen</title>
-      <link>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</link>
-      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/grundeinstellungen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Screen Sharing</title>
       <link>https://blog.cafe-megabyte.de/tags/screen-sharing/</link>
       <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
@@ -95,15 +104,6 @@
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/tags/applescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>https://blog.cafe-megabyte.de/tags/firefox/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/tags/firefox/</guid>
       <description></description>
     </item>
     
