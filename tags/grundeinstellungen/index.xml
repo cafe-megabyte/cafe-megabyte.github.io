@@ -14,7 +14,7 @@
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/</guid>
-      <description>Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren  Datenschutz &amp;amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    about:config  Suchmaschine deaktivieren: keyword.</description>
+      <description>Firefox Grundeinstellungen Allgemein Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren Startseite 2x leere Seite für Fenster und Tabs Suche Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren Datenschutz &amp;amp; Sicherheit Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen: Cookies Cache Aktive Logins Offline-Website-Daten about:config Suchmaschine deaktivieren: keyword.</description>
     </item>
     
     <item>
@@ -26,9 +26,9 @@
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
+man zshoptions Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &amp;#34; * --------------- *&amp;#34; echo &amp;#34; * Café MegaByte *&amp;#34; echo &amp;#34; * --------------- *&amp;#34; echo echo &amp;#39;--------------------------------------------------------------------------------&amp;#39; ################################ Kurzbefehle ################################ echo &amp;#39;Z-Profil-Datei editieren profile&amp;#39; alias profile=&amp;#34;open -t ~/.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
       
       <guid>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</guid>
       <description>Bild von Mac-Account und eigenem Kontakt entkoppeln Wenn im Adressbuch bei einem Kontakt die Funktion &amp;ldquo;Zu meiner Kontaktkarte machen&amp;rdquo; gewählt wird, wird das Bild als Bild für den Mac-Account übernommen. Ab dann wirken sich Bildänderungen immer auf den Mac-Account und den Adressbucheintrag parallel aus.
-Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
+Lösung Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
     </item>
     
     <item>
@@ -49,9 +49,9 @@ Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für d
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
-echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
-sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
+echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
     </item>
     
     <item>
@@ -60,8 +60,8 @@ PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeRe
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
-      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
     <item>
@@ -70,9 +70,9 @@ ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispie
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</guid>
-      <description>SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
-cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
-cat ~/Desktop/SSH_ZUGANG.</description>
+      <description>SSH-Zugangsschlüssel erzeugen Empfehlung SSH Grundeinstellungen Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
+cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
+cat ~/Desktop/SSH_ZUGANG.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.</description>
     </item>
     
   </channel>

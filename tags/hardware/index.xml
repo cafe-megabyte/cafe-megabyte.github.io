@@ -15,9 +15,8 @@
       
       <guid>https://blog.cafe-megabyte.de/artikel/efi-firmware-passwort-zuruecksetzen/</guid>
       <description>EFI Firmware Paßwort zurücksetzen Beide Schritte müssen durchgeführt werden:
-  RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
-  Mac mit Command-Option-P-R starten.
-  </description>
+RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
+Mac mit Command-Option-P-R starten.</description>
     </item>
     
   </channel>

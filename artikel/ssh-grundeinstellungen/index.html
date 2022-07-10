@@ -11,22 +11,22 @@
   <meta property="og:title" content="SSH Grundeinstellungen" />
 <meta property="og:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
-echo &quot;PATH=$PATH&quot; &gt; ~/.ssh/environment  Konfigdatei öffnen:
-sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):" />
+echo &quot;PATH=$PATH&quot; &gt; ~/.ssh/environment Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2021-05-16T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-05-16T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-05-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-16T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SSH Grundeinstellungen"/>
 <meta name="twitter:description" content="SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
-echo &quot;PATH=$PATH&quot; &gt; ~/.ssh/environment  Konfigdatei öffnen:
-sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):"/>
+echo &quot;PATH=$PATH&quot; &gt; ~/.ssh/environment Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):"/>
 
   
   

@@ -14,8 +14,8 @@ Anmeldeobjekte können jedoch unterdrückt werden (Taste Shift beim Anmelden ged
 Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solcher Dauerlauf erzwungen werden." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/programm-dauerlauf-erzwingen/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2021-06-06T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-06-06T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-06-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-06T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -100,9 +100,9 @@ Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solc
 <pre><code>de.cafe-megabyte.textedit.keepAlive.plist
 </code></pre>
 <p>Folgenden Inhalt in eine leere Textdatei einfügen (dort wird der Dateiname ohne die Endung <code>.plist</code> referenziert):</p>
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
-&lt;plist version=&quot;1.0&quot;&gt;
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;!DOCTYPE plist PUBLIC &#34;-//Apple//DTD PLIST 1.0//EN&#34; &#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&#34;&gt;
+&lt;plist version=&#34;1.0&#34;&gt;
 	&lt;dict&gt;
 		&lt;key&gt;KeepAlive&lt;/key&gt;
 		&lt;true/&gt;

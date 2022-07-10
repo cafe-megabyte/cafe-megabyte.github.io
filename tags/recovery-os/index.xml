@@ -14,9 +14,10 @@
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
-      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
+      <description>Änderungen am Mac-System vornehmen Grundsätzliches Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt. Vorgehen RecoveryOS booten, dort im Terminal eingeben:
 csrutil disable csrutil authenticated-root disable
-  Mac neustarten (bootet ins normale System).</description>
+Mac neustarten (bootet ins normale System).
+Mit dem Terminal die ID des Systemvolumes ermitteln (z.</description>
     </item>
     
     <item>
@@ -25,7 +26,7 @@ csrutil disable csrutil authenticated-root disable
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
-      <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches  Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
+      <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
     </item>
     
   </channel>

@@ -16,10 +16,10 @@
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  Alternativ (seit APFS) so:
-cat /dev/zero &amp;gt; wipefile; rm wipefile  VM ausschalten.
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot; Alternativ (seit APFS) so:
+cat /dev/zero &amp;gt; wipefile; rm wipefile VM ausschalten.
 Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.</description>
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</guid>
       <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
 Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
-macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
+macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot; VM starten.
 Zurück zum normalen System VM ausschalten.
 Diese eingefügte Zeile wieder aus der Konfiguration löschen.
 Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.

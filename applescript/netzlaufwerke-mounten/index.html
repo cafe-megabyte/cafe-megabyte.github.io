@@ -10,17 +10,17 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Netzlaufwerke mounten" />
 <meta property="og:description" content="Netzlaufwerke mounten Grundsätzlich Im Finder einmal die Freigabe manuell mounten, falls nicht ganz klar ist, wie Server und Freigabe (&ldquo;Share&rdquo;) genau heißen und entsprechend einsetzen:
-tell application &quot;Finder&quot; to mount volume &quot;smb://SERVER/FREIGABE&quot;  Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &ldquo;Café&rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &ldquo;Café&rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet." />
+tell application &quot;Finder&quot; to mount volume &quot;smb://SERVER/FREIGABE&quot; Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &ldquo;Café&rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &ldquo;Café&rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/netzlaufwerke-mounten/" /><meta property="article:section" content="applescript" />
-<meta property="article:published_time" content="2021-08-22T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-08-22T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-08-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-22T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Netzlaufwerke mounten"/>
 <meta name="twitter:description" content="Netzlaufwerke mounten Grundsätzlich Im Finder einmal die Freigabe manuell mounten, falls nicht ganz klar ist, wie Server und Freigabe (&ldquo;Share&rdquo;) genau heißen und entsprechend einsetzen:
-tell application &quot;Finder&quot; to mount volume &quot;smb://SERVER/FREIGABE&quot;  Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &ldquo;Café&rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &ldquo;Café&rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet."/>
+tell application &quot;Finder&quot; to mount volume &quot;smb://SERVER/FREIGABE&quot; Sonderzeichen Der Finder hat eine besondere Auffassung beim Codieren von Sonderzeichen. Dies führt zu folgendem Effekt: Im Finder wird manuell smb://SERVER/Café gemountet und auf dem Schreibtisch erscheint das Netzlaufwerk &ldquo;Café&rdquo;. Mountet man jedoch smb://SERVER/Café per AppleScript, wird &ldquo;Café&rdquo; doppelt auf dem Scheibtisch erscheinen; das Netzlaufwerk wurde doppelt gemountet."/>
 
   
   
@@ -105,7 +105,7 @@ tell application &quot;Finder&quot; to mount volume &quot;smb://SERVER/FREIGABE&
 <h2 id="warten-auf-folgeaktionen">Warten auf Folgeaktionen</h2>
 <p>Wenn in AppleScript gewartet werden soll, bis der Mount abgeschlossen wurde (z.B. um eine Datei vom Netzlaufwerk zu öffnen), ist eine Schleife erforderlich.</p>
 <p>Im Beispielcode muß <code>SERVER</code> und <code>FREIGABE</code> ersetzt werden; die Beispiel-Folgeaktion öffnet ein neues Finder-Fenster:</p>
-<pre><code>tell application &quot;Finder&quot;	set isConnected to disk &quot;FREIGABE&quot; exists		repeat while isConnected = false		mount volume &quot;smb://SERVER/FREIGABE&quot;		set isConnected to disk &quot;FREIGABE&quot; exists	end repeat		if isConnected = true then		open &quot;FREIGABE&quot;	end ifend tell
+<pre tabindex="0"><code>tell application &#34;Finder&#34;	set isConnected to disk &#34;FREIGABE&#34; exists		repeat while isConnected = false		mount volume &#34;smb://SERVER/FREIGABE&#34;		set isConnected to disk &#34;FREIGABE&#34; exists	end repeat		if isConnected = true then		open &#34;FREIGABE&#34;	end ifend tell
 </code></pre>
   
   </div>

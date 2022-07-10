@@ -9,16 +9,16 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Firefox Grundeinstellungen" />
-<meta property="og:description" content="Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &ldquo;Links in Tabs statt Fenster&rdquo; aktivieren, alle anderen bei &ldquo;Tab&rdquo; deaktivieren Vor Update fragen &ldquo;Automatischen Bildlauf&rdquo; deaktivieren  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &ldquo;DuckDuckGo&rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren  Datenschutz &amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    about:config  Suchmaschine deaktivieren: keyword." />
+<meta property="og:description" content="Firefox Grundeinstellungen Allgemein Sitzung nicht automatisch wiederherstellen &ldquo;Links in Tabs statt Fenster&rdquo; aktivieren, alle anderen bei &ldquo;Tab&rdquo; deaktivieren Vor Update fragen &ldquo;Automatischen Bildlauf&rdquo; deaktivieren Startseite 2x leere Seite für Fenster und Tabs Suche Getrenntes Suchfeld aktivieren Standardsuche &ldquo;DuckDuckGo&rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren Datenschutz &amp; Sicherheit Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen: Cookies Cache Aktive Logins Offline-Website-Daten about:config Suchmaschine deaktivieren: keyword." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2022-07-10T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-07-10T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2022-07-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-07-10T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Firefox Grundeinstellungen"/>
-<meta name="twitter:description" content="Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &ldquo;Links in Tabs statt Fenster&rdquo; aktivieren, alle anderen bei &ldquo;Tab&rdquo; deaktivieren Vor Update fragen &ldquo;Automatischen Bildlauf&rdquo; deaktivieren  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &ldquo;DuckDuckGo&rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren  Datenschutz &amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    about:config  Suchmaschine deaktivieren: keyword."/>
+<meta name="twitter:description" content="Firefox Grundeinstellungen Allgemein Sitzung nicht automatisch wiederherstellen &ldquo;Links in Tabs statt Fenster&rdquo; aktivieren, alle anderen bei &ldquo;Tab&rdquo; deaktivieren Vor Update fragen &ldquo;Automatischen Bildlauf&rdquo; deaktivieren Startseite 2x leere Seite für Fenster und Tabs Suche Getrenntes Suchfeld aktivieren Standardsuche &ldquo;DuckDuckGo&rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren Datenschutz &amp; Sicherheit Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen: Cookies Cache Aktive Logins Offline-Website-Daten about:config Suchmaschine deaktivieren: keyword."/>
 
   
   
@@ -142,11 +142,11 @@
 <p>Durch einen Bug in Firefox wird beim Wechsel des Erscheinungsbildes in den Systemeinstellungen (hell &lt;&gt; dunkel), eine Einstellung geändert, sodaß sich Firefox-Fenster (z.B. Verlauf oder Lesezeichen) nicht mehr nach den Systemeinstellungen, sondern an dem aktuell eingestellten Theme orientieren. Um das zu verhindern, muß die enstprechende Einstellung gegen Änderungen gesperrt werden.</p>
 <p>Hierzu sind 2 Textdateien erforderlich, die in den Firefox-Programmordner kopiert werden müssen:</p>
 <p><code>autoconfig.js</code> muß abgelegt werden in <code>Firefox.app/Contents/Resources/defaults/pref/</code>:</p>
-<pre><code>pref(&quot;general.config.filename&quot;, &quot;firefox.cfg&quot;);
-pref(&quot;general.config.obscure_value&quot;, 0);
+<pre tabindex="0"><code>pref(&#34;general.config.filename&#34;, &#34;firefox.cfg&#34;);
+pref(&#34;general.config.obscure_value&#34;, 0);
 </code></pre><p><code>firefox.cfg</code> muß abgelegt werden in <code>Firefox.app/Contents/Resources/</code>:</p>
-<pre><code>// IMPORTANT: Start your code on the 2nd line
-lockPref(&quot;browser.theme.toolbar-theme&quot;, 2);
+<pre tabindex="0"><code>// IMPORTANT: Start your code on the 2nd line
+lockPref(&#34;browser.theme.toolbar-theme&#34;, 2);
 </code></pre><h2 id="add-ons">Add-Ons</h2>
 <ul>
 <li><a href="https://addons.mozilla.org/de/firefox/addon/ublock-origin/">&ldquo;uBlock Origin&rdquo;</a> gegen Reklame und Tracking</li>

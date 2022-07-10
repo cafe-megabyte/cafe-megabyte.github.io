@@ -16,9 +16,9 @@
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
-echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
-sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
+echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@ PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeRe
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
-      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
     <item>
@@ -37,9 +37,9 @@ ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispie
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</guid>
-      <description>SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
-cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
-cat ~/Desktop/SSH_ZUGANG.</description>
+      <description>SSH-Zugangsschlüssel erzeugen Empfehlung SSH Grundeinstellungen Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
+cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
+cat ~/Desktop/SSH_ZUGANG.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.</description>
     </item>
     
   </channel>

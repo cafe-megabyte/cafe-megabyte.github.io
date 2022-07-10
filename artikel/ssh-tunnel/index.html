@@ -9,18 +9,18 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="SSH-Tunnel (am Beispiel Screensharing)" />
-<meta property="og:description" content="SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &ldquo;verbunden&rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:" />
+<meta property="og:description" content="SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &ldquo;verbunden&rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/ssh-tunnel/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2021-05-16T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-05-16T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-05-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-16T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SSH-Tunnel (am Beispiel Screensharing)"/>
-<meta name="twitter:description" content="SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &ldquo;verbunden&rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:"/>
+<meta name="twitter:description" content="SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &ldquo;verbunden&rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:"/>
 
   
   
@@ -101,13 +101,13 @@ ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispie
 <pre><code>ssh -N SERVER -L 5900:SERVER:5900
 </code></pre>
 <p>Zur Erklärung der Optionen, hier ein Beispiel:</p>
-<pre><code>ssh -f -N SERVER -L 8080:SERVER:5900
+<pre tabindex="0"><code>ssh -f -N SERVER -L 8080:SERVER:5900
 
 Optionen:
 -N        kein Kommando, keine Shell
 -f        im Hintergrund ausführen
 -L        lokalen Tunnel öffnen
-SERVER    eigentlich: &quot;BENUTZER@SERVER&quot;, abgekürzt wegen der Konfiguration
+SERVER    eigentlich: &#34;BENUTZER@SERVER&#34;, abgekürzt wegen der Konfiguration
 8080      lokaler Port
 5900      Remote-Port
 </code></pre><p>Es läuft ab dann dauerhaft ein SSH-Prozeß, der den Tunnel geöffnet hält. Dieser sollte geschlossen werden, sobald der nicht mehr benötigt wird. Ohne die Option <code>-f</code> läuft der SSH-Tunnel sichtbar in einem Terminalfenster und kann mit <code>Control-C</code> beendet werden. Wenn der Tunnel mit der Option <code>-f</code> im Hintergrund läuft, können die Tunnel so geschlossen werden:</p>

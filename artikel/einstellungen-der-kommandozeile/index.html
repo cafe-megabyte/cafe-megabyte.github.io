@@ -12,13 +12,13 @@
 <meta property="og:description" content="Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &quot; * --------------- *&quot; echo &quot; * Café MegaByte *&quot; echo &quot; * --------------- *&quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&quot;open -t ~/." />
+man zshoptions Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &#34; * --------------- *&#34; echo &#34; * Café MegaByte *&#34; echo &#34; * --------------- *&#34; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&#34;open -t ~/." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/einstellungen-der-kommandozeile/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2022-06-17T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-06-17T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2022-06-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-17T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -26,9 +26,9 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 <meta name="twitter:description" content="Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &quot; * --------------- *&quot; echo &quot; * Café MegaByte *&quot; echo &quot; * --------------- *&quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&quot;open -t ~/."/>
+man zshoptions Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &#34; * --------------- *&#34; echo &#34; * Café MegaByte *&#34; echo &#34; * --------------- *&#34; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&#34;open -t ~/."/>
 
   
   
@@ -106,65 +106,65 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
 open -t ~/.zshrc
 </code></pre>
 <p>Dort folgenden Inhalt einfügen:</p>
-<pre><code>################################ Willkommen ################################
+<pre tabindex="0"><code>################################ Willkommen ################################
 echo
-echo &quot;                               * --------------- *&quot;
-echo &quot;                               *  Café MegaByte  *&quot;
-echo &quot;                               * --------------- *&quot;
+echo &#34;                               * --------------- *&#34;
+echo &#34;                               *  Café MegaByte  *&#34;
+echo &#34;                               * --------------- *&#34;
 echo
-echo '--------------------------------------------------------------------------------'
+echo &#39;--------------------------------------------------------------------------------&#39;
 
 
 ################################ Kurzbefehle ################################
-echo 'Z-Profil-Datei editieren  profile'
-alias profile=&quot;open -t ~/.zshrc&quot;
+echo &#39;Z-Profil-Datei editieren  profile&#39;
+alias profile=&#34;open -t ~/.zshrc&#34;
 
-echo 'History anzeigen          history'
-alias history=&quot;fc -l 1 | open -ft&quot;
+echo &#39;History anzeigen          history&#39;
+alias history=&#34;fc -l 1 | open -ft&#34;
 
-echo 'History neu einlesen      hi'
-alias hi=&quot;fc -RI&quot;
+echo &#39;History neu einlesen      hi&#39;
+alias hi=&#34;fc -RI&#34;
 
-echo 'Anständiges Listing       ll      = ls -lah'
-alias ll=&quot;ls -lah&quot;
+echo &#39;Anständiges Listing       ll      = ls -lah&#39;
+alias ll=&#34;ls -lah&#34;
 
-echo '                          lm      = ll | more'
-alias lm=&quot;ll | more&quot;
+echo &#39;                          lm      = ll | more&#39;
+alias lm=&#34;ll | more&#34;
 
-echo 'Legacy back               cd..    = cd ..'
-alias cd..=&quot;cd ..&quot;
+echo &#39;Legacy back               cd..    = cd ..&#39;
+alias cd..=&#34;cd ..&#34;
 
-echo 'man-Page (neues Fenster)  manpage &lt;Page&gt;'
+echo &#39;man-Page (neues Fenster)  manpage &lt;Page&gt;&#39;
 manpage()
 {
 open x-man-page://$@
 }
 
-echo 'man-Page als Text         mantext &lt;Page&gt;'
+echo &#39;man-Page als Text         mantext &lt;Page&gt;&#39;
 mantext()
 {
-MANWIDTH=80 MANPAGER='col -bx' man $@ | open -f -t
+MANWIDTH=80 MANPAGER=&#39;col -bx&#39; man $@ | open -f -t
 }
 
-echo 'man-Page als PDF          manpdf &lt;Page&gt;'
+echo &#39;man-Page als PDF          manpdf &lt;Page&gt;&#39;
 manpdf()
 {
-man -t &quot;$@&quot; | open -f -a /System/Applications/Preview.app/
+man -t &#34;$@&#34; | open -f -a /System/Applications/Preview.app/
 }
 
-echo 'Gatekeeper entfernen      gk &lt;Ordner&gt;/&lt;Datei&gt;'
+echo &#39;Gatekeeper entfernen      gk &lt;Ordner&gt;/&lt;Datei&gt;&#39;
 gk()
 {
-xattr -d -r com.apple.quarantine &quot;$@&quot;
+xattr -d -r com.apple.quarantine &#34;$@&#34;
 }
 
-echo 'Monitor ausschalten       dis'
+echo &#39;Monitor ausschalten       dis&#39;
 dis()
 {
 pmset displaysleepnow
 }
 
-echo 'Dock neustarten           killdock'
+echo &#39;Dock neustarten           killdock&#39;
 killdock()
 {
 killall Dock;
@@ -173,27 +173,27 @@ killall Dock;
 
 # Dieses Kürzel ist in den SSH-Einstellungen konfiguriert.
 # Es wird in allen fortfolgenden SSH-Kurzbefehlen verwendet.
-echo 'SSH mit Mac mini          ssh mac-mini' 
+echo &#39;SSH mit Mac mini          ssh mac-mini&#39; 
 
-echo 'SSH-Tunnel Screensharing  ssh1'
-alias ssh1=&quot;ssh -N mac-mini -L 5900:mac-mini:5900&quot;
+echo &#39;SSH-Tunnel Screensharing  ssh1&#39;
+alias ssh1=&#34;ssh -N mac-mini -L 5900:mac-mini:5900&#34;
 
-echo 'SSH-Tunnel Plex           ssh2'
-alias ssh2=&quot;ssh -N mac-mini -L 32400:mac-mini:32400&quot;
+echo &#39;SSH-Tunnel Plex           ssh2&#39;
+alias ssh2=&#34;ssh -N mac-mini -L 32400:mac-mini:32400&#34;
 
-echo 'An Mac mini Schr. senden  send2mac &lt;Datei&gt; &lt;Name auf Schr.&gt;'
+echo &#39;An Mac mini Schr. senden  send2mac &lt;Datei&gt; &lt;Name auf Schr.&gt;&#39;
 send2mac()
 {
-cat $1 | ssh mac-mini &quot;cat &gt; ~/Desktop/$2&quot;
+cat $1 | ssh mac-mini &#34;cat &gt; ~/Desktop/$2&#34;
 }
 
 # Dies ist keine endlose Rekursion, auch wenn es so aussieht.
-# Die Shell erkennt die Rekursion und verwendet für das &quot;cd&quot;
+# Die Shell erkennt die Rekursion und verwendet für das &#34;cd&#34;
 # innerhalb der Funktion das eingebaute cd-Kommando.
-echo 'CD mit Auto-Listing'
+echo &#39;CD mit Auto-Listing&#39;
 mycd()
 {
-cd &quot;$@&quot;
+cd &#34;$@&#34;
 ll
 }
 alias cd=mycd
@@ -211,14 +211,14 @@ export LSCOLORS=cxxxxxxxxxxxxxxxxxxxxx
 precmd() { echo }
 
 # Prompt mit vollem Pfad und Zeilenumbruch
-export PS1=&quot;%n@%m %F{green}%~%f
-$ &quot;
+export PS1=&#34;%n@%m %F{green}%~%f
+$ &#34;
 
 # Prompt mit vollem Pfad
-export PS1='%n@%m %F{green}%~%f $ '
+export PS1=&#39;%n@%m %F{green}%~%f $ &#39;
 
 # Rot blinkendes sudo
-export SUDO_PROMPT=$'[\e[31;5msudo\e[m] Paßwort für \e[33;1m%p\e[m: '
+export SUDO_PROMPT=$&#39;[\e[31;5msudo\e[m] Paßwort für \e[33;1m%p\e[m: &#39;
 
 # Keine doppelte History
 #für Bash: export HISTCONTROL=erasedups
@@ -239,7 +239,7 @@ export HISTSIZE=100
 # Größe der beim Logout gespeicherten History
 export SAVEHIST=100
 
-echo '--------------------------------------------------------------------------------'
+echo &#39;--------------------------------------------------------------------------------&#39;
 
 #-------------------------#
 # Café MegaByte           #

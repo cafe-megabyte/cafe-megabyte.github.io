@@ -17,9 +17,9 @@
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
+man zshoptions Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &amp;#34; * --------------- *&amp;#34; echo &amp;#34; * Café MegaByte *&amp;#34; echo &amp;#34; * --------------- *&amp;#34; echo echo &amp;#39;--------------------------------------------------------------------------------&amp;#39; ################################ Kurzbefehle ################################ echo &amp;#39;Z-Profil-Datei editieren profile&amp;#39; alias profile=&amp;#34;open -t ~/.</description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
       <guid>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</guid>
       <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
 Vorgehen Screensharing-Dienst stoppen (via SSH):
-sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist Screensharing-Dienst wieder starten (via SSH):
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist </description>
     </item>
     
@@ -40,8 +40,8 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.pli
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
-      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
   </channel>

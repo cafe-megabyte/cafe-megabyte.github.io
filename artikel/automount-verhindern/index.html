@@ -17,8 +17,8 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
 :wq " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/automount-verhindern/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2021-05-14T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-05-14T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-05-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-14T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -97,12 +97,12 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
   
     <h1 id="automount-verhindern">Automount verhindern</h1>
 <p>UUID des Volumes ermitteln:</p>
-<pre><code>diskutil info /Volumes/&lt;VOLUME&gt;
+<pre tabindex="0"><code>diskutil info /Volumes/&lt;VOLUME&gt;
 </code></pre><p>/etc/fstab editieren:</p>
-<pre><code>cd /etc
+<pre tabindex="0"><code>cd /etc
 sudo vifs
 </code></pre><p>Zeile einfügen (mit <code>i</code> in den Editiermodus wechseln):</p>
-<pre><code>UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto
+<pre tabindex="0"><code>UUID=FF9DBDC4-F77F-3F72-A6C2-26676F39B7CE none apfs rw,noauto
 </code></pre><p>Statt <code>apfs</code> muß je nach Format ggf. <code>hfs</code> verwendet werden.</p>
 <p>Mit <code>ESC</code> zurück in den Kommandomodus wechseln und mit folgendem Kommando die gemachten Änderungen schreiben und beenden:</p>
 <pre><code>:wq</code></pre>

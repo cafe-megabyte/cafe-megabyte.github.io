@@ -14,8 +14,8 @@ Es funktioniert nur für eine Screensharing-Session gleichzeitig.
 Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer und Kennwort abgefragt, aber nicht immer. Das Skript klickt in diesem Fall automatisch auf &ldquo;OK&rdquo; bzw. auf &ldquo;Anmelden&rdquo; (Buttontext je nach MacOS-Release anders, sprachlich natürlich auch anzupassen). Damit das funktionieren kann, müssen Benutzer und Kennwort im Schlüsselbund gespeichert werden." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/applescript/bildschirmfreigabe-im-vollbild-starten/" /><meta property="article:section" content="applescript" />
-<meta property="article:published_time" content="2022-03-25T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-03-25T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2022-03-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-25T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -98,12 +98,12 @@ Beim Verbindungsaufbau mit Apples Bildschirmfreigabe wird manchmal (!) Benutzer 
 <p>Zuerst muß das Skript als doppelklickbares App gespeichert werden. Auch das ist nicht ohne weiteres möglich, das genaue Vorgehen folgt im Anschluß.</p>
 <h2 id="applescript">AppleScript</h2>
 <p>Es muß <code>IP_ADRESSE</code> durch die IP-Adresse bzw. den Hostnamen des Zielrechners ersetzt werden.</p>
-<pre><code>(*
+<pre tabindex="0"><code>(*
 Bildschirmfreigabe im Vollbild starten
 
 Copyright © 2022
 Café MegaByte
-*)-- Bildschirmfreigabe aktivierentell application &quot;Screen Sharing&quot;	activate	delay 1 -- erforderlich, wenn das Programm gestartet werden mußteend tell-- Läuft bereits eine Bildschirmfreigabe im Vollbild?tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to value of attribute &quot;AXFullScreen&quot; of window 1-- Ggf. Bildschirmfreigabe startenif isConnected is false then	tell application &quot;Screen Sharing&quot; to GetURL &quot;IP_ADRESSE&quot;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set isConnected to window 1 exists	end repeatend if-- Ggf. &quot;Anmelden&quot; klickentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click button &quot;Anmelden&quot; of window 1	delay 1 -- auf langsameren Geräten ggf. 2 Sekunden wartenend try-- Ggf. Skalierung einschaltentry	tell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to click menu item &quot;Skalierung einschalten&quot; of menu 1 of menu bar item &quot;Darstellung&quot; of menu bar 1end try-- Vollbild aktivierentell application &quot;System Events&quot; to tell process &quot;Screen Sharing&quot; to set value of attribute &quot;AXFullScreen&quot; of window 1 to true
+*)-- Bildschirmfreigabe aktivierentell application &#34;Screen Sharing&#34;	activate	delay 1 -- erforderlich, wenn das Programm gestartet werden mußteend tell-- Läuft bereits eine Bildschirmfreigabe im Vollbild?tell application &#34;System Events&#34; to tell process &#34;Screen Sharing&#34; to set isConnected to value of attribute &#34;AXFullScreen&#34; of window 1-- Ggf. Bildschirmfreigabe startenif isConnected is false then	tell application &#34;Screen Sharing&#34; to GetURL &#34;IP_ADRESSE&#34;		-- Warten bis die Verbindung steht	repeat while isConnected = false		tell application &#34;System Events&#34; to tell process &#34;Screen Sharing&#34; to set isConnected to window 1 exists	end repeatend if-- Ggf. &#34;Anmelden&#34; klickentry	tell application &#34;System Events&#34; to tell process &#34;Screen Sharing&#34; to click button &#34;Anmelden&#34; of window 1	delay 1 -- auf langsameren Geräten ggf. 2 Sekunden wartenend try-- Ggf. Skalierung einschaltentry	tell application &#34;System Events&#34; to tell process &#34;Screen Sharing&#34; to click menu item &#34;Skalierung einschalten&#34; of menu 1 of menu bar item &#34;Darstellung&#34; of menu bar 1end try-- Vollbild aktivierentell application &#34;System Events&#34; to tell process &#34;Screen Sharing&#34; to set value of attribute &#34;AXFullScreen&#34; of window 1 to true
 </code></pre><h2 id="vorgehen">Vorgehen</h2>
 <ul>
 <li>Das AppleScript muß fehlerfrei vom Skripteditor aus ausführbar sein.</li>

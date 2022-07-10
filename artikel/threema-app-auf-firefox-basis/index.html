@@ -15,8 +15,8 @@ Damit im Dock des Mac Threema mit einem eigenen Icon vertreten wird, wird zuletz
 Vorgehen Profilseite about:profiles öffnen und ein neues Profil &ldquo;Threema&rdquo; anlegen." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.cafe-megabyte.de/artikel/threema-app-auf-firefox-basis/" /><meta property="article:section" content="artikel" />
-<meta property="article:published_time" content="2021-07-06T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-07-06T00:00:00&#43;00:00" />
+<meta property="article:published_time" content="2021-07-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-06T00:00:00+00:00" />
 
 
   <meta name="twitter:card" content="summary"/>
@@ -116,12 +116,12 @@ browser.tabs.drawInTitlebar                          ==&gt;  false
 open -e userChrome.css
 </code></pre>
 <p>Folgenden Text einfügen und speichern:</p>
-<pre><code>#main-window[tabsintitlebar=&quot;true&quot;]:not([extradragspace=&quot;true&quot;]) #TabsToolbar &gt; .toolbar-items {
+<pre tabindex="0"><code>#main-window[tabsintitlebar=&#34;true&#34;]:not([extradragspace=&#34;true&#34;]) #TabsToolbar &gt; .toolbar-items {
   opacity: 0;
   pointer-events: none;
 }
 
-#main-window:not([tabsintitlebar=&quot;true&quot;]) #TabsToolbar {
+#main-window:not([tabsintitlebar=&#34;true&#34;]) #TabsToolbar {
     visibility: collapse !important;
 }
 

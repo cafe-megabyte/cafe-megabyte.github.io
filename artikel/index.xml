@@ -14,7 +14,7 @@
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/</guid>
-      <description>Firefox Grundeinstellungen Allgemein  Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren  Startseite  2x leere Seite für Fenster und Tabs  Suche  Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren  Datenschutz &amp;amp; Sicherheit  Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen:  Cookies Cache Aktive Logins Offline-Website-Daten    about:config  Suchmaschine deaktivieren: keyword.</description>
+      <description>Firefox Grundeinstellungen Allgemein Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren Startseite 2x leere Seite für Fenster und Tabs Suche Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren Datenschutz &amp;amp; Sicherheit Standard-Einstellungen verwenden Cookie und Website-Daten beim Beenden löschen PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen: Cookies Cache Aktive Logins Offline-Website-Daten about:config Suchmaschine deaktivieren: keyword.</description>
     </item>
     
     <item>
@@ -29,26 +29,27 @@ Prüfen, ob ein Wiederherstellungsschlüssel gültig ist:</description>
     </item>
     
     <item>
+      <title>Änderungen am Mac-System vornehmen</title>
+      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
+      <description>Änderungen am Mac-System vornehmen Grundsätzliches Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt. Vorgehen RecoveryOS booten, dort im Terminal eingeben:
+csrutil disable csrutil authenticated-root disable
+Mac neustarten (bootet ins normale System).
+Mit dem Terminal die ID des Systemvolumes ermitteln (z.</description>
+    </item>
+    
+    <item>
       <title>Kommandozeilentool der Firewall</title>
       <link>https://blog.cafe-megabyte.de/artikel/kommandozeilentool-der-firewall/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/kommandozeilentool-der-firewall/</guid>
       <description>Kommandozeilentool der Firewall Das Tool muß mit vollem Pfadnamen angesprochen werden, man-Page ist vorhanden:
-/usr/libexec/ApplicationFirewall/socketfilterfw  Anzeigen der aktuellen Konfiguration (bei Abweichungen zur Anzeige im Einstellungs-App, ist das hier typischerweise führend):
-/usr/libexec/ApplicationFirewall/socketfilterfw --listapps  So können auch Blockierungen entfernt werden, die im Einstellungs-App nicht angezeigt werden:
-/usr/libexec/ApplicationFirewall/socketfilterfw —unblockapp &amp;lt;PFAD_AUS_LISTAPPS&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Änderungen am Mac-System vornehmen</title>
-      <link>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</link>
-      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
-      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
-csrutil disable csrutil authenticated-root disable
-  Mac neustarten (bootet ins normale System).</description>
+/usr/libexec/ApplicationFirewall/socketfilterfw Anzeigen der aktuellen Konfiguration (bei Abweichungen zur Anzeige im Einstellungs-App, ist das hier typischerweise führend):
+/usr/libexec/ApplicationFirewall/socketfilterfw --listapps So können auch Blockierungen entfernt werden, die im Einstellungs-App nicht angezeigt werden:
+/usr/libexec/ApplicationFirewall/socketfilterfw —unblockapp &amp;lt;PFAD_AUS_LISTAPPS&amp;gt; </description>
     </item>
     
     <item>
@@ -60,9 +61,9 @@ csrutil disable csrutil authenticated-root disable
       <description>Einstellungen der Kommandozeile Seit Mac OS X 10.15 Catalina ist nicht mehr bash, sondern zsh die Standard-Shell.
 Um zsh zu konfigurieren, kann eine Datei ~/.zshrc angelegt werden, deren Kommandos beim Öffnen eines Terminalfenster sofort ausgeführt werden.
 Die verfügbaren Optionen können hier eingesehen werden:
-man zshoptions  Zuerst die Datei anlegen und im Texteditor öffnen:
-touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
-################################ Willkommen ################################ echo echo &amp;quot; * --------------- *&amp;quot; echo &amp;quot; * Café MegaByte *&amp;quot; echo &amp;quot; * --------------- *&amp;quot; echo echo &#39;--------------------------------------------------------------------------------&#39; ################################ Kurzbefehle ################################ echo &#39;Z-Profil-Datei editieren profile&#39; alias profile=&amp;quot;open -t ~/.</description>
+man zshoptions Zuerst die Datei anlegen und im Texteditor öffnen:
+touch ~/.zshrc open -t ~/.zshrc Dort folgenden Inhalt einfügen:
+################################ Willkommen ################################ echo echo &amp;#34; * --------------- *&amp;#34; echo &amp;#34; * Café MegaByte *&amp;#34; echo &amp;#34; * --------------- *&amp;#34; echo echo &amp;#39;--------------------------------------------------------------------------------&amp;#39; ################################ Kurzbefehle ################################ echo &amp;#39;Z-Profil-Datei editieren profile&amp;#39; alias profile=&amp;#34;open -t ~/.</description>
     </item>
     
     <item>
@@ -73,9 +74,9 @@ touch ~/.zshrc open -t ~/.zshrc  Dort folgenden Inhalt einfügen:
       <guid>https://blog.cafe-megabyte.de/artikel/slow-motion-effekt-fuers-ablegen-im-dock-aktivieren/</guid>
       <description>Slow-Motion Effekt fürs Ablegen im Dock aktivieren Grundsätzliches Für den Slow-Motion Effekt muß die Shift-Taste gedrückt sein, wenn man auf den gelben Ball zum Minimieren eines Fensters bzw. umgekehrt auf das minimierte Fenster klickt. Seit einigen Jahren ist die Funktion standardmäßig leider deaktiviert.
 Vorgehen Aktivieren:
-defaults write com.apple.dock slow-motion-allowed -bool TRUE  Standard wiederherstellen:
-defaults delete com.apple.dock slow-motion-allowed  Dock neustarten:
-killall Dock  Notfalltricks fürs Dock Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:</description>
+defaults write com.apple.dock slow-motion-allowed -bool TRUE Standard wiederherstellen:
+defaults delete com.apple.dock slow-motion-allowed Dock neustarten:
+killall Dock Notfalltricks fürs Dock Falls das Dock anschließend nicht automatisch neustarten sollte, kann das Dock manuell gestartet werden:</description>
     </item>
     
     <item>
@@ -86,10 +87,10 @@ killall Dock  Notfalltricks fürs Dock Falls das Dock anschließend nicht automa
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-festplattengroesse-reduzieren/</guid>
       <description>VMware Fusion Festplattengröße reduzieren Grundsätzliches Für Windows-VMs kann die Größe der Festplattendatei durch einen Klick in den Einstellungen reduziert werden. Hier wird der (manuelle) Weg für ein virtuelles MacOS beschrieben.
 Vorgehen Freien Speicher mit Nullen überschreiben (Befehl innerhalb des virtuellen Macs):
-diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot;  Alternativ (seit APFS) so:
-cat /dev/zero &amp;gt; wipefile; rm wipefile  VM ausschalten.
+diskutil secureErase freespace 0 &amp;quot;/Volumes/Macintosh HD&amp;quot; Alternativ (seit APFS) so:
+cat /dev/zero &amp;gt; wipefile; rm wipefile VM ausschalten.
 Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
-&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk  Festplatte verkleinern (FESTPLATTENDATEI.</description>
+&amp;quot;/Applications/VMware Fusion.app/Contents/Library/vmware-vdiskmanager&amp;quot; -d FESTPLATTENDATEI.vmdk Festplatte verkleinern (FESTPLATTENDATEI.vmdk ersetzen):</description>
     </item>
     
     <item>
@@ -98,7 +99,7 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/virtueller-mac-auf-arm/</guid>
-      <description>Virtueller Mac auf ARM Allgemein  Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM  Vorgehen  Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data  Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:</description>
+      <description>Virtueller Mac auf ARM Allgemein Ein virtueller Mac auf ARM wird nicht installiert, sondern wie ein iPhone aus einer .ipsw-Datei wiederhergestellt (IPhone SoftWare). Die ARM-Virtualisierung funktioniert erst ab Mac OS 12 Monterey. Kostenloser Virtualisierer (und Emulator auf QEMU-Basis): UTM Vorgehen Restore Image der gewünschten Mac OS Version laden: IPSW.me VM erstellen und Benutzer anlegen Rosetta installieren: softwareupdate --install-rosetta Developer Tools installieren: xcode-select --install Ggf. alle Updates installieren: softwareupdate -i -r --include-config-data Recovery OS booten Das Starten ins Recovery OS kann derzeit nur über einen Trick erreicht werden:</description>
     </item>
     
     <item>
@@ -108,7 +109,7 @@ Festplatte defragmentieren (FESTPLATTENDATEI.vmdk ersetzen):
       
       <guid>https://blog.cafe-megabyte.de/artikel/bild-von-mac-account-und-eigenem-kontakt-entkoppeln/</guid>
       <description>Bild von Mac-Account und eigenem Kontakt entkoppeln Wenn im Adressbuch bei einem Kontakt die Funktion &amp;ldquo;Zu meiner Kontaktkarte machen&amp;rdquo; gewählt wird, wird das Bild als Bild für den Mac-Account übernommen. Ab dann wirken sich Bildänderungen immer auf den Mac-Account und den Adressbucheintrag parallel aus.
-Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
+Lösung Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für den Mac-Account als Kontaktbild festlegen. Diesen neuen Kontakt &amp;ldquo;zu meiner Kontaktkarte machen&amp;rdquo;. Prüfen, daß das Bild in die Account-Einstellungen übernommen wurde.</description>
     </item>
     
     <item>
@@ -117,7 +118,7 @@ Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für d
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/erklaerung-der-unix-standardverzeichnisse/</guid>
-      <description>Erklärung der UNIX-Standardverzeichnisse man hier  </description>
+      <description>Erklärung der UNIX-Standardverzeichnisse man hier </description>
     </item>
     
     <item>
@@ -128,8 +129,8 @@ Lösung  Neuen Kontakt anlegen mit eigenem Namen und das gewünschte Bild für d
       <guid>https://blog.cafe-megabyte.de/artikel/dateien-und-ordner-verstecken/</guid>
       <description>Dateien und Ordner verstecken Der Finder zeigt eine Datei dann nicht mehr an, wenn entweder das Flag und/oder das entsprechende Dateiattribut gesetzt ist.
 Um eine unsichtbare Datei oder Ordner einzublenden, ist es daher ggf. nötig, beide Parameter zu setzen:
-chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER  Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
-chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  </description>
+chflags nohidden DATEI_ORDNER setfile -a v DATEI_ORDNER Um eine Datei in Finder zu verstecken, genügt es, das Flag zu setzen. Der Vollständigkeit halber hier dennoch beide Befehle:
+chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER </description>
     </item>
     
     <item>
@@ -140,7 +141,7 @@ chflags hidden DATEI_ORDNER setfile -a V DATEI_ORDNER  </description>
       <guid>https://blog.cafe-megabyte.de/artikel/alle-updates-installieren/</guid>
       <description>Alle Updates installieren Zuerst müssen alle Updates per Systemeinstellungen eingespielt werden. Dann:
 Alle noch verfügbaren Updates auflisten:
-softwareupdate -l --include-config-data  Alle hiervon empfohlenen Updates (&amp;ldquo;recommended YES&amp;rdquo;) einspielen:
+softwareupdate -l --include-config-data Alle hiervon empfohlenen Updates (&amp;ldquo;recommended YES&amp;rdquo;) einspielen:
 softwareupdate -i -r --include-config-data </description>
     </item>
     
@@ -152,8 +153,8 @@ softwareupdate -i -r --include-config-data </description>
       <guid>https://blog.cafe-megabyte.de/artikel/ausgeblendete-apps-im-dock-transparent-darstellen/</guid>
       <description>Dock: Ausgeblendete Apps im Dock transparent darstellen Normalerweise werden ausgeblendete Apps im Dock normal dargestellt.
 Transparent darstellen:
-defaults write com.apple.Dock showhidden -bool YES  Normal darstellen:
-defaults write com.apple.Dock showhidden -bool NO  </description>
+defaults write com.apple.Dock showhidden -bool YES Normal darstellen:
+defaults write com.apple.Dock showhidden -bool NO </description>
     </item>
     
     <item>
@@ -164,8 +165,8 @@ defaults write com.apple.Dock showhidden -bool NO  </description>
       <guid>https://blog.cafe-megabyte.de/artikel/pruefen-und-aendern-verlinkter-libraries/</guid>
       <description>Prüfen und Ändern verlinkter Libraries Grundsätzliches Jedes Executable verlinkt mehrere andere Libraries. Diese Verlinkungen können eingesehen und nachträglich geändert werden. Dies kann nützlich sein, um den Installationsort der verlinkten Libraries bestimmen zu können.
 Prüfen Auflisten der Verlinkungen:
-otool -L EXECUTABLE  Ändern einer Verlinkung:
-install_name_tool -change /pfad/zur/library.dylib @executable_path/Libs/library.dylib EXECUTABLE  Die Angabe @executable_path ist relativ zum Executable selbst.
+otool -L EXECUTABLE Ändern einer Verlinkung:
+install_name_tool -change /pfad/zur/library.dylib @executable_path/Libs/library.dylib EXECUTABLE Die Angabe @executable_path ist relativ zum Executable selbst.
 Codesignierung Die Änderung des Executables bricht die Codesignierung.</description>
     </item>
     
@@ -177,7 +178,7 @@ Codesignierung Die Änderung des Executables bricht die Codesignierung.</descrip
       <guid>https://blog.cafe-megabyte.de/artikel/firefox-bedienelemente-ausblenden/</guid>
       <description>Firefox Bedienelemente ausblenden Grundsätzliches Die Benutzeroberfläche von Firefox ist selbst webbasiert und kann daher mit dem Browser gedebuggt werden, um technische Namen von Elementen der Benutzeroberfläche in Erfahrung zu bringen. Diese Elemente können dann per CSS gezielt ausgeblendet werden.
 Voraussetzung Damit die Firefox-Oberfläche ein CSS berücksichtigt, muß auf about:config dieser Parameter gesetzt werden:
-toolkit.legacyUserProfileCustomizations.stylesheets ==&amp;gt; true  Debugging aktivieren Um den Namen des auszublendenen Elements in Erfahrung zu bringen, müssen die &amp;ldquo;Werkzeuge für Web-Entwickler&amp;rdquo; geöffnet werden und dort wiederum die Einstellungen.</description>
+toolkit.legacyUserProfileCustomizations.stylesheets ==&amp;gt; true Debugging aktivieren Um den Namen des auszublendenen Elements in Erfahrung zu bringen, müssen die &amp;ldquo;Werkzeuge für Web-Entwickler&amp;rdquo; geöffnet werden und dort wiederum die Einstellungen.</description>
     </item>
     
     <item>
@@ -210,12 +211,12 @@ Mit launchd, einem Mac-Dienstprogramm, kann neben vielen anderen Dingen ein solc
       
       <guid>https://blog.cafe-megabyte.de/artikel/applescript-ausfuehren-system-neustarten/</guid>
       <description>AppleScript ausführen / System neustarten So kann ein AppleScript-Kommando ausgeführt werden:
-osascript -e &#39;APPLESCRIPT&#39;  Z.B.:
-osascript -e &#39;beep&#39;  Es ist auch die &amp;ldquo;freundlichste&amp;rdquo; Art, den Finder zu beenden, sich auszuloggen oder das System neu zu starten.
+osascript -e &#39;APPLESCRIPT&#39; Z.B.:
+osascript -e &#39;beep&#39; Es ist auch die &amp;ldquo;freundlichste&amp;rdquo; Art, den Finder zu beenden, sich auszuloggen oder das System neu zu starten.
 Finder beenden:
-osascript -e &#39;tell app &amp;quot;Finder&amp;quot; to quit&#39;  Ausschalten ohne Nachfragen:
-osascript -e &#39;tell app &amp;quot;System Events&amp;quot; to shut down&#39;  Ausschalten mit Nachfragen:
-osascript -e &#39;tell app &amp;quot;loginwindow&amp;quot; to «event aevtrsdn»&#39;  Neustart ohne Nachfragen:</description>
+osascript -e &#39;tell app &amp;quot;Finder&amp;quot; to quit&#39; Ausschalten ohne Nachfragen:
+osascript -e &#39;tell app &amp;quot;System Events&amp;quot; to shut down&#39; Ausschalten mit Nachfragen:
+osascript -e &#39;tell app &amp;quot;loginwindow&amp;quot; to «event aevtrsdn»&#39; Neustart ohne Nachfragen:</description>
     </item>
     
     <item>
@@ -226,7 +227,7 @@ osascript -e &#39;tell app &amp;quot;loginwindow&amp;quot; to «event aevtrsdn»
       <guid>https://blog.cafe-megabyte.de/artikel/apps-nicht-automatisch-beenden/</guid>
       <description>Apps nicht automatisch beenden Grundsätzliches Mac OS beendet viele Programme nachdem das letzte Fenster geschlossen wurde.
 Vorgehen Automatisches Beenden abschalten:
-defaults write -g NSDisableAutomaticTermination -bool yes  Standardverhalten wiederherstellen:
+defaults write -g NSDisableAutomaticTermination -bool yes Standardverhalten wiederherstellen:
 defaults delete NSDisableAutomaticTermination </description>
     </item>
     
@@ -249,7 +250,7 @@ Dort muß folgender Key eingefügt werden:
       <guid>https://blog.cafe-megabyte.de/artikel/zip-mit-passwort-erstellen/</guid>
       <description>ZIP mit Paßwort erstellen Grundsätzliches Die ZIP-Verschlüsselung ist nicht besonders gut und kann leicht geknackt werden. Dennoch verhindert ein solches ZIP bspw. das automatische Scannen von E-Mail Anhängen und erlaubt das Versenden von Dateien, die sonst nicht vesendbar wären.
 Vorgehen Ordner ZIPpen:
-zip -er ~/Desktop/Archiv.zip ORDNER  Einzelne Datei ZIPpen:
+zip -er ~/Desktop/Archiv.zip ORDNER Einzelne Datei ZIPpen:
 zip -e ~/Desktop/Archiv.zip DATEI </description>
     </item>
     
@@ -270,9 +271,8 @@ Weiterhin kann der &amp;ldquo;Bluetooth Explorer&amp;rdquo; bei Apple geladen we
       
       <guid>https://blog.cafe-megabyte.de/artikel/efi-firmware-passwort-zuruecksetzen/</guid>
       <description>EFI Firmware Paßwort zurücksetzen Beide Schritte müssen durchgeführt werden:
-  RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
-  Mac mit Command-Option-P-R starten.
-  </description>
+RAM-Konfiguration ändern (ein Riegel rein oder raus oder einen tauschen gegen einen mit einer anderen Kapazität).
+Mac mit Command-Option-P-R starten.</description>
     </item>
     
     <item>
@@ -284,7 +284,7 @@ Weiterhin kann der &amp;ldquo;Bluetooth Explorer&amp;rdquo; bei Apple geladen we
       <description>Mac wacht alle 2 Stunden auf Grundsätzliches Der Grund für das Aufwachen ist der mDNSResponder, der auf bestimmte Pakete wartet. Bei Macs mit SSD mag das egal sein, aber wenn der Mac noch eine Festplatte hat, möchte man das vermeiden.
 Voraussetzung Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Prüfen (bis 10.11):
-syslog | grep &amp;quot;Wake reason&amp;quot;  Prüfen (ab 10.</description>
+syslog | grep &amp;quot;Wake reason&amp;quot; Prüfen (ab 10.</description>
     </item>
     
     <item>
@@ -295,7 +295,7 @@ syslog | grep &amp;quot;Wake reason&amp;quot;  Prüfen (ab 10.</description>
       <guid>https://blog.cafe-megabyte.de/artikel/aliaspfeil-entfernen/</guid>
       <description>Aliaspfeil entfernen Grundsätzliches Das Entfernen des optisch häßlichen Alias-Pfeils im Finder funktioniert seit es Mac OS X gibt. Es geht bis heute unter Big Sur auf einem Mac mit Apple Silicon. Mittlerweile ist es hierzu erforderlich, die Sicherheitseinstellungen des Systems teilweise dauerhaft zu deaktivieren, siehe hierzu Änderungen am Mac-System vornehmen.
 Vorgehen Wenn das System änderbar ist, die Icon-Datei umbenennen:
-sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon.icns \ /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon_OFFLINE.icns  </description>
+sudo mv /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon.icns \ /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/AliasBadgeIcon_OFFLINE.icns </description>
     </item>
     
     <item>
@@ -315,7 +315,7 @@ cat /var/log/install.log </description>
       
       <guid>https://blog.cafe-megabyte.de/artikel/versteckter-cache-ordner/</guid>
       <description>Versteckter Cache-Ordner &amp;hellip;mit Caches diverser Programme. Darunter z.B.:
- QuickLook Thumbnail Cache Safari Safe Browsing DB Dock Icon Chache &amp;hellip;  Im Finder öffnen:
+QuickLook Thumbnail Cache Safari Safe Browsing DB Dock Icon Chache &amp;hellip; Im Finder öffnen:
 open $TMPDIR../C/ </description>
     </item>
     
@@ -327,7 +327,7 @@ open $TMPDIR../C/ </description>
       <guid>https://blog.cafe-megabyte.de/artikel/hidpi-darstellung-aktivieren/</guid>
       <description>HiDPI-Darstellung aktivieren Grundsätzliches Der HiDPI-Modus ist die &amp;ldquo;Retina-Version&amp;rdquo; der graphischen Benutzerschnittstelle des Macs.
 Vorgehen Im Terminal:
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES  Danach aus- und wieder einloggen.
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool YES Danach aus- und wieder einloggen.
 Ggf. muß Option beim Betreten der Skaliert-Ansicht in den Einstellungen gedrückt gehalten werden.
 Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen Auflösungen. Soweit mir bekannt ist, muß für einen vollen Zugriff auf alle möglichen Auflösungen ein Drittanbieterprogramm verwendet werden, welches die entsprechenden APIs von Apple implementiert, z.</description>
     </item>
@@ -340,7 +340,7 @@ Die Systemeinstellungen bieten nur einen begrenzten Zugriff auf die möglichen A
       <guid>https://blog.cafe-megabyte.de/artikel/vmware-fusion-im-recovery-mode-booten/</guid>
       <description>VMware Fusion im Recovery Mode booten Recovery Mode erzwingen VM ausschalten.
 Konfigdatei editieren (Option + rechte Maus auf die VM), dort eine Zeile einfügen:
-macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot;  VM starten.
+macosguest.forceRecoveryModeInstall = &amp;quot;TRUE&amp;quot; VM starten.
 Zurück zum normalen System VM ausschalten.
 Diese eingefügte Zeile wieder aus der Konfiguration löschen.
 Innerhalb der virtuellen Maschine im Finder die Datei mit der Ednung .nvram löschen.
@@ -364,10 +364,10 @@ open -R &amp;lt;DATEI&amp;gt; </description>
       
       <guid>https://blog.cafe-megabyte.de/artikel/drucker-standardeinstellungen-aendern/</guid>
       <description>Drucker Standardeinstellungen ändern Web-Interface aktivieren:
-cupsctl WebInterface=yes  URL öffnen:
-http://localhost:631/printers  Über das Menü &amp;ldquo;Administration &amp;gt; Set Default Settings&amp;rdquo; können die Vorgaben geändert werden.
+cupsctl WebInterface=yes URL öffnen:
+http://localhost:631/printers Über das Menü &amp;ldquo;Administration &amp;gt; Set Default Settings&amp;rdquo; können die Vorgaben geändert werden.
 Anschließend das Web-Interface wieder deaktivieren:
-cupsctl WebInterface=no  </description>
+cupsctl WebInterface=no </description>
     </item>
     
     <item>
@@ -400,7 +400,7 @@ Insbesondere nach dem Löschen größerer Dateien bietet sich das manuelle Lösc
       <guid>https://blog.cafe-megabyte.de/artikel/screensharing-dienst-neustarten/</guid>
       <description>Screensharing-Dienst neustarten Grundsätzliches Der Screensharing-Dienst des Macs fängt gerne mal an zu spinnen oder verweigert neue Verbindungen. Zuverlässige Abhilfe bei solchen Problemen ist ein Neustart der Bildschirmfreigabe. Hierzu muß man sich per SSH mit dem jeweiligen Mac verbinden, sofern kein direkter Zugriff besteht.
 Vorgehen Screensharing-Dienst stoppen (via SSH):
-sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist  Screensharing-Dienst wieder starten (via SSH):
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.screensharing.plist Screensharing-Dienst wieder starten (via SSH):
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist </description>
     </item>
     
@@ -411,10 +411,10 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.pli
       
       <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-an-disk-image-erzwingen/</guid>
       <description>Änderungen an Disk Image erzwingen Disk Image als änderbar mounten und Änderungen ins Shadow-File schreiben lassen:
-hdiutil attach PFAD_ZUM_IMAGE -shadow  Nach den vorgenommenen Änderungen Image auswerfen:
-hdiutil detach /Volumes/IMAGE_VOLUME  Format des Disk Images bestimmen:
-hdiutil imageinfo PFAD_ZUM_IMAGE -format  Shadow-File in ein neues Read-Only-Image einmischen:
-hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow  </description>
+hdiutil attach PFAD_ZUM_IMAGE -shadow Nach den vorgenommenen Änderungen Image auswerfen:
+hdiutil detach /Volumes/IMAGE_VOLUME Format des Disk Images bestimmen:
+hdiutil imageinfo PFAD_ZUM_IMAGE -format Shadow-File in ein neues Read-Only-Image einmischen:
+hdiutil convert -format FORMAT -o NEUES_IMAGE PFAD_ZUM_IMAGE -shadow </description>
     </item>
     
     <item>
@@ -436,8 +436,8 @@ Vorgehen Zuerst mit diskutil list den Korrekten Disk-Identifier herausfinden. Di
       <guid>https://blog.cafe-megabyte.de/artikel/bootfaehiges-installer-image-erstellen/</guid>
       <description>Bootfähiges Installer-Image erstellen Grundsätzliches Voraussetzung ist ein Installations-App aus dem Mac App Store. Ziel ist ein direkt bootfähiges Disk Image.
 Vorgehen Leeres Disk Image erstellen (10000m= 10 GB, ggf. die Größe nach oben hin anpassen):
-hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J  Neu erstelltes Disk Image mounten:
-hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install_build  Nun createinstallmedia ausführen (liegt innerhalb des Installations-Apps aus dem Mac App Store, Pfad ggf.</description>
+hdiutil create -o ~/Desktop/InstallerTMP.dmg -size 10000m -layout SPUD -fs HFS+J Neu erstelltes Disk Image mounten:
+hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install_build Nun createinstallmedia ausführen (liegt innerhalb des Installations-Apps aus dem Mac App Store, Pfad ggf. anpassen, die Option --applicationpath ist bei neueren Versionen nicht mehr erforderlich):</description>
     </item>
     
     <item>
@@ -448,8 +448,8 @@ hdiutil attach ~/Desktop/InstallerTMP.dmg -noverify -mountpoint /Volumes/install
       <guid>https://blog.cafe-megabyte.de/artikel/dateiaenderungen-protokollieren/</guid>
       <description>Dateiänderungen protokollieren Grundsätzliches Die Protokolle werden sehr schnell sehr groß und sollten daher insbesondere zeitlich stark eingegrenzt werden.
 Vorgehen Alle Änderungen:
-sudo fs_usage -w &amp;gt; ~/Desktop/log_all.txt  Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
-sudo fs_usage -w -f filesys PROZESSNAME &amp;gt; ~/Desktop/log.txt  Protokoll per Suchfunktion einschränken:
+sudo fs_usage -w &amp;gt; ~/Desktop/log_all.txt Protokoll auf einen bestimmten Prozeß einschränken (Name muß exakt stimmen):
+sudo fs_usage -w -f filesys PROZESSNAME &amp;gt; ~/Desktop/log.txt Protokoll per Suchfunktion einschränken:
 sudo fs_usage -w -f filesys | grep &amp;quot;SUCHE&amp;quot; &amp;gt; ~/Desktop/log.txt </description>
     </item>
     
@@ -461,9 +461,9 @@ sudo fs_usage -w -f filesys | grep &amp;quot;SUCHE&amp;quot; &amp;gt; ~/Desktop/
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-grundeinstellungen/</guid>
       <description>SSH Grundeinstellungen Ziel Nur Anmeldung per Private-Key erlauben, insbesondere keine Paßwort-Anmeldung erlauben.
 Vorgehen Manche SSH-Verbindungen (z.B. von iPhone-Kurzbefehlen) respektieren die $PATH-Variablen nicht. Diese muß explizit gesetzt werden (und in der Config anschließend erlaubt):
-echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment  Konfigdatei öffnen:
-sudo nano /private/etc/ssh/sshd_config  PW-Anmeldung verbieten, nur Keys erlauben:
-PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes  SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
+echo &amp;quot;PATH=$PATH&amp;quot; &amp;gt; ~/.ssh/environment Konfigdatei öffnen:
+sudo nano /private/etc/ssh/sshd_config PW-Anmeldung verbieten, nur Keys erlauben:
+PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeResponseAuthentication no PermitUserEnvironment yes SSH durchstarten (kann während einer SSH-Sitzung gemacht werden, da nur der Listener neu gestartet wird und bestehende Verbindungen erhalten bleiben):</description>
     </item>
     
     <item>
@@ -472,8 +472,8 @@ PermitRootLogin no PasswordAuthentication no PermitEmptyPasswords no ChallengeRe
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-tunnel/</guid>
-      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung  SSH Grundeinstellungen  Voraussetzung  SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers.  Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
-ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispiel:</description>
+      <description>SSH-Tunnel (am Beispiel Screensharing) Empfehlung SSH Grundeinstellungen Voraussetzung SSH Zugangsschlüssel erzeugen, da hier erklärt wird, wie man sich paßwortlos verbindet ohne Angabe eines Benutzers. Vorgehen Der SSH-Tunnel wird zwischen zwei Ports des lokalen und des zu verbindenden Systems hergestellt. Alle lokalen Verbindungen an diesen Port von jeglichen Programmen werden dann automatisch durch den SSH-Tunnel geleitet. Screensharing läuft auf Port 5900, daher muß dieser &amp;ldquo;verbunden&amp;rdquo; werden:
+ssh -N SERVER -L 5900:SERVER:5900 Zur Erklärung der Optionen, hier ein Beispiel:</description>
     </item>
     
     <item>
@@ -482,9 +482,9 @@ ssh -N SERVER -L 5900:SERVER:5900  Zur Erklärung der Optionen, hier ein Beispie
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/ssh-zugangsschluessel-erzeugen/</guid>
-      <description>SSH-Zugangsschlüssel erzeugen Empfehlung  SSH Grundeinstellungen  Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
-cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG  Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
-cat ~/Desktop/SSH_ZUGANG.</description>
+      <description>SSH-Zugangsschlüssel erzeugen Empfehlung SSH Grundeinstellungen Vorgehen Auf den Schreibtisch wechseln und Keys erzeugen:
+cd ~/Desktop/ ssh-keygen -N &amp;quot;&amp;quot; -t rsa -b 8192 -m PEM -f SSH_ZUGANG Es werden 2 Dateien auf dem Schreibtisch angelegt. SSH_ZUGANG.pub ist der öffentliche Schlüssel und muß auf den Server kopiert werden, mit dem man sich verbinden möchte. Dort auf den Schreibtisch legen und von dort an die Schlüsseldatei anhängen und löschen:
+cat ~/Desktop/SSH_ZUGANG.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys rm ~/Desktop/SSH_ZUGANG.</description>
     </item>
     
     <item>
@@ -493,7 +493,7 @@ cat ~/Desktop/SSH_ZUGANG.</description>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/library-ordner-sichtbar-machen/</guid>
-      <description>Library-Ordner sichtbar machen  Home-Ordner im Finder anzeigen lassen mit Command-Shift-H. Command-J drücken (blendet die Darstellungsoptionen ein). Im Popup der Darstellungsoptionen die Option &amp;ldquo;Ordner Library anzeigen&amp;rdquo; anhaken.  Alternativ kann auch das Terminal verwendet werden (funktioniert auch, setzt aber den Haken nicht):
+      <description>Library-Ordner sichtbar machen Home-Ordner im Finder anzeigen lassen mit Command-Shift-H. Command-J drücken (blendet die Darstellungsoptionen ein). Im Popup der Darstellungsoptionen die Option &amp;ldquo;Ordner Library anzeigen&amp;rdquo; anhaken. Alternativ kann auch das Terminal verwendet werden (funktioniert auch, setzt aber den Haken nicht):
 setfile -a v ~/Library chflags nohidden ~/Library </description>
     </item>
     
@@ -538,8 +538,8 @@ Mit ESC zurück in den Kommandomodus wechseln und mit folgendem Kommando die gem
       
       <guid>https://blog.cafe-megabyte.de/artikel/codesignierung/</guid>
       <description>Codesignierung Signierung entfernen:
-codesign --remove-signature PATH_TO_APP  Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
-xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP  Entitlements anzeigen:
+codesign --remove-signature PATH_TO_APP Ad-hoc-Signatur hinzufügen (dafür müssen zuvor die erweiterten Attribute gelöscht werden, welches u.a. auch das Quarantäne-Flag enthält):
+xattr -cr PATH_TO_APP codesign -f -s - PATH_TO_APP Entitlements anzeigen:
 codesign --display --entitlements - PATH_TO_APP </description>
     </item>
     
@@ -550,8 +550,8 @@ codesign --display --entitlements - PATH_TO_APP </description>
       
       <guid>https://blog.cafe-megabyte.de/artikel/geladene-erweiterungen-anzeigen/</guid>
       <description>Geladene Erweiterungen anzeigen Kernel Extenstions:
-kmutil inspect  Systemerweiterungen:
-systemextensionsctl list  </description>
+kmutil inspect Systemerweiterungen:
+systemextensionsctl list </description>
     </item>
     
     <item>
@@ -561,10 +561,10 @@ systemextensionsctl list  </description>
       
       <guid>https://blog.cafe-megabyte.de/artikel/programm-dauerhaft-im-hell-modus-oeffnen/</guid>
       <description>Programm dauerhaft im Hell-Modus öffnen Bundle-ID des Programms ermitteln:
-osascript -e &#39;id of app &amp;quot;App Name&amp;quot;&#39;  oder alternativ (wird unter Identifierangezeigt):
-codesign --display --verbose PATH_TO_APP  Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
-defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes  Sperrung löschen (BUNDLE_ID ersetzen):
-defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  </description>
+osascript -e &#39;id of app &amp;quot;App Name&amp;quot;&#39; oder alternativ (wird unter Identifierangezeigt):
+codesign --display --verbose PATH_TO_APP Programm im Hell-Modus sperren (BUNDLE_ID ersetzen):
+defaults write BUNDLE_ID NSRequiresAquaSystemAppearance -bool yes Sperrung löschen (BUNDLE_ID ersetzen):
+defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance </description>
     </item>
     
     <item>
@@ -573,11 +573,11 @@ defaults delete BUNDLE_ID NSRequiresAquaSystemAppearance  </description>
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/iso-image-eines-unlesbaren-cd-formats-erstellen/</guid>
-      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches  Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD.  Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
+      <description>ISO-Image eines unlesbaren CD-Formats erstellen Grundsätzliches Kann z.B. eine alte HFS-CD sein oder ein ganz fremdes Format. Es geht nicht um das Einlesen einer defekten CD. Vorgehen CD einlegen und warten, bis sich das Laufwerk beruhigt hat.
 Falls die CD gemountet wurde, wieder auswerfen:
-diskutil unmount &amp;lt;VOM_SCHREIBTISCH_REINZIEHEN&amp;gt;  Unix-Gerätename aus der Geräteliste entnehmen:
-diskutil list  führt z.B. zu diesem Output:
-/dev/disk3 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: CD_partition_scheme *760.</description>
+diskutil unmount &amp;lt;VOM_SCHREIBTISCH_REINZIEHEN&amp;gt; Unix-Gerätename aus der Geräteliste entnehmen:
+diskutil list führt z.B. zu diesem Output:
+/dev/disk3 (external, physical): #: TYPE NAME SIZE IDENTIFIER 0: CD_partition_scheme *760.7 MB disk3 Im Terminal eingeben (Gerätenamen tauschen!</description>
     </item>
     
     <item>
@@ -586,7 +586,7 @@ diskutil list  führt z.B. zu diesem Output:
       <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/snapshot-mac-system-erstellen-und-wiederherstellen/</guid>
-      <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches  Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
+      <description>Snapshot Mac-System erstellen und wiederherstellen Grundsätzliches Der Snapshot umfaßt Daten- UND Systemvolume und wird auch gemeinsam zurückgesetzt (Stand: Mac OS 11 Big Sur). Das Erzeugen eines Snapshots ist derzeit nur per tmutil möglich (Stand: Mac OS 11 Big Sur). Time Machine darf deaktiviert sein, ein Backuplaufwerk ist NICHT erforderlich. Diese Snapshots haben die unangenehme Eigenart, sehr volatil zu sein: Sie verschwinden plötzlich!! Um sicher zu sein, daß ein Snapshot vorhanden ist, sollte man ihn &amp;ldquo;rechtzeitig&amp;rdquo; anlegen, das heißt, unmittbelbar bevor man einen Versuch am System unternimmt, den man anschließend ggf.</description>
     </item>
     
     <item>
@@ -596,7 +596,7 @@ diskutil list  führt z.B. zu diesem Output:
       
       <guid>https://blog.cafe-megabyte.de/artikel/sudo-per-touch-id-bedienen/</guid>
       <description>sudo per Touch ID bedienen Grundsätzliches Diese Änderung wir bei jedem Systemupdate zurückgesetzt und muß dann wiederholt werden.
-Vorgehen  Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen:  auth sufficient pam_tid.so </description>
+Vorgehen Datei editieren: sudo nano /etc/pam.d/sudo Folgende Zeile OBEN ALS 2. ZEILE einfügen: auth sufficient pam_tid.so </description>
     </item>
     
   </channel>

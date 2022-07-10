@@ -14,9 +14,10 @@
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/aenderungen-am-mac-system-vornehmen/</guid>
-      <description>Änderungen am Mac-System vornehmen Grundsätzliches  Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt.  Vorgehen   RecoveryOS booten, dort im Terminal eingeben:
+      <description>Änderungen am Mac-System vornehmen Grundsätzliches Stand: Mac OS 12 Monterey Die Beschreibung gilt für einen Mac mit Apple Chip. Nachdem die Änderung vollzogen wurde, darf das System nicht mehr in einen Zustand mit höherer Sicherheit zurückgesetzt werden. Mit einem Update des Systems wird die Änderung von Apple zurückgesetzt. Vorgehen RecoveryOS booten, dort im Terminal eingeben:
 csrutil disable csrutil authenticated-root disable
-  Mac neustarten (bootet ins normale System).</description>
+Mac neustarten (bootet ins normale System).
+Mit dem Terminal die ID des Systemvolumes ermitteln (z.</description>
     </item>
     
   </channel>
