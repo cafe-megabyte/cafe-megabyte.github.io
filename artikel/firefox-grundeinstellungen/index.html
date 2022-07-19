@@ -132,6 +132,8 @@
 <li>Hell-/Dunkel-Modus entsprechend der Systemeinstellung anstatt nach der Farbe des Theme-Bildes: <code>layout.css.prefers-color-scheme.content-override  ==&gt;  2</code></li>
 <li>Keine Warnung bei &ldquo;unsicheren&rdquo; Downloads per http: <code>dom.block_download_insecure  ==&gt;  false</code></li>
 <li>Webseite beim Auffrischen immer vollständig neu laden: <code>browser.cache.check_doc_frequency  ==&gt;  1</code></li>
+<li>URL-Tracking Parameter entfernen: <code>privacy.query_stripping.enabled  ==&gt;  true</code></li>
+<li>URL-Tracking Parameter auch im Privat-Modus entfernen: <code>privacy.query_stripping.enabled.pbmode  ==&gt;  true</code></li>
 </ul>
 <h2 id="aboutconfig-referer-datenschutz">about:config Referer-Datenschutz</h2>
 <p>Der Referer im HTTP-Header erzählt einem Webserver, von welcher anderen Webseite man herkommt. Manche Web-Server nutzen dies, um sicherzustellen, daß eine bestimmte Seite nur dann lädt, wenn sie als Iframe einer anderen Seite gerufen wird. Oder daß z.B. ein Bild von einem Server nur geladen wird, wenn der Referer korrekt ist. Daher sollte bei Problmen mit Webseiten, Bezahlvorgängen mit Kreditkarte, Login bei iCloud,&hellip; diese Einstellung temporär deaktiviert werden.</p>
