@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Café MegaByte</copyright>
-    <lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.cafe-megabyte.de/tags/grundeinstellungen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefox Grundeinstellungen</title>
       <link>https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/</link>
-      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.cafe-megabyte.de/artikel/firefox-grundeinstellungen/</guid>
       <description>Firefox Grundeinstellungen Allgemein Sitzung nicht automatisch wiederherstellen &amp;ldquo;Links in Tabs statt Fenster&amp;rdquo; aktivieren, alle anderen bei &amp;ldquo;Tab&amp;rdquo; deaktivieren Vor Update fragen &amp;ldquo;Automatischen Bildlauf&amp;rdquo; deaktivieren Startseite 2x leere Seite für Fenster und Tabs Suche Getrenntes Suchfeld aktivieren Standardsuche &amp;ldquo;DuckDuckGo&amp;rdquo; Alle Suchmaschinen-Schlüsselwörter deaktivieren Sämtliche Vorschläge im Adressfeld deaktivieren Datenschutz &amp;amp; Sicherheit Standard-Einstellungen verwenden Nicht verwenden: Cookie und Website-Daten beim Beenden löschen (kommt gleich…) Ggf. schonmal Ausnahmen für die Cookie-Löschung definieren, z.B. eigene Server PW-Speicherung aktivieren Automatisches Ausfüllen aktivieren Chronik anlegen, jedoch beim Beenden löschen lassen: Cookies Cache Aktive Logins Offline-Website-Daten about:config Suchmaschine deaktivieren: keyword.</description>
